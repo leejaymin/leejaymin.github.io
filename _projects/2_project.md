@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Here is for you
+description: Here is for you
 img: assets/img/3.jpg
 importance: 2
-category: work
+redirect:
+category: Graduate
 ---
 
 Every project has a beautiful feature showcase page.

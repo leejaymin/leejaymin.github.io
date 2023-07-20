@@ -1,15 +1,15 @@
 ---
 layout: page
-title: projects
+title: Members
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: lab members.
 nav: true
-nav_order: 2
-display_categories: [work, fun]
+nav_order: 1
+display_categories: [Faculty, Graduate, Alumni]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/members.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
