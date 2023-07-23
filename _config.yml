@@ -33,7 +33,7 @@ highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-them
 
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: light           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
@@ -71,11 +71,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: https://github.com/leejaymin # your GitHub user name
+github_username: leejaymin # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: https://www.linkedin.com/in/jemin-lee-7759aa76/ # your LinkedIn user name
+linkedin_username: jemin-lee-7759aa76/ # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: http://scholar.google.com/citations?user=BcVJExUAAAAJ&hl=en # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -101,8 +101,8 @@ spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
-facebook_id: https://www.facebook.com/jaymin.lee.37/ # your facebook id
-youtube_id: https://www.youtube.com/channel/UC03m_PqzOeNJPmZyyY2dRQw # your youtube channel id (youtube.com/@<youtube_id>)
+facebook_id: jaymin.lee.37/ # your facebook id
+youtube_id: user-mc7ns3pg7g # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >

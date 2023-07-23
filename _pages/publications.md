@@ -8,13 +8,22 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
+<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
+<div class="publications">
+
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
+
+</div>
+
+<h2>All Peer-reviewed Journals and Proceedings</h2>
+
 <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
 
-<span id="dots">...</span><span id="more">
+          
 
 <h2>Peer-reviewed Journals and Proceedings</h2>
 <hr>
@@ -343,7 +352,5 @@ Jorge Frisancho, <strong>이제민</strong>, 김형신,<br>
 <strong>이제민</strong>, 조현우, 김형신,<br>
 2011 한국정보과학회 추계학술발표논문집 제38권 제2호(D) 39-42쪽, 2011년 11월 25일.</p></li>
 </ol>
-</span>
-<br><button onclick="myFunction()" id="myBtn">See a list of full domestic papers</button>
 
 
