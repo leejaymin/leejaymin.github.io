@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: cv_jemin
 title: Professor
-description: Dr. Lee
+description: Jemin Lee
 img: assets/img/prof_pic.jpg
 importance: 1
 category: Faculty
@@ -69,25 +69,29 @@ Department: Computer Science and Engineering</p>
 
 <hr>
 <ol>
-    <li><p><strong>
-        Minimizing Reconstruction Error for Low Bit PTQ, KETI, 6 Jul. 2023</strong><br>
-    <li><p><strong><a href="https://youtu.be/LyojIBk6E8E">
-        Minimizing Reconstruction Error for Low Bit PTQ</a>, Neubla (Hanwha Impact Ltd.), 29 Jun. 2023</strong><br>
 
-  <li><p><strong><a href="https://iemek.org/Conference/ConferenceView.asp?top_param=4&sub_param=1&AC=0&CODE=CC20220701&CpPage=531#CONF">Quantization overview and lab with DNN compiler</a>, IeMek Tutorial, 2 Nov. 2022</strong><br>
-  <li><p><strong><a href="https://onoffmix.com/event/263573">Quantization supported by NEST-C and the best practice depending on DNN models</a>, Open Source Event, 25 Oct. 2022</strong><br>
-  <li><p><strong>Embedded AI: co-optimization with model compression and compiler, LIGNex1, 11 Oct. 2022</strong><br>
-  <li><p><strong>Machine Learning to Deep Learning (3 days, 15 hours)</strong><br>
-      CNU-Machine Learning Tutorial for Grad Student, Jan. 2-6, 2017.<br>
-      Slides: <a href="https://leejaymin.github.io/slides/170202_JeminLee_MachineLearning_Tutorial_1.pptx">[#1]</a>,
-      <a href="https://leejaymin.github.io/slides/170203_JeminLee_MachineLearning_Tutorial_2.pptx">[#2]</a>,
-      <a href="https://leejaymin.github.io/slides/170206_JeminLee_MachineLearning_Tutorial_3.pptx">[#3]</a><br>
-      <a href="https://github.com/leejaymin/TensorFlowLecture">[GitHub]</a></p></li>
+<li><p><strong>
+    Minimizing Reconstruction Error for Low Bit PTQ, KETI, 6 Jul. 2023</strong><br>
+<li><p><strong><a href="https://youtu.be/LyojIBk6E8E">
+    Minimizing Reconstruction Error for Low Bit PTQ</a>, Neubla (Hanwha Impact Ltd.), 29 Jun. 2023</strong><br>
 
-  <li><p><strong>Machine Learning to Deep Learning (3 hours)</strong><br>
-      DNN, CNN, and RNN seminar in WIPS Daejeon, Apr. 20, 2017.<br>
-      Slides: <a href="https://leejaymin.github.io/slides/170420_DNN_CNN_RNN_seminar_WIPS_jemin.pptx">[#1]</a></p></li>
+<li><p><strong><a href="https://iemek.org/Conference/ConferenceView.asp?top_param=4&sub_param=1&AC=0&CODE=CC20220701&CpPage=531#CONF">Quantization overview and lab with DNN compiler</a>, IeMek Tutorial, 2 Nov. 2022</strong><br>
+<li><p><strong><a href="https://onoffmix.com/event/263573">Quantization supported by NEST-C and the best practice depending on DNN models</a>, Open Source Event, 25 Oct. 2022</strong><br>
+<li><p><strong>Embedded AI: co-optimization with model compression and compiler, LIGNex1, 11 Oct. 2022</strong><br>
+<li><p><strong>Machine Learning to Deep Learning (3 days, 15 hours)</strong><br>
+  CNU-Machine Learning Tutorial for Grad Student, Jan. 2-6, 2017.<br>
+  Slides: <a href="https://leejaymin.github.io/slides/170202_JeminLee_MachineLearning_Tutorial_1.pptx">[#1]</a>,
+  <a href="https://leejaymin.github.io/slides/170203_JeminLee_MachineLearning_Tutorial_2.pptx">[#2]</a>,
+  <a href="https://leejaymin.github.io/slides/170206_JeminLee_MachineLearning_Tutorial_3.pptx">[#3]</a><br>
+  <a href="https://github.com/leejaymin/TensorFlowLecture">[GitHub]</a></p></li>
+
+<li><p><strong>Machine Learning to Deep Learning (3 hours)</strong><br>
+  DNN, CNN, and RNN seminar in WIPS Daejeon, Apr. 20, 2017.<br>
+  Slides: <a href="https://leejaymin.github.io/slides/170420_DNN_CNN_RNN_seminar_WIPS_jemin.pptx">[#1]</a></p></li>
+
 </ol>
+
+<hr>
 
 <h2>ISSUED PATENTS</h2>
 
