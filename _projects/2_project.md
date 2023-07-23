@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: cv_jemin
 title: Here is for you
 description: Here is for you
 img: assets/img/3.jpg
