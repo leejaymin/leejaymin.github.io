@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Here is for you
-description: Here is for you
-img: assets/img/3.jpg
+title: SuggestBot
+description: Development of a context-based smart interaction service platform
+img: assets/img/rp_suggestBot.JPG
 importance: 2
 category: Past
 ---

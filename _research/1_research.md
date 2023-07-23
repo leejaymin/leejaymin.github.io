@@ -2,7 +2,7 @@
 layout: page
 title: Deep Learning Compiler
 description: The compiler is designed to allow state of the art compiler optimizations and code generation of neural network graphs.
-img: assets/img/prof_pic.jpg
+img: assets/img/nestc.png
 importance: 1
 category: Present
 ---

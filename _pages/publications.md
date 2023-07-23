@@ -6,6 +6,16 @@ description: Publications from ENS Lab.
 nav: true
 nav_order: 2
 ---
+
+<!-- _pages/publications.md -->
+<div class="publications">
+
+{% bibliography -f {{ site.scholar.bibliography }} %}
+
+</div>
+
+<span id="dots">...</span><span id="more">
+
 <h2>Peer-reviewed Journals and Proceedings</h2>
 <hr>
 <ol>
@@ -187,8 +197,6 @@ In Proceedings of IEEE International Conference on Consumer Electronics (ICCE'12
 In Proceedings of EU Korea Conference on Science and Technology (EKC'11), Paris, France, Jul. 2011.</p></li>
 </ol>
 
-<span id="dots">...</span><span id="more">
-<h2>DOMESTIC JOURNAL</h2>
 
 <hr>
 
@@ -338,10 +346,4 @@ Jorge Frisancho, <strong>이제민</strong>, 김형신,<br>
 </span>
 <br><button onclick="myFunction()" id="myBtn">See a list of full domestic papers</button>
 
-<!-- _pages/publications.md -->
-<div class="publications">
-
-{% bibliography -f {{ site.scholar.bibliography }} %}
-
-</div>
 
