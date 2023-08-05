@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Hwanjun Song
+description: Amazon AWS AI (USA), Ph.D
+img: assets/img/bio-song.jpg
+redirect: https://songhwanjun.github.io/
 importance: 3
-category: work
+category: Collaborators
 ---
 
 Every project has a beautiful feature showcase page.

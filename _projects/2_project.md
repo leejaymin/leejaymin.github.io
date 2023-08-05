@@ -1,11 +1,11 @@
 ---
-layout: cv
-title: Here is for you
-description: Here is for you
-img: assets/img/3.jpg
+layout: cv_minho
+title: Minho Lee
+description: Summer Intern 2023
+img: assets/img/intern_minho.jpg
 importance: 2
-redirect:
-category: Graduate
+github: https://www.linkedin.com/in/%EB%AF%BC%ED%98%B8-%EC%9D%B4-63aa35286/
+category: Students
 ---
 
 Every project has a beautiful feature showcase page.
