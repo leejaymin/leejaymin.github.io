@@ -5,6 +5,7 @@ description: Jemin Lee
 img: assets/img/prof_pic.jpg
 importance: 1
 category: Faculty
+github: https://leejaymin.github.io/index.html
 ---
 
 <h2>WORK EXPERIENCE</h2>
