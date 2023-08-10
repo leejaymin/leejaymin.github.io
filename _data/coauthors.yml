@@ -1,14 +1,14 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Kwon":
+  - firstname: ["Yongin", "Y."]
+    url: https://www.linkedin.com/in/yongin-kwon-17089289/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Park":
+  - firstname: ["Sihyeong", "S."]
+    url: https://sihyeong.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Kim":
+  - firstname: ["Hyungshin"]
+    url: https://www.linkedin.com/in/hyungshin-kim-0964a933/
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]
@@ -17,18 +17,25 @@
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Joe":
+  - firstname: ["Hyunwoo"]
+    url: https://scholar.google.co.kr/citations?user=iHU86y8AAAAJ&hl=ko
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Ha":
+  - firstname: ["Sangtae"]
+    url: https://netstech.org/sangtaeha/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Kang":
+  - firstname: ["Soowon"]
+    url: https://scholar.google.com/citations?user=B9HMz0EAAAAJ&hl=ko
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Park":
+  - firstname: ["Chunjong"]
+    url: http://cjpark.xyz/
+
+"Lee":
+  - firstname: ["Sung-Ju"]
+    url: https://sites.google.com/site/wewantsj/
+
+  - firstname: ["Uichin"]
+    url: https://ic.kaist.ac.kr/members

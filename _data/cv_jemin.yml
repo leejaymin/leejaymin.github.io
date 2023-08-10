@@ -11,24 +11,23 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Assistant Professor
+    - title: Assistant Professor in <a href='https://www.ust.ac.kr/prog/campus/campus_eng/sub36_04/36/majorView.do?majorNo=71&kind=information'> Department of Artificial Intelligence</a>
       institution: University of Science and Technology (UST)
       year: 2023.9.1 ~
-      description:
-        - <a href='https://www.ust.ac.kr/prog/campus/campus_eng/sub36_04/36/majorView.do?majorNo=71&kind=information'> Department of AI</a>
-      #        - title: Description 3.
-      #          contents:
-      #            - Sub-description 1.
-      #            - Sub-description 2.
-    - title: Senior Researcher
+#      description:
+#        -
+#      #        - title: Description 3.
+#      #          contents:
+#      #            - Sub-description 1.
+#      #            - Sub-description 2.
+    - title: Senior Researcher in <a href="https://www.etri.re.kr/eng/sub6/sub6_0101.etri?departCode=10">AI Computing Research Lab.</a>
       institution: Electronics and Telecommunications Research Institute (ETRI)
       year: 2018.12 ~
       description:
-        - <a href="https://www.etri.re.kr/eng/sub6/sub6_0101.etri?departCode=10">AI Research Lab.</a>
-#        - title: Description 3.
-#          contents:
-#            - Sub-description 1.
-#            - Sub-description 2.
+        - title: Efficient AI
+          contents:
+            - Model Compression - quantization and pruning
+            - AI Compiler - graph optimization and code optimization
     - title: Postdoctoral Researcher (including compulsory military service period)
       institution: KAIST, Daejeon, Korea
       year: 2017.9~2018.8
@@ -66,6 +65,7 @@
         - Description 2.\
     - title: Reviewer
       items:
+        - Resource Efficient Deep Learning for Computer Vision 2023 (ICCV Workshop)
         - MDPI Applied Science 2022 (Feb. Mar. Apr.(2))
         - MDPI Electronics 2022 (Jan. Feb.)
         - CHI 2021
@@ -146,27 +146,18 @@
       items:
         - Participation Award</strong>, Creative Work Contest 2011, Department of Computer Science and Engineering, Chungnam National University
 
-#- title: Teaching Experiences
-#  type: nested_list
-#  contents:
-#    - title: Chair & Committee
-#      items:
-#        - Program Committee for IeMeK 2022~2023 (대한임베디드공학회 추계학술대회)
-#        - Web co-chiar for <a href="https://www.sigmobile.org/mobisys/2019/committee/">ACM MobiSys 2019</a>
-#    - title: Board of Directors
-#      items:
-#        - Institute of Embedded Engineering of Korea (IEMEK) <br>
-#          대한임베디드공학회 이사, 2022~Present
-#        - Description 2.\
-#    - title: Reviewer
-#      items:
-#        - MDPI Applied Science 2022 (Feb. Mar. Apr.(2))
-#        - MDPI Electronics 2022 (Jan. Feb.)
-#        - CHI 2021
-#        - IEEE SCC 2019
-#        - IMWUT (UbiComp), Sept. 2018
-#        - IMWUT (UbiComp), May 2018
-#        - Sustainable Computing, Informatics and Systems 2018
-#        - Journal of Medical Internet Research 2018
-#        - IEEE Transactions on Mobile Computing 2015
-#        - Pervasive and Mobile Computing 2014
+- title: Teaching Experience
+  type: nested_list
+  contents:
+    - title: Multimedia, Teaching Assistance for Programming Practice.
+      items:
+        - Spring, 2013, 2014 <strong>(two times)
+        - Chungnam National Univ.
+    - title: Embedded System, Teaching Assistance for Programing Practice.
+      items:
+        - Spring, 2012.
+        - Chungnam National Univ.
+    - title: System Programing, Teaching Assistance for Programming Practice.
+      items:
+        - Fall. 2011, 2012, 2014 <strong>(three times)</strong>
+        - Chungnam National Univ.

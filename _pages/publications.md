@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications from ENS Lab.
+description: Publications from ECL. (*) denotes corresponding author.
 nav: true
 nav_order: 2
 ---
@@ -23,193 +23,43 @@ nav_order: 2
 
 </div>
 
-          
+<h2>ISSUED PATENTS</h2>
 
-<h2>Peer-reviewed Journals and Proceedings</h2>
 <hr>
 <ol>
-  <li><p><a href="https://arxiv.org/abs/2303.12557">“Q-HyViT: Post-Training Quantization for Hybrid Vision Transformer with Bridge Block Reconstruction ”</a>,<br>
-    <strong>Jemin Lee</strong>, Yongin Kwon, Jeman Park, Misun Yu, Hwanjun Song,<br>
-    preprint at Arxiv 2023
-  </p></li>
+<li><p><strong>Method and system for expecting users' mood based on status information and biometric information acquired by using user equipment</strong><br>
+Korea Patent number 10-1749706, Granted 06/15/2017.<br>
+Hyungshin Kim, <strong>Jemin Lee</strong>, Jinyoung Choi</p></li>
 
-  <li><p><a href="https://onlinelibrary.wiley.com/doi/full/10.4218/etrij.2021-0446">“PartitionTuner: An operator scheduler for deep-learning compilers supporting multiple heterogeneous processing units”</a>,<br>
-    Misun Yu, Yongin Kwon, <strong>Jemin Lee</strong>, Jeman Park, Junmo Park, Taeho Kim, <br>
-    ETRI Journal Vol 45 Issue 2 pp. 187-357, Apr 2023 (JCR21 IF: <span class="label label-danger">1.622</span>) ISSN: 1225-6463, doi: https://doi.org/10.4218/etrij.2021-0446
-  </p></li>
+<li><p><strong>Method for Detecting Indoor Zone with Bluetooth and Ultrasound of Smartphone</strong><br>
+Korea Patent number 10-1742960, Granted 05/29/2017.<br>
+Hyungshin Kim, <strong>Jemin Lee</strong>, Jinse Kwon</p></li>
 
-  <li><p><a href="https://lnkd.in/gcRC_3Yc">“Software-level Memory Regulation to Reduce Execution Time Variation on Multi-core Real-time Systems”</a>,<br>
-   Sihyeong Park, <strong>Jemin Lee</strong>, Hyungshin Kim,<br>
-  IEEE Access, Vol. 10, pp.93799-93811, Sept. 01, 2022 (JCR21 IF: <span class="label label-danger">3.476</span>) ISSN: 2169-3536, doi: https://doi.org/10.1109/ACCESS.2022.3203702
-  </p></li>
+<li><p><strong>System and Method for Detecting Beacon</strong><br>
+Korea Patent number 10-1741406, Granted 05/24/2017.<br>
+Hyungshin Kim, <strong>Jemin Lee</strong>, Seula Hwang</p></li>
 
-<li><p><a href="https://doi.org/10.1007/978-3-031-20044-1_37">“CPrune: Compiler-Informed Model Pruning for Efficient Target-Aware DNN Execution”</a>,<br>
-  Taeho Kim, Yongin Kwon, <strong>Jemin Lee</strong>, Taeho Kim, Sangtae Ha,<br>
-  European Conference on Computer Vision (<span class="label label-info">ECCV'22</span>), pp.651–667, Oct 23-27, 2022.<br>
-  BK-IF <span class="label label-danger">2</span>, Acceptance Rate <span class="label label-warning">28%</span> (1,650 papers accepted out of 5,803 submitted).
-  doi: https://doi.org/10.1007/978-3-031-20044-1_37
-  <br>
-  <button>
-    <input type="button" class="fas fa-code" onclick="location.href='';"/>
-    <a href="https://github.com/taehokim20/CPrune" style ="color:black;">Code</a>
-  </button></p></li>
+<li><p><strong>Portable terminal and method for controlling a battery charging of the same</strong><br>
+Korea Patent number 10-1650038, Granted 08/16/2016.<br>
+Hyungshin Kim, <strong>Jemin Lee</strong>, Donggeon Han</p></li>
 
-  <li><p><a href="https://www.mdpi.com/2076-3417/12/11/5432">“Time-Invariant Features-Based Online Learning for Long-Term Notification Management: A Longitudinal Study”</a>,<br>
-  <strong>Jemin Lee</strong>, Sihyeong Park, Taeho Kim, Hyungshin Kim,<br>
-  Applied Sciences Vol. 12, No. 11 Article-Num. 5432, June 01, 2022 (JCR21 IF: <span class="label label-danger">2.838</span>) ISSN: 2076-3417,
-  doi: https://doi.org/10.3390/app12115432 </p></li>
+<li><p><strong>Search system and method of executable GUI.</strong><br>
+Korea Patent number 10-1513662, Granted 04/20/2015.<br>
+Hyungshin Kim, <strong>Jemin Lee</strong>, Donggeon Han</p></li>
 
-  <li><p><a href="https://www.sciencedirect.com/science/article/pii/S0167739X22000498?via%3Dihub">“Quantune: Post-training Quantization of Convolutional Neural Networks using Extreme Gradient Boosting for Fast Deployment”</a>,<br>
-  <strong>Jemin Lee*</strong>, Misun Yu, Yongin Kwon, Taeho Kim,<br>
-  * corresponding author <br>
-  Future Generation Computer Systems 2022, Vol. 132, 2022, pp. 124-135, July 01, 2022 (JCR21 IF:
-  <span class="label label-danger">7.307</span>, <span class="label label-warning">Top 9.09%</span>,
-  computer science, theory & method rank <span class="label label-warning">#10</span> out of 110), ISBN: 0167-739X,
-  doi: https://doi.org/10.1016/j.future.2022.02.005<br>
-  <button>
-    <input type="button" class="fas fa-code" onclick="location.href='';"/>
-    <a href="https://github.com/etri/nest-compiler" style ="color:black;">Code#1</a>
-  </button>
-  <button>
-    <input type="button" class="fas fa-code" onclick="location.href='';"/>
-    <a href="https://github.com/leejaymin/qaunt_xgboost" style ="color:black;">Code#2</a>
-  </button></p></li>
-
-<li><p><a href="https://doi.org/10.1109/TMC.2019.2930506">“PASS: Reducing Redundant Notifications between a Smartphone and a Smartwatch for Energy Saving”</a>,<br>
-<strong>Jemin Lee</strong>, Uichin Lee, Hyungshin Kim,<br>
-IEEE Transactions on Mobile Computing, Vol. 19 Issue 11, Nov. 1 2020, pp. 2656-2669 (impact factor:
-  <span class="label label-danger">5.538</span>, JCR20: <span class="label label-warning">Top 17%</span>,
-  telecommunications rank <span class="label label-warning">#16</span> out of 91), ISSN: 1536-1233,
-  doi: https://doi.org/10.1109/TMC.2019.2930506<br>
-  <button>
-    <input type="button" class="fas fa-code" onclick="location.href='';"/>
-    <a href="https://github.com/leejaymin/nCollector" style ="color:black;">Code</a>
-  </button></p></li>
-
-<li><p><a href="https://www.mdpi.com/2079-9292/9/1/28">“Hardware Resource Analysis in Distributed Training with Edge Devices”</a>,<br>
-Sihyeong Park, <strong>Jemin Lee</strong>, Hyungshin Kim,<br>
-Electronics Vol.9, Issue 1, pp.1-13, January 1, 2020 (JCR20 IF: <span class="label label-danger">2.397</span>), ISSN: 2079-9292,
-doi: https://doi.org/10.3390/electronics9010028</p></li>
-
-<li><p><a href="https://dl.acm.org/citation.cfm?id=3300128">“Fire in Your Hands: Understanding Thermal Behavior of Smartphones”</a>,<br>
-  Soowon Kang, Hyeonwoo Choi, Sooyoung Park, Chunjong Park, <strong>Jemin Lee</strong>, Uichin Lee, and Sung-Ju Lee,<br>
-  In Proceedings of the 25th ACM International Conference on Mobile Computing and Networking (<span class="label label-info">MobiCom'19</span>), pp. 1-16, Los Cabos, Mexico, 21-25 Oct. 2019.<br>
-  BK-IF <span class="label label-danger">4</span>, Acceptance Rate <span class="label label-warning">19%</span> (55 papers accepted out of 290 submitted).
-  doi: https://doi.org/10.1145/3300061.3300128<br>
-  <button>
-    <input type="button" class="fas fa-home" onclick="location.href='https://nmsl.kaist.ac.kr/projects/thermal/';"/>
-    <a href="https://nmsl.kaist.ac.kr/projects/thermal/" style ="color:black;">Website</a>
-  </button>
-  <button>
-    <input type="button" class="fas fa-video" onclick="location.href='https://youtu.be/mwiBnx4nr1w';"/>
-    <a href="https://youtu.be/mwiBnx4nr1w" style ="color:black;">Video</a>
-  </button></p></li>
-
-<li><p><a href="https://dl.acm.org/citation.cfm?id=3267625">“Understanding Customers' Interests in the Wild (Poster)”</a>,<br>
-Soowon Kang, Auk Kim, <strong>Jemin Lee</strong>, Ikhee Shin, and Uichin Lee, <br>
-In Proceedings of the ACM International Joint Conference and International Symposium on Pervasive and
-Ubiquitous Computing and Wearable Computers (UbiComp’18) Adjunct, pp. 90-93, Singapore, Singapore, 08-12 Oct. 2018.<br>
-<button>
-  <input type="button" class="fas fa-file-pdf" onclick="location.href='https://leejaymin.github.io/slides/SuggestBot_Poster_final.pdf';"/>
-  <a href="https://leejaymin.github.io/slides/SuggestBot_Poster_final.pdf" style ="color:black;">Poster</a>
-</button></p></li>
-
-<li><p><a href="https://www.hindawi.com/journals/misy/aip/7689549/">“Reducing Smartwatch Users' Distraction with Convolutional Neural Network”</a>,<br>
-<strong>Jemin Lee</strong>, Jinse Kwon, Hyungshin Kim,<br>
-Mobile Information Systems, vol. 2018, Article ID 7689549, 9 pages, 15 Mar. 2018 (special issue in Advances in Personalized Mobile Services). (impact factor(JCR18): <span class="label label-danger">1.635</span>), ISSN: 1574-017X (print), 1875-905X(online)</p></li>
-
-<li><p><a href="http://dx.doi.org/10.1155/2016/1740129">“QDroid: Mobile Application Quality Analyzer for App Market Curators”</a>,<br>
-<strong>Jemin Lee</strong>, Hyungshin Kim,<br>
-Mobile Information Systems, vol. 2016, Article ID 1740129, 11 pages, 10 Oct. 2016. (impact factor(JCR15): <span class="label label-danger">1.462</span>), ISSN: 1574-017X (print), 1875-905X(online)<br>
-  <button>
-    <input type="button" class="fas fa-code" onclick="location.href='';"/>
-    <a href="https://github.com/leejaymin/QDroid" style ="color:black;">Code</a>
-  </button></p></li>
-
-<li><p><a href="http://dx.doi.org/10.1016/j.future.2016.05.012">“O-Sleep : Output-Oriented Power Saving Mode for Smartphones”</a>,<br>
-Hyunwoo Joe, Jungseok Kim, <strong>Jemin Lee</strong>, Hyungshin Kim, <br>
-Future Generation Computer Systems-The International Journal of eScience, 6 Jun. 2016, ISSN 0167-739X.<br>(impact factor: <span class="label label-danger">2.430</span>, JCR-2015: <span class="label label-warning">Top 10%</span>, theory & methods category rank <span class="label label-warning">#11</span> out of 150)<br>
-  <button>
-    <input type="button" class="fas fa-video" onclick="location.href='';"/>
-    <a href="https://youtu.be/SOgCiU3rC34" style ="color:black;">Video</a>
-  </button></p></li>
-
-<li><p><a href="http://dx.doi.org/10.1109/TCE.2014.6851993">“Automated Power Model Generation Method for Smartphones”</a>,<br>
-<strong>Jemin Lee</strong>, Hyunwoo Joe, Hyungshin Kim,<br>
-IEEE Transactions on Consumer Electronics (TCE), Vol. 60(2), pp. 190-197, 23 Jun. 2014. (impact factor: <span class="label label-danger">1.045</span>), ISSN: 0098-3063<br>
-  <button>
-    <input type="button" class="fas fa-code" onclick="location.href='';"/>
-    <a href="https://github.com/PowerLab/PowerDoctor" style ="color:black;">Code</a>
-  </button></p></li>
-
-<li><p>“Analysis of Hardware Resources in Distributed Learning (Poster)”</a>,<br>
-Sihyeong Park, <strong>Jemin Lee</strong>, Hyungshin Kim, <br>
-In Proceedings of International Workshop on Highly Efficient Neural Networks Design (co-located with EMSOFT), pp. 1-4, Seoul, South Korea, 20 Oct. 2017.<br>
-</p></li>
-
-<li><p><a href="http://www.ipin2017.org/ipinpapers/225/225.pdf">“An Ultrasound-based Indoor Localiztion Using Gaussian ASK Modulation (WIP)”</a>,<br>
-Jinse Kwon, <strong>Jemin Lee</strong>, Hyungshin Kim, <br>
-In Proceedings of International Conference on Indoor Positioning and Indoor Navigation, pp.1-4, Sapporo, Japan, 20 Sept. 2017.<br>
-</p></li>
-
-<li><p><a href="https://leejaymin.github.io/papers/iset2017.pdf">“Deep Learning Training on Distributed Embedded Systems (Poster)”</a>,<br>
-Sihyeong Park, <strong>Jemin Lee</strong>, Hyungshin Kim, <br>
-In Proceedings of the 12th lEMEK Symposium on Embedded Technology, Busan, South Korea, 18-19 May, 2017.<br>
-<button>
-<input type="button" class="fas fa-file-pdf" onclick="location.href='https://leejaymin.github.io/slides/2017_ISET_park.pdf';"/>
-<a href="https://leejaymin.github.io/slides/2017_ISET_park.pdf" style ="color:black;">Poster</a>
-</button></p></li>
-
-<li><p><a href="http://dl.acm.org/citation.cfm?id=3057306">“Extending App Pre-Launch Service with Emotion Context (Poster)”</a>,<br>
-Jinyoung Choi, <strong>Jemin Lee</strong>, Hyungshin Kim, <br>
-In Proceedings of the 2nd ACM/IEEE International Conference on Internet-of-Things Design and Implementation (IoTDI’17) Adjunct, pp. 1-2, Pittsburgh, USA, 18-21 Apr. 2017.<br>
-<button>
-<input type="button" class="fas fa-file-pdf" onclick="location.href='https://leejaymin.github.io/slides/2017_IoTDI_choi_Poster.pdf';"/>
-<a href="https://leejaymin.github.io/slides/2017_IoTDI_choi_Poster.pdf" style ="color:black;">Poster</a>
-</button></p></li>
-
-<li><p><a href="http://dl.acm.org/citation.cfm?id=2962662">“Reducing Distraction of Smartwatch Users with Deep Learning”</a>,<br>
-<strong>Jemin Lee</strong>, Jinse Kwon, Hyungshin Kim, <br>
-In Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI'16) Adjunct pp. 948-953, Florence, Italy, 05-09 Sept. 2016.<br>
-<button>
-<input type="button" class="fas fa-file-powerpoint" onclick="location.href='';"/>
-<a href="https://leejaymin.github.io/slides/Smarttention_2016_Slides.pdf" style ="color:black;">Slides</a>
-</button></p></li>
-
-<li><p><a href="http://dx.doi.org/10.1145/2462456.2465723">“Framework for automated power estimation of Android applications (Poster)”</a>,<br>
-<strong>Jemin Lee</strong>, Hyungshin Kim,<br>
-In Proceedings of the 11th annual international conference on Mobile Systems, Applications, and Services (<span class="label label-info">Mobisys'13</span>) Adjunct pp. 541-542, Taipei, Taiwan, Jun. 2013.<br>
-<button>
-<input type="button" class="fas fa-file-pdf" onclick="location.href='';"/>
-<a href="" style ="color:black;">Poster</a>
-</button>
-<button>
-<input type="button" class="fas fa-video" onclick="location.href='http://youtu.be/jVffMVXG0KI';"/>
-<a href="http://youtu.be/jVffMVXG0KI" style ="color:black;">Video</a>
-</button>
-</p></li>
-
-<li><p>“Energy Reservation Service for Smart Phone Application (Poster)”,<br>
-Vincent Dupre, <strong>Jaymin Lee</strong>, Hyungshin Kim,<br>
-In Proceedings of 3rd ACM/SIGOPS Asia-Pacific Workshop on Systems (APSys'12), Seoul, South Korea, Jul. 2012.</p></li>
-
-<li><p><a href="http://dx.doi.org/10.1109/ICCE.2012.6161925">“Smart Phone Power Model Generation Using Use Pattern Analysis”</a>,<br>
-<strong>Jaymin Lee</strong>, Hyunwoo Joe, Hyungshin Kim,<br>
-In Proceedings of IEEE International Conference on Consumer Electronics (ICCE'12) pp. 412-413, Las Vegas, NV, USA, Jan. 2012.<br>
-<button>
-<input type="button" class="fas fa-file-powerpoint" onclick="location.href='';"/>
-<a href="https://leejaymin.github.io/slides/ICCE2012.pdf" style ="color:black;">Slides</a>
-</button></p></li>
-
-<li><p><a href="https://leejaymin.github.io/papers/EKC2011_smartphone_fullpaper.pdf">“Smartphone, where does the power go?”</a>,<br>
-<strong>Jaymin Lee</strong>, Hyunwoo Joe, Hyungshin Kim, <br>
-In Proceedings of EU Korea Conference on Science and Technology (EKC'11), Paris, France, Jul. 2011.</p></li>
+<li><p><strong>Collaborative Power Model Creation Method and Service Module With the Same.</strong><br>
+Korea Patent number 10-1266971, Granted 02/26/2013. <br>
+Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 </ol>
 
-
+<h2>Peer-reviewed Domestic Journals</h2>
 <hr>
 
 <ol>
+<li><p><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11479513&language=ko_KR&hasTopBanner=true">"이기종 멀티코어 CPU에서 프로파일 기반 딥 러닝 연산 최적화 기법"</a>, <br>
+차주형, <strong>이제민</strong>,<br>
+전자공학회논문지, v.60 no.7, pp.40-49, 2023.7 </p></li>
+
 <li><p><a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11284518">"FPGA기반 뉴럴네트워크 가속기에서 2차 타일링 기반 행렬 곱셈 최적화"</a>, <br>
 권진세, <strong>이제민</strong>, 권용인, 박제만, 유미선, 김태호, 김형신,<br>
 대한임베디드공학회논문지 제17권 제6호 367-374, 2022.12 </p></li>
@@ -228,7 +78,7 @@ In Proceedings of EU Korea Conference on Science and Technology (EKC'11), Paris,
 [<a href="http://youtu.be/ULZC2rEctoI">demo</a>]</p></li>
 </ol>
 
-<h2>DOMESTIC CONFERNCE</h2>
+<h2>Domestic Conference</h2>
 
 <hr>
 <ol>

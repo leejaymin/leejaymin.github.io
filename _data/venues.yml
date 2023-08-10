@@ -4,3 +4,21 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"Preprint":
+  color: "#00369f"
+
+"MobiCom":
+  color: "#DC143C"
+
+"ECCV":
+  color: "#DAA520"
+
+"IEEE TMC":
+  color: "#1E90FF"
+
+"IEEE TCE":
+  color: "#1E90FF"
+
+"FGCS":
+  color: "#CD853F"
