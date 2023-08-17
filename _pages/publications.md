@@ -57,7 +57,7 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 
 <ol>
 <li><p><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11479513&language=ko_KR&hasTopBanner=true">"이기종 멀티코어 CPU에서 프로파일 기반 딥 러닝 연산 최적화 기법"</a>, <br>
-차주형, <strong>이제민</strong>,<br>
+차주형, <strong>이제민</strong>, 권용인 <br>
 전자공학회논문지, v.60 no.7, pp.40-49, 2023.7 </p></li>
 
 <li><p><a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11284518">"FPGA기반 뉴럴네트워크 가속기에서 2차 타일링 기반 행렬 곱셈 최적화"</a>, <br>
