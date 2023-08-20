@@ -82,71 +82,71 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 
 <hr>
 <ol>
-<li><p><a href="dc30.pdf">“Glow 컴파일러 확장을 통한 혼합정밀도 양자화”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc30.pdf">“Glow 컴파일러 확장을 통한 혼합정밀도 양자화”</a>, <br>
   <strong>이제민</strong>, 유미선, 권용인, 박제만, 김태호,<br>
   2021 대한임베디드공학회추계학술대회, 2021.11.11 </p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc29.pdf">“이종 프로세싱 유닛 상에서의 분기 병렬 실행을 통한 뉴럴넷 계산 성능 향상”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc29.pdf">“이종 프로세싱 유닛 상에서의 분기 병렬 실행을 통한 뉴럴넷 계산 성능 향상”</a>, <br>
   유미선, 권용인, <strong>이제민</strong>, 박제만, 김태호,<br>
   2021 대한임베디드공학회추계학술대회, 2021.11.11 </p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc28.pdf">“확장 가능한 HLS 기반 딥러닝 가속 하드웨어 개발”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc28.pdf">“확장 가능한 HLS 기반 딥러닝 가속 하드웨어 개발”</a>, <br>
   권용인, 유미선, 박제만, <strong>이제민</strong>, 김태호,<br>
   2021 대한임베디드공학회추계학술대회, 2021.11.11 </p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc27.pdf">“딥러닝 사진 분류기를 활용한 분리배출 가이드 안드로이드 응용”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc27.pdf">“딥러닝 사진 분류기를 활용한 분리배출 가이드 안드로이드 응용”</a>, <br>
 김소영, 박소희, 김민지, <strong>이제민</strong>, 김형신,<br>
 2021 한국컴퓨터정보학회 하계학술대회 논문집 제29권 제2호, 2021.7</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc26.pdf">“NPU를 위한 연산자 퓨전 기반 양자화 신경망 모델의 정확도 향상”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc26.pdf">“NPU를 위한 연산자 퓨전 기반 양자화 신경망 모델의 정확도 향상”</a>, <br>
 <strong>이제민</strong>, 유미선, 권용인, 김영주, 김태호,<br>
 2020 임베디드공학회 추계학술대회, 2020.11.12</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc25.pdf">“Glow 컴파일러 기반 타겟에 독립적인 연산자 퓨전을 활용한 CNN 추론 가속화”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc25.pdf">“Glow 컴파일러 기반 타겟에 독립적인 연산자 퓨전을 활용한 CNN 추론 가속화”</a>, <br>
 <strong>이제민</strong>, 유미선, 권용인, 김영주, 김태호,<br>
 2020 IEMEK Symposium on Embedded Technology (ISET 2020), 2020.7</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc24.pdf">“Glow 컴파일러를 활용한 CPU상에서의 물체 탐지 가속화 연구”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc24.pdf">“Glow 컴파일러를 활용한 CPU상에서의 물체 탐지 가속화 연구”</a>, <br>
 <strong>이제민</strong>, 권용인, 유미선, 김영주, 김태호,<br>
 2020 한국컴퓨터종합학술대회, 2020.7</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc23.pdf">“다중 가속기 지원 딥러닝 컴파일러를 위한 프로파일링 기반 그래프 파티셔닝 시스템”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc23.pdf">“다중 가속기 지원 딥러닝 컴파일러를 위한 프로파일링 기반 그래프 파티셔닝 시스템”</a>, <br>
 유미선, 권용인, <strong>이제민</strong>, 김영주, 김태호,<br>
 2020 IEMEK Symposium on Embedded Technology (ISET 2020), 2020.7</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc22.pdf">“HLS 기반 딥러닝 가속 하드웨어의 ISA 확장을 통한 성능 향상”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc22.pdf">“HLS 기반 딥러닝 가속 하드웨어의 ISA 확장을 통한 성능 향상”</a>, <br>
 권용인, 김영주, 유미선, <strong>이제민</strong>, 김태호,<br>
 2020 IEMEK Symposium on Embedded Technology (ISET 2020), 2020.7</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc21.pdf">“임베디드 디바이스를 위한 딥뉴럴넷 C/C++ 코드 자동 생성 프레임워크”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc21.pdf">“임베디드 디바이스를 위한 딥뉴럴넷 C/C++ 코드 자동 생성 프레임워크”</a>, <br>
 유미선, <strong>이제민</strong>, 권용인, 김영주, 김태호,<br>
 2020 한국컴퓨터종합학술대회, 2020.7</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc20.pdf">“타일링과 스케줄링: 딥러닝 가속 하드웨어의 실행코드”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc20.pdf">“타일링과 스케줄링: 딥러닝 가속 하드웨어의 실행코드”</a>, <br>
 권용인, 김영주, 유미선, <strong>이제민</strong>, 김태호,<br>
 2020 한국컴퓨터종합학술대회, 2020.7</p></li>
 
-<li><p><span class="label label-success">우수논문</span><a href="https://leejaymin.github.io/papers/dc19.pdf">“모바일 IoT 서비스를 위한 데이터수집 프레임워크”</a>, <br>
+<li><p><span class="label label-success">우수논문</span><a href="https://leejaymin.github.io/assets/pdf/dc19.pdf">“모바일 IoT 서비스를 위한 데이터수집 프레임워크”</a>, <br>
 유주원, 김수빈, 권유나, <strong>이제민</strong>, 최진영, 김형신,<br>
 2019 한국소프트웨어종합학술대회, 2019.12.20.</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc18.pdf">“딥러닝 컴파일러 성능 비교”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc18.pdf">“딥러닝 컴파일러 성능 비교”</a>, <br>
 유미선, 김영주, <strong>이제민</strong>, 김태호,<br>
 2019 한국컴퓨터종합학술대회, pp.1076-1078, 2019.6.26.</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc17.pdf">“YOLO-based Object Detection on ARM Mali GPU”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc17.pdf">“YOLO-based Object Detection on ARM Mali GPU”</a>, <br>
 Trunghai Do, <strong>이제민</strong>, 김형신,<br>
 2017 대한임베디드공학회 추계학술대회 논문집 27-30쪽, 2017년 11월 9일.</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/17ksci.pdf">“실내영역변화에 따른 저전력 비콘 탐지 기법”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/17ksci.pdf">“실내영역변화에 따른 저전력 비콘 탐지 기법”</a>, <br>
 황슬아, 권진세, <strong>이제민</strong>, 김형신,<br>
 2017 한국컴퓨터정보학회 하계학술대회 논문집 제25권 제2호 327-328쪽, 2017년 7월 14일.</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc15.pdf">“사물인터넷 기기에서의 프로그래밍 언어별 에너지 효율 비교”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc15.pdf">“사물인터넷 기기에서의 프로그래밍 언어별 에너지 효율 비교”</a>, <br>
 박시형, <strong>이제민</strong>, 김형신,<br>
 2016 한국정보과학회 동계학술발표회 논문집 334-336쪽, 2016년 12월 21일.</p></li>
 
-<li><p><a href="https://leejaymin.github.io/papers/dc14.pdf">“초음파 변조와 블루투스 애드혹 네트워크를 이용한 재난 경보 시스템”</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc14.pdf">“초음파 변조와 블루투스 애드혹 네트워크를 이용한 재난 경보 시스템”</a>, <br>
 권진세, <strong>이제민</strong>, 김형신,<br>
 2016 대한임베디드공학회 추계학술대회 37-40쪽, 2016년 11월 11일. </p></li>
 
