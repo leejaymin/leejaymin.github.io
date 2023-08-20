@@ -82,7 +82,7 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 
 <hr>
 <ol>
-<li><p><a href="https://leejaymin.github.io/papers/dc30.pdf">“Glow 컴파일러 확장을 통한 혼합정밀도 양자화”</a>, <br>
+<li><p><a href="dc30.pdf">“Glow 컴파일러 확장을 통한 혼합정밀도 양자화”</a>, <br>
   <strong>이제민</strong>, 유미선, 권용인, 박제만, 김태호,<br>
   2021 대한임베디드공학회추계학술대회, 2021.11.11 </p></li>
 
