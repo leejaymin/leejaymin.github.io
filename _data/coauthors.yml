@@ -1,10 +1,8 @@
 "Kwon":
   - firstname: ["Yongin", "Y."]
     url: https://www.linkedin.com/in/yongin-kwon-17089289/
-
-"Park":
-  - firstname: ["Sihyeong", "S."]
-    url: https://sihyeong.github.io/
+  - firstname: ["Jinse", "J."]
+    url: https://scholar.google.com/citations?user=WbXEt40AAAAJ&hl=en
 
 "Kim":
   - firstname: ["Hyungshin"]
@@ -32,6 +30,8 @@
 "Park":
   - firstname: ["Chunjong"]
     url: http://cjpark.xyz/
+  - firstname: ["Sihyeong", "S."]
+    url: https://sihyeong.github.io/
 
 "Lee":
   - firstname: ["Sung-Ju"]
@@ -39,3 +39,8 @@
 
   - firstname: ["Uichin"]
     url: https://ic.kaist.ac.kr/members
+
+"Yu":
+  - firstname: ["Misun"]
+    url: https://scholar.google.com/citations?user=wvSMjuUAAAAJ&hl=en
+
