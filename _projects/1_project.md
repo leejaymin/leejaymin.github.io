@@ -6,6 +6,7 @@ img: assets/img/prof_pic.jpg
 importance: 1
 category: Faculty
 github: https://leejaymin.github.io/index.html
+cv_pdf: jemin_cv.pdf
 ---
 
 <h2>WORK EXPERIENCE</h2>

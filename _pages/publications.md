@@ -56,32 +56,52 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 <hr>
 
 <ol>
-<li><p><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11479513&language=ko_KR&hasTopBanner=true">"이기종 멀티코어 CPU에서 프로파일 기반 딥 러닝 연산 최적화 기법"</a>, <br>
-차주형, <strong>이제민</strong>, 권용인 <br>
-전자공학회논문지, v.60 no.7, pp.40-49, 2023.7 </p></li>
+
+<li><p><a href="">"엣지 딥 러닝 가속기의 추론 성능 분석"</a>, <br>
+박시형, 권용인, <strong>이제민*</strong> <br>
+전자공학회논문지 게재확정, 2024.1, 우수둥재지</p></li>
+
+<li><p><a href="https://paper.cricit.kr/user/listview/ieie2018/doc_rdoc.asp?catvalue=3&returnVal=RD_R&organCode=ieie&organCode2=ieie01&yearmonth=202310&page=1&dn=424671&step=&usernum=0&seid=">"범용 AI 컴파일러의 비공개 NPU 코드생성을 위한 공통 인터페이스 설계 및 검증"</a>, <br>
+<strong>이제민</strong>, 권용인*<br>
+전자공학회논문지, v.60 no.10, pp.29-31, 2023.10.25, 우수등재지</p></li>
+
+<li><p><a href="https://paper.cricit.kr/user/listview/ieie2018/doc_rdoc.asp?catvalue=3&returnVal=RD_R&organCode=ieie&organCode2=ieie01&yearmonth=202307&page=1&dn=423544&step=&usernum=0&seid=">"이기종 멀티코어 CPU에서 프로파일 기반 딥 러닝 연산 최적화 기법"</a>, <br>
+차주형, 권용인*, <strong>이제민</strong> <br>
+전자공학회논문지, v.60 no.7, pp.40-49, 2023.7.25, 우수등재지</p></li>
 
 <li><p><a href="https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11284518">"FPGA기반 뉴럴네트워크 가속기에서 2차 타일링 기반 행렬 곱셈 최적화"</a>, <br>
 권진세, <strong>이제민</strong>, 권용인, 박제만, 유미선, 김태호, 김형신,<br>
-대한임베디드공학회논문지 제17권 제6호 367-374, 2022.12 </p></li>
+대한임베디드공학회논문지 제17권 제6호 367-374, 2022.12, 학진등재지 </p></li>
+
 <li><p><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09304618">"인공지능 정보처리를 위한 뉴로모픽 HW기반 뉴로모픽 SW 플랫폼"</a>, <br>
 김태호, 유미선, 김상철, 권용인, 김영주, 김용연, <strong>이제민</strong>, 마유승,<br>
 정보과학회지 38(2) 40-50쪽 2020년 2월</p></li>
+
 <li><p><a href="http://ocean.kisti.re.kr/IS_mvpopo001P.do?method=multMain&poid=ieek1&kojic=OBDDBE&free=">"스마트폰의 블루투스와 초음파를 이용한 향상된 실내 영역 결정"</a>, <br>
 권진세, <strong>이제민</strong>, 김형신,<br>
 대한임베디드공학회논문지 제11권 제3호 135-141쪽, 2016년 6월, ISSN 1975-5066, 학진등재지</p></li>
+
 <li><p><a href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02505673">“GUI 버그 검출을 위한 블랙박스 기반의 시험”</a>,<br>
 <strong>이제민</strong>, 김형신,<br>
-정보과학회논문지 제41권 제12호 1013-1017쪽, 2014년 12월, ISSN 2383-630X, 학진등재지</p></li>
+정보과학회논문지 제41권 제12호 1013-1017쪽, 2014년 12월, ISSN 2383-630X, 우수등재지</p></li>
+
 <li><p><a href="http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02033308">“스마트폰 응용프로그램 에너지 소모 분석을 위한 프레임워크”</a>,<br>
 <strong>이제민</strong>, 조현우, 김형신,<br>
-정보과학회논문지: 컴퓨팅의 실제 및 레터 제18권 제11호 780-784쪽, 2012년 11월, ISSN 1229-7712, 학진등재지</br>
-[<a href="http://youtu.be/ULZC2rEctoI">demo</a>]</p></li>
+정보과학회논문지: 컴퓨팅의 실제 및 레터 제18권 제11호 780-784쪽, 2012년 11월, ISSN 1229-7712, 우수등재지 </p></li>
 </ol>
 
 <h2>Domestic Conference</h2>
 
 <hr>
 <ol>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc32.pdf">“엣지 장치 기반 딥 러닝 분산 학습 성능 평가”</a>, <br>
+  박시형, <strong>이제민</strong>, 황태호,<br>
+  2023 대한임베디드공학회 추계학술대회, 2023.11.09 </p></li>
+
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc31.pdf">“The Harmony of Heterogeneous Computing Units in CNN Inference”</a>, <br>
+  <strong>이제민</strong>,<br>
+  2022 전자공학회 하계학술대회, 2022.06 </p></li>
+
 <li><p><a href="https://leejaymin.github.io/assets/pdf/dc30.pdf">“Glow 컴파일러 확장을 통한 혼합정밀도 양자화”</a>, <br>
   <strong>이제민</strong>, 유미선, 권용인, 박제만, 김태호,<br>
   2021 대한임베디드공학회추계학술대회, 2021.11.11 </p></li>

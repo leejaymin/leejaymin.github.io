@@ -60,11 +60,12 @@
         - Web co-chiar for <a href="https://www.sigmobile.org/mobisys/2019/committee/">ACM MobiSys 2019</a>
     - title: Board of Directors
       items:
-        - Institute of Embedded Engineering of Korea (IEMEK) <br>
+        - Institute of Embedded Engineering of Korea (IeMeK) <br>
           대한임베디드공학회 이사, 2022~Present
-        - Description 2.\
+        - Member of the PG601 Committee at the Telecommunications Technology Association (TTA)
     - title: Reviewer
       items:
+        - CHI 2024
         - Resource Efficient Deep Learning for Computer Vision 2023 (ICCV Workshop)
         - MDPI Applied Science 2022 (Feb. Mar. Apr.(2))
         - MDPI Electronics 2022 (Jan. Feb.)
@@ -80,6 +81,12 @@
 - title: Seminar and Talk
   type: time_table
   contents:
+    - title: Hybrid Vision Transformers - SOTA Review
+      year: 13 Oct. 2023
+      description: KETI
+    - title: <a href="https://computer.cnu.ac.kr/computer/notice/notice.do?mode=view&articleNo=347317&article.offset=0&articleLimit=10&srSearchVal=Colloquium#/list">CSE Colloquium</a>
+      year: 20 Sept. 2023
+      description: CNU
     - title: Minimizing Reconstruction Error for Low Bit PTQ
       year: 6 Jul. 2023
       description: KETI

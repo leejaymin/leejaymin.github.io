@@ -1,19 +1,25 @@
 ---
 layout: page
-title: Deep Learning Compiler
-description: The compiler is designed to allow state of the art compiler optimizations and code generation of neural network graphs.
-img: assets/img/nestc.png
+title: Development of open-edge AI SoC hardware and software platform
+description: The compiler is based on MLIR.
+img: assets/img/ones1.png
 importance: 1
 category: Present
 ---
 
-<img src="https://leejaymin.github.io/assets/img/nestc.png" width="90%" height="90%"/>
-
-Deep Learning Compiler
-The NEST Compiler (NEST-C) is an open source project led by ETRI, which is based on [GLOW project] (https://github.com/pytorch/glow). Glow is a machine learning compiler and execution engine for hardware accelerators. It is designed to be used as a backend for high-level machine learning frameworks. The compiler is designed to allow state of the art compiler optimizations and code generation of neural network graphs. The objective of NEST-C is to generate optimized code for various kinds of Neural-network Processing Uints (NPUs). Therefore, NEST-C provides automatic tuning functionalities and tools for each optimization step.
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/ones1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
 
 - This project is funded by IITP, Korea.
-- Period: Jan. 2018 – Dec. 2022.
-- Grant: 3,000,000 dollar (per year)  
-- Korean Press: https://www.epnc.co.kr/news/articleView.html?idxno=219254 
-- Global Press: https://www.eurekalert.org/news-releases/945721 
+- Period: Jun. 2023 – Dec. 2027.
+- Total Grant: ~ 10,000,000 dollar
+
+The purpose of this project is to develop an open SW and HW platform for edge AI SoC development over the next 5 years.
+Specifically, we developed a DL compiler for NPUs using MLIR. The compiler aims to develop a Dialect IR that can accommodate high-level model lightweight and effectively express the characteristics of NPUs.
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/ones2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+</div>
+
+Our joint research institutions of this project are 알티스트, Nota AI, KETI(Korea Electronics Technology Institute), Neubla, SNU, Chung Ang Univ., and Yonsei Univ.
