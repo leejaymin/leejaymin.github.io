@@ -1,10 +1,11 @@
 ---
-layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+layout: cv_sehyeon
+title: Sehyeon Oh
+description: Winter Intern 2024
+img: assets/img/sh_oh.jpg
+importance: 2
+github: 
+category: Students
 ---
 
 Every project has a beautiful feature showcase page.

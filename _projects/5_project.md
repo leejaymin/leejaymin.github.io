@@ -1,10 +1,11 @@
 ---
-layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+layout: cv_gihwan
+title: Gihwan Kim
+description: Winter Intern 2024
+img: assets/img/gihwan.jpg
+importance: 2
+github:
+category: Students
 ---
 
 Every project has a beautiful feature showcase page.
