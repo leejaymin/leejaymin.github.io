@@ -2,7 +2,7 @@
 layout: cv_sangheon
 title: Sangheon Lee
 description: UST Intern 2024
-img: assets/img/11.jpg
+img: assets/img/shlee.jpg
 importance: 2
 github:
 category: Students
