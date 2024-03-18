@@ -1,11 +1,11 @@
 ---
 layout: cv_sangheon
 title: Sangheon Lee
-description: UST Intern 2024
+description: UST Intern 2024 <br> C Programming on RISC-V 
 img: assets/img/shlee.jpg
 importance: 2
 github:
-category: Students
+category: Alumni
 ---
 
 Every project has a beautiful feature showcase page.

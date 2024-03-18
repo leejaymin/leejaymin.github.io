@@ -1,7 +1,7 @@
 ---
 layout: cv_sehyeon
 title: Sehyeon Oh
-description: Winter Intern 2024
+description: MS student <br> AI Model Compression & Collective Communication Library (CCL)
 img: assets/img/sh_oh.jpg
 importance: 2
 github: 

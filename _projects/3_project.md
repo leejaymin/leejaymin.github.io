@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hwanjun Song
-description: Amazon AWS AI (USA), Ph.D
+description: Assistant Professor @ KAIST
 img: assets/img/bio-song.jpg
 redirect: https://songhwanjun.github.io/
 importance: 3

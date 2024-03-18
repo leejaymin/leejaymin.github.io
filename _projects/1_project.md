@@ -1,7 +1,7 @@
 ---
 layout: cv_jemin
 title: Jemin Lee 
-description: Assistant Professor @ UST ETRI Campus
+description: Assistant Professor @ UST
 img: assets/img/prof_pic.jpg
 importance: 1
 category: Faculty

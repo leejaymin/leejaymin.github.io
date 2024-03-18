@@ -1,11 +1,11 @@
 ---
 layout: cv_gihwan
 title: Gihwan Kim
-description: Winter Intern 2024
+description: Winter Intern 2024 <br> Transformer Compression
 img: assets/img/gihwan.jpg
 importance: 2
 github:
-category: Students
+category: Alumni
 ---
 
 Every project has a beautiful feature showcase page.
