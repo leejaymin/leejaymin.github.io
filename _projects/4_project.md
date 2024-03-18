@@ -1,7 +1,7 @@
 ---
 layout: cv_sehyeon
 title: Sehyeon Oh
-description: MS student <br> AI Model Compression & Collective Communication Library (CCL)
+description: MS student (Spring 2024)<br>AI Model Compression & Collective Communication Library (CCL)
 img: assets/img/sh_oh.jpg
 importance: 2
 github: 
