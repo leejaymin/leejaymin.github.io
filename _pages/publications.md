@@ -2,7 +2,8 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications from ECL. (*) and (**) denote corresponding authors and equal contributors. 
+description: (*) denotes corresponding authors.<br>  
+  (**) denotes equal contributors.   
 nav: true
 nav_order: 2
 ---

@@ -4,9 +4,24 @@
   - firstname: ["Jinse", "J."]
     url: https://scholar.google.com/citations?user=WbXEt40AAAAJ&hl=en
 
+"Song":
+  - firstname: ["Hwanjun","S."]
+    url: https://songhwanjun.github.io/
+
+
 "Kim":
   - firstname: ["Hyungshin"]
     url: https://www.linkedin.com/in/hyungshin-kim-0964a933/
+  - firstname: ["T."]
+    url: https://scholar.google.com/citations?user=A74mynoAAAAJ&hl=en
+  - firstname: ["Taeho"]
+    url: https://scholar.google.com/citations?user=vxnZtD0AAAAJ&hl=ko
+  - firstname: ["Gihwan"]
+    url: https://www.linkedin.com/in/gihwan-kim/?locale=en_US
+
+"Ahn":
+  - firstname: ["Minwook"]
+    url: https://www.linkedin.com/in/minwook-ahn-4a7b6433/?originalSubdomain=kr
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]
@@ -14,6 +29,10 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Choi":
+  - firstname: ["Sungjoon"]
+    url: https://scholar.google.co.kr/citations?user=T3-0OQ8AAAAJ&hl=en
 
 "Joe":
   - firstname: ["Hyunwoo"]
@@ -32,6 +51,10 @@
     url: http://cjpark.xyz/
   - firstname: ["Sihyeong", "S."]
     url: https://sihyeong.github.io/
+  - firstname: ["Jeman"]
+    url: https://ksp.etri.re.kr/ksp/user/f9caab48-4826-4c7f-b9e8-4fbb8916fc10
+  - firstname: ["Junmo"]
+    url: https://www.linkedin.com/in/junmo-park-82188b76/?originalSubdomain=kr
 
 "Lee":
   - firstname: ["Sung-Ju"]
