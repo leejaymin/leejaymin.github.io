@@ -65,6 +65,7 @@
         - Member of the PG601 Committee at the Telecommunications Technology Association (TTA)
     - title: Reviewer
       items:
+        - Elsevier Neural Networks Journal 2024
         - ACM CHI 2024
         - CMC-Computers, Materials & Continua 2023
         - Resource Efficient Deep Learning for Computer Vision 2023 (ICCV Workshop)
@@ -82,6 +83,9 @@
 - title: Seminar and Talk
   type: time_table
   contents:
+    - title: Quantization for Edge AI
+      year: 25 Sept. 2024
+      description: Korea Supercomputing Conference 2024
     - title: Hybrid Vision Transformers - SOTA Review
       year: 13 Oct. 2023
       description: KETI
@@ -117,6 +121,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - IeMeK Best Presentation Award, Korean Embedded Engineering Conference
     - year: 2022
       items: 
         - IeMeK Best Presentation Award, Korean Embedded Engineering Conference

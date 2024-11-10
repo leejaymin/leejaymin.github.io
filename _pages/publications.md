@@ -95,6 +95,14 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 
 <hr>
 <ol>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc34.pdf">“PCIe 기반 다중 NPU 데이터 전송 최적화”</a>, <br>
+  오세현, 권용인, <strong>이제민*</strong>,<br>
+  2024 대한임베디드공학회 추계학술대회, 2024.11.14 </p></li>
+
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc33.pdf">“소형 언어 모델 가속기를 위한 기술 분석”</a>, <br>
+  박시형, <strong>이제민</strong>, 김병수, 전석훈<br>
+  2024 대한임베디드공학회 추계학술대회, 2023.11.15 </p></li>
+
 <li><p><a href="https://leejaymin.github.io/assets/pdf/dc32.pdf">“엣지 장치 기반 딥 러닝 분산 학습 성능 평가”</a>, <br>
   박시형, <strong>이제민</strong>, 황태호,<br>
   2023 대한임베디드공학회 추계학술대회, 2023.11.09 </p></li>
