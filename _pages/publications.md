@@ -95,7 +95,7 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 
 <hr>
 <ol>
-<li><p><a href="https://leejaymin.github.io/assets/pdf/dc34.pdf">“PCIe 기반 다중 NPU 데이터 전송 최적화”</a>, <br>
+<li><p><span class="label label-success">우수논문</span> <a href="https://leejaymin.github.io/assets/pdf/dc34.pdf">“PCIe 기반 다중 NPU 데이터 전송 최적화”</a>, <br>
   오세현, 권용인, <strong>이제민*</strong>,<br>
   2024 대한임베디드공학회 추계학술대회, 2024.11.14 </p></li>
 
