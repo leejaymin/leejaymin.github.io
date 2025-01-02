@@ -18,10 +18,13 @@ social: false  # includes social icons at the bottom of the page
 ---
 Welcome to the `Efficient Computing Lab.`
 We focus on energy efficiency, system optimization, user experience, and sustainable tech solutions. 
-Our research interests are the followings::
-- Model Compression: We are dedicated to improving the performance of machine learning models, particularly through the use of model compression techniques. This involves reducing the complexity of existing models while maintaining their performance or even enhancing it. We are interested in exploring different methods of model compression, such as pruning, quantization, and knowledge distillation. By doing so, we aim to make these models more accessible and affordable to implement, even in resource-constrained environments.
-- AI Compiler: Our interest also extends to the field of AI compilers, with a focus on optimizing and automating the process of translating high-level AI algorithms into efficient low-level machine codes. We believe that efficient AI compilers can significantly reduce the amount of computational power required, thus lowering energy consumption. Additionally, they can improve the speed of execution, thereby enhancing the overall user experience. Our aim is to investigate new compiler techniques, optimization methods, and tools that will make AI systems more efficient, sustainable, and widely applicable.
+Our research interests are the followings:  
 
-We are looking for highly motivated students. 
-If you are interested, please send cv to leejaymin_at_etri_dot_re_dot_kr.
+• Model Compression: Enhancing machine learning models’ efficiency through techniques like pruning, quantization, and knowledge distillation for better performance in resource-limited settings.   
+• AI Compiler: Developing optimized AI compilers to reduce computational power, energy use, and execution time, improving efficiency and sustainability.   
+
+For detailed research areas and insights into graduate life, please refer to the following slides.
+Students interested in pursuing graduate studies are encouraged to contact me directly after following the application instructions provided in the slides.
+
+You can reach me at: leejaymin_at_etri_dot_re_dot_kr.
 
