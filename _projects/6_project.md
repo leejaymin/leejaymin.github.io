@@ -1,7 +1,7 @@
 ---
 layout: cv_sangheon
 title: Sangheon Lee
-description: ETRI Summer Intern 2024<br>UST Intern 2024 <br> C Programming on RISC-V <br>First position: Hyundai Motors 
+description: ETRI Summer Intern 2024<br>UST Intern 2024 <br> C Programming on RISC-V <br>Now Engineer @ Hyundai Motors 
 img: assets/img/shlee.jpg
 importance: 2
 github:

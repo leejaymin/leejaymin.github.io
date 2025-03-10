@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Wonseok Jang
-description: UST Intern 2025<br> CI/CD and AI model inference on Jetson boards
+description: UST Intern 2025<br> CI/CD and AI model inference on Jetson boards <br>Now Graduate Student @ POSTECH 
 img: assets/img/wonseok.jpeg
 redirect: https://www.linkedin.com/in/wonseok-jang-767244240/
-importance: 3
-category: Students
+importance: 2
+category: Alumni
 ---
 
 Every project has a beautiful feature showcase page.
