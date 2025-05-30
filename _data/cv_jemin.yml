@@ -67,6 +67,9 @@
         - Member of the PG601 Committee at the Telecommunications Technology Association (TTA)
     - title: Reviewer
       items:
+        - Elsevier Expert Systems With Applications May 2025
+        - Elsevier Knowledge-Based Systems Apr. 2025
+        - Elsevier Expert Systems With Applications Mar. 2025
         - IEEE Internet of Things Feb. 2025
         - Elsevier Neurocomputing Feb. 2025
         - The Journal of Supercomputing Jan. 2025
@@ -88,6 +91,9 @@
 - title: Seminar and Talk
   type: time_table
   contents:
+    - title: Quantized LLM Evaluation
+      year: 23 May 2025
+      description: IeMek ISET Workshop 2025
     - title: Quantization for Edge AI
       year: 25 Sept. 2024
       description: Korea Supercomputing Conference 2024
