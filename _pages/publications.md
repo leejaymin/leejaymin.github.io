@@ -58,9 +58,14 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 
 <ol>
 
-<li><p><a href="">"엣지 딥 러닝 가속기의 추론 성능 분석"</a>, <br>
+<li><p><a href="https://paper.cricit.kr/user/listview/ieie2018/gby_rdoc.asp?step=4&organCode=ieie&yearmonth=202401&organCode2=ieie01&usernum=0&seid=&dbcode=&tbnm=r">"NPU 시스템 확장을 위한 데이터 전송 최적화"</a>, <br>
+오세현, 권용인, <strong>이제민*</strong> <br>
+대한임베디드공학회논문지 제 20권 제 3호 pp.125-130, 2025년 6월</p></li>
+
+
+<li><p><a href="https://paper.cricit.kr/user/listview/ieie2018/gby_rdoc.asp?step=4&organCode=ieie&yearmonth=202401&organCode2=ieie01&usernum=0&seid=&dbcode=&tbnm=r">"엣지 딥 러닝 가속기의 추론 성능 분석"</a>, <br>
 박시형, 권용인, <strong>이제민*</strong> <br>
-전자공학회논문지 게재확정, 2024.1, 우수둥재지</p></li>
+전자공학회논문지 Vol.61 No.1 pp.23-26, 2024.1, 우수둥재지</p></li>
 
 <li><p><a href="https://paper.cricit.kr/user/listview/ieie2018/doc_rdoc.asp?catvalue=3&returnVal=RD_R&organCode=ieie&organCode2=ieie01&yearmonth=202310&page=1&dn=424671&step=&usernum=0&seid=">"범용 AI 컴파일러의 비공개 NPU 코드생성을 위한 공통 인터페이스 설계 및 검증"</a>, <br>
 <strong>이제민</strong>, 권용인*<br>
@@ -95,6 +100,11 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 
 <hr>
 <ol>
+
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc35.pdf">“라즈베리파이 5와 Hailo-8 및 8L의 AI 연산 성능 비교를 통한 엣지 디바이스 성능 향상 방안 연구”</a>, <br>
+  양병찬, 오세현, 차주형, <strong>이제민</strong>, 권용인,<br>
+  2025 정보처리학회 ASK 2025 학술발표대회 논문집, 2025.5.30 </p></li>
+
 <li><p><span class="label label-success">우수논문</span> <a href="https://leejaymin.github.io/assets/pdf/dc34.pdf">“PCIe 기반 다중 NPU 데이터 전송 최적화”</a>, <br>
   오세현, 권용인, <strong>이제민*</strong>,<br>
   2024 대한임베디드공학회 추계학술대회, 2024.11.14 </p></li>
