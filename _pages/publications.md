@@ -58,10 +58,13 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 
 <ol>
 
-<li><p><a href="https://paper.cricit.kr/user/listview/ieie2018/gby_rdoc.asp?step=4&organCode=ieie&yearmonth=202401&organCode2=ieie01&usernum=0&seid=&dbcode=&tbnm=r">"NPU 시스템 확장을 위한 데이터 전송 최적화"</a>, <br>
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dj2507.pdf">"대규모 언어 모델 가속을 위한 상용 가속기 기술 동향"</a>, <br>
+박시형, <strong>이제민</strong>,김병수, 전석훈<br>
+한국정보기술학회논문지 제23권 제6호 (JKIIT, Vol.23, No.6), 2025.06, 75 - 89 (15 pages) </p></li>
+
+<li><p><a href="https://koreascience.or.kr/article/JAKO202519236009219.page">"NPU 시스템 확장을 위한 데이터 전송 최적화"</a>, <br>
 오세현, 권용인, <strong>이제민*</strong> <br>
 대한임베디드공학회논문지 제 20권 제 3호 pp.125-130, 2025년 6월</p></li>
-
 
 <li><p><a href="https://paper.cricit.kr/user/listview/ieie2018/gby_rdoc.asp?step=4&organCode=ieie&yearmonth=202401&organCode2=ieie01&usernum=0&seid=&dbcode=&tbnm=r">"엣지 딥 러닝 가속기의 추론 성능 분석"</a>, <br>
 박시형, 권용인, <strong>이제민*</strong> <br>
