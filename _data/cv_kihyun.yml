@@ -1,0 +1,44 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Kihyun Kim
+    #    - name: Date of Birth
+    #      value: 24th September 2000
+    - name: Languages
+      value: Korean, English
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Undergraduate Research Intern
+      institution: HighPerformance AI System Lab (University of Seoul)
+      year: 2022.11.1 - 2023.2.28
+    - title: ETRI Winter Trainee Intern
+      institution: Electronics and Telecommunications Research Institute (ETRI)
+      year: 2025.1.1 - 2025.2.28
+    - title: ETRI Summer Trainee Intern
+      institution: Electronics and Telecommunications Research Institute (ETRI)
+      year: 2025.7.1 ~
+    
+      #        - title: Description 3.
+      #          contents:
+      #            - Sub-description 1.
+      #            - Sub-description 2.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Excellence Award , ARX/RVX‑based AI Semiconductor Design Competition
+        
+- title: Education
+  type: time_table
+  contents:
+    - title: Undergraduate Student
+      institution: University of Seoul, Seoul, South Korea
+      year: 2020.3 ~
+      description:
+        - B.S at University of Seoul major in Department of Electrical and Computer Engineering
+        - Research Interest - Artificial Intelligence Quantization, RTL Design
