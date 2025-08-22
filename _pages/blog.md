@@ -6,7 +6,7 @@ description: Latest posts and updates
 nav: true
 nav_order: 3
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /blog/page/:num/
   per_page: 5
@@ -56,7 +56,7 @@ pagination:
   {% endif %}
 
   {% assign featured_posts = site.posts | where: "featured", "true" %}
-  {% if featured_posts.size > 0 %}
+  {% if false %}
     <br>
     <div class="container featured-posts">
       {% assign is_even = featured_posts.size | modulo: 2 %}
@@ -99,7 +99,7 @@ pagination:
   {% endif %}
 
   <ul class="post-list">
-    {% for post in paginator.posts %}
+    {% for post in site.posts limit: 1 %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -167,6 +167,6 @@ pagination:
     {% endfor %}
   </ul>
 
-  {% include pagination.html %}
+  {% comment %} pagination disabled {% endcomment %}
 
 </div>
