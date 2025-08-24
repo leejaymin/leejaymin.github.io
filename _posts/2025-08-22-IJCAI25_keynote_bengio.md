@@ -102,6 +102,8 @@ AI 발전은 핵무기와 팬데믹에 준하는 실존적 위험을 동반한�
 
 {% include figure.html path="assets/img/ijcai25/7.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
+{% include figure.html path="assets/img/ijcai25/8.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+
 {% include figure.html path="assets/img/ijcai25/9.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ---
@@ -110,9 +112,9 @@ AI 발전은 핵무기와 팬데믹에 준하는 실존적 위험을 동반한�
 - 인간과 **경쟁하는 AGI**는 피해야 함.
 - AI가 독자적 목표와 자기보존 본능을 갖는 순간 위험 발생.
 
-{% include figure.html path="assets/img/ijcai25/11.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-
 {% include figure.html path="assets/img/ijcai25/10.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+{% include figure.html path="assets/img/ijcai25/11.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ---
 
@@ -149,8 +151,6 @@ AI 발전은 핵무기와 팬데믹에 준하는 실존적 위험을 동반한�
 - **과학 연구 지원**: 민주주의적 의사결정, 사회적 리스크 연구에 활용 가능.
 
 {% include figure.html path="assets/img/ijcai25/17.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
-
-{% include figure.html path="assets/img/ijcai25/8.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ---
 
