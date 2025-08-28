@@ -599,6 +599,7 @@ footer.sticky-bottom {
           background-color: var(--global-theme-color);
           padding-left: 1rem;
           padding-right: 1rem;
+          margin-right: 0.25rem;
 
           a {
             color: white;
@@ -612,6 +613,7 @@ footer.sticky-bottom {
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          background-color: transparent;
         }
       }
 
