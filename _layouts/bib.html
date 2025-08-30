@@ -34,7 +34,15 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <div class="title">{{entry.title}}
+          {%- if entry.key == 'cases25' -%}
+            <span class="acm-badges" style="margin-left:8px; white-space:nowrap;">
+              <img src="{{ '/assets/img/badges/acm-artifacts-available.svg' | relative_url }}" alt="ACM Artifacts Available" style="height:18px; vertical-align:middle; margin-right:4px;"/>
+              <img src="{{ '/assets/img/badges/acm-artifacts-evaluated-functional.svg' | relative_url }}" alt="ACM Artifacts Evaluated – Functional" style="height:18px; vertical-align:middle; margin-right:4px;"/>
+              <img src="{{ '/assets/img/badges/acm-results-reproduced.svg' | relative_url }}" alt="ACM Results Reproduced" style="height:18px; vertical-align:middle;"/>
+            </span>
+          {%- endif -%}
+        </div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}

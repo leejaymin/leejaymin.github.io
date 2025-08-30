@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="24" viewBox="0 0 210 24" role="img" aria-label="Artifacts Evaluated – Functional">
+  <title>Artifacts Evaluated – Functional</title>
+  <defs>
+    <linearGradient id="g" x2="0" y2="100%">
+      <stop offset="0" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset=".1" stop-color="#fff" stop-opacity=".5"/>
+      <stop offset=".9" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+  <rect rx="3" width="210" height="24" fill="#c62828"/>
+  <rect rx="3" width="210" height="24" fill="url(#g)"/>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana, DejaVu Sans, Arial, sans-serif" font-size="12">
+    <text x="105" y="16">Artifacts Evaluated – Functional</text>
+  </g>
+  <style><![CDATA[
+    @media (prefers-color-scheme: dark) {
+      rect:first-child { fill: #8e0000; }
+      text { fill: #fff; }
+    }
+  ]]></style>
+</svg>
