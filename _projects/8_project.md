@@ -5,7 +5,7 @@ description: ETRI Summer Intern 2025<br> Quantization on RISC-V
 img: assets/img/gihyun.png
 importance: 2
 github: 
-category: Students
+category: Alumni
 ---
 
 Every project has a beautiful feature showcase page.
