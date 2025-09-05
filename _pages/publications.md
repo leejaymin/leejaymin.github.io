@@ -28,6 +28,10 @@ nav_order: 2
 
 <hr>
 <ol>
+<li><p><strong>Deep Learning Compiler with Support for Heterogeneous Computing Platforms and Its Method</strong><br>
+Korea Patent number 10-2777879, Granted 03/04/2025.<br>
+Misun Yu, Yongin Kwon, Taeho Kim, Jeman Park, <strong>Jemin Lee</strong></p></li>
+
 <li><p><strong>Method and system for expecting users' mood based on status information and biometric information acquired by using user equipment</strong><br>
 Korea Patent number 10-1749706, Granted 06/15/2017.<br>
 Hyungshin Kim, <strong>Jemin Lee</strong>, Jinyoung Choi</p></li>
