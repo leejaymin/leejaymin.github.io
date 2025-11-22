@@ -43,6 +43,7 @@ Department: Computer Science and Engineering</p>
 
 <h3>Chair & Committee</h3>
 <ul>
+<li><a href="https://mlsys26.hotcrp.com/users/pc">MLSys 2026 Program Committee</a></li>
 <li>Program Committee for IeMeK 2022~2023 (대한임베디드공학회 추계학술대회)</li>
 <li>Web co-chiar for <a href="https://www.sigmobile.org/mobisys/2019/committee/">ACM MobiSys 2019</a></li>
 </ul>
