@@ -1,7 +1,7 @@
 ---
 layout: cv_minho
 title: Minho Lee
-description: ETRI Summer Intern 2024<br> ETRI Summer Intern 2023<br> NPU Compiler<br>Now Graduate Student @ CREDOS PARTNERS
+description: ETRI Summer Intern 2024<br> ETRI Summer Intern 2023<br> NPU Compiler<br>SW Developer @ CREDOS PARTNERS
 img: assets/img/intern_minho.jpg
 importance: 2
 github: https://www.linkedin.com/in/%EB%AF%BC%ED%98%B8-%EC%9D%B4-63aa35286/
