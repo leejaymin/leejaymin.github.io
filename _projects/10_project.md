@@ -1,11 +1,11 @@
 ---
-layout: cv_minho
-title: Minho Lee
-description: ETRI Summer Intern 2024<br> ETRI Summer Intern 2023<br> NPU Compiler<br>Now Graduate Student @ CREDOS PARTNERS
-img: assets/img/intern_minho.jpg
-importance: 2
-github: https://www.linkedin.com/in/%EB%AF%BC%ED%98%B8-%EC%9D%B4-63aa35286/
-category: Alumni
+layout: page
+title: Yongin Kwon
+description: Assistant Professor @ UST
+img: assets/img/yongin.jpeg
+redirect: https://www.linkedin.com/in/yongin-kwon-17089289
+importance: 1
+category: Collaborators
 ---
 
 Every project has a beautiful feature showcase page.

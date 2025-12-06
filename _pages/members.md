@@ -5,7 +5,7 @@ permalink: /projects/
 description: This page lists current and former members and collaborators. Also, we are looking for motivated students.
 nav: true
 nav_order: 1
-display_categories: [Faculty, Students, Collaborators, Alumni]
+display_categories: [Faculty, Students, Collaborators, Jointly Supervised Students, Alumni]
 horizontal: false
 ---
 

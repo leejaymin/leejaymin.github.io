@@ -1,11 +1,11 @@
 ---
-layout: cv_minho
-title: Minho Lee
-description: ETRI Summer Intern 2024<br> ETRI Summer Intern 2023<br> NPU Compiler<br>Now Graduate Student @ CREDOS PARTNERS
-img: assets/img/intern_minho.jpg
+layout: page
+title: JooHyoung Cha
+description: MS student (Spring 2024~)<br>Co-advised by Prof. Yongin Kwon)
+img: assets/img/chacha.png
 importance: 2
-github: https://www.linkedin.com/in/%EB%AF%BC%ED%98%B8-%EC%9D%B4-63aa35286/
-category: Alumni
+redirect: https://blog.udon.party/
+category: Jointly Supervised Students
 ---
 
 Every project has a beautiful feature showcase page.
