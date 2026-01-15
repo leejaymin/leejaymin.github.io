@@ -4,10 +4,20 @@
 string{aps = {American Physical Society,}}
 
 
-The 26th ACM SIGPLAN/SIGBED International Conference on Languages,
-Compilers, and Tools for Embedded Systems (LCTES 2025) program committee
-is delighted to inform you that your submission #167 has been
-*conditionally* accepted to appear in the conference.
+
+
+@article{jinse2026,
+    abbr={Access},
+    title={CNN Compression via Channel-Wise Variance-Based Filter Pruning},
+    author={Jinse Kwon and Jemin Lee and Sihyeong Park and Hyungshin Kim},
+    journal={IEEE Access (JCR24 IF: 3.6, Top 35.05\%, Q2), 2026 accepted, ISSN: 2169-3536},
+    month = {4},
+    year={2026},
+    pdf = {https://ieeexplore.ieee.org/document/11352833},
+    abstract= {최근 몇 년간 경량 합성곱 신경망(lightweight convolutional neural networks)에 대한 관심이 증가함에 따라, 정확도를 유지하면서 모델 크기와 추론 비용을 줄이기 위한 가지치기(pruning) 기법에 대한 연구가 활발히 진행되어 왔다. 기존의 구조적 가지치기 기법들은 L1/L2 노름이나 기하학적 중앙값과 같은 크기 기반(magnitude-based) 지표에 의존하는 경우가 많으며, 이러한 방법들은 종종 유사한 필터 순위를 생성한다. 이로 인해 도출된 중요도 점수가 얼마나 고유하고 정보성이 있는지에 대한 우려가 제기되어 왔다.
+본 연구에서는 합성곱 계층 내 가중치의 분산 분포를 통해 필터의 중요도를 평가하는 분산 기반 가지치기 기법을 제안한다. 제안하는 방법은 기존의 크기 기반 접근법과 달리, 노름 기반 방법에서 간과되는 보완적인 정보를 포착한다. 이론적 분석을 통해, 가중 분산(weighted variance)이 기존 노름 기반 기준과 구별되는 특성을 지님을 보인다.
+제안 기법의 효과를 검증하기 위해 ImageNet 데이터셋을 사용한 포괄적인 실험을 수행하였다. L1-노름 가지치기, L2-노름, 기하학적 중앙값, HRank, RASP, AutoSlim, 그리고 Taylor 근사 기반 가지치기 기법을 포함한 다양한 기준 방법들과 비교하였다. 그 결과, 제안하는 방법은 ResNet-50 기준 모델 대비 연산량의 절반 이하인 2G MACs만으로도 최대 76.2%의 Top-1 정확도를 달성하였다.}
+}
 
 @article{kim2025fgcs,
   abbr={FGCS},
@@ -235,7 +245,7 @@ CPrune은 컴파일러 튜닝 과정에서 구축된 서브그래프의 구조�
     day = {15},
     month = {11},
     year={2024},
-    selected={false},
+    selected={true},
     pdf={https://doi.org/10.1109/JIOT.2024.3403844},
     code = {https://gitlab.com/ones-ai/q-hyvit},
     abstract = {최근 비전 트랜스포머(ViT)는 분류, 탐지, 세분화 등 다양한 응용 분야에서 합성곱 신경망(CNN)을 대체하며 뛰어난 성능을 보이고 있다. 그러나 ViT의 높은 계산 요구량은 광범위한 활용을 어렵게 만든다. 이러한 문제를 해결하기 위해 연구자들은 합성곱 레이어와 트랜스포머 레이어를 결합하고, 선형 복잡도의 최적화된 어텐션 계산을 사용하는 효율적인 하이브리드 트랜스포머 아키텍처를 제안해 왔다. 또한 사후학습 양자화(PTQ)가 계산 부담을 줄이는 방법으로 제시되었다. 모바일 장치에서 ViT의 최적 가속을 달성하려면 양자화 기법과 효율적인 하이브리드 트랜스포머 구조를 전략적으로 통합해야 한다. 그러나 지금까지 효율적인 하이브리드 트랜스포머에 양자화를 적용한 연구는 없었다.
