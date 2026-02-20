@@ -11,18 +11,15 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Assistant Professor in <a href='https://www.ust.ac.kr/prog/campus/campus_eng/sub36_04/36/majorView.do?majorNo=71&kind=information'> Department of Artificial Intelligence</a>
+    - title: Assistant Professor in <a href='https://csai.jbnu.ac.kr/csai/29031/subview.do'>Department of Computer Science and Artificial Intelligence</a>
+      institution: Jeonbuk National University
+      year: 2026.3.1 ~
+    - title: Assistant Professor in <a href='https://www.ust.ac.kr/prog/campus/campus_eng/sub36_04/36/majorView.do?majorNo=71&kind=information'>Department of Artificial Intelligence</a>
       institution: University of Science and Technology (UST)
-      year: 2023.9.1 ~
-#      description:
-#        -
-#      #        - title: Description 3.
-#      #          contents:
-#      #            - Sub-description 1.
-#      #            - Sub-description 2.
+      year: 2023.9.1 ~ 2026.2.28
     - title: Senior Researcher in <a href="https://www.etri.re.kr/eng/sub6/sub6_0101.etri?departCode=10">AI Computing Research Lab.</a>
       institution: Electronics and Telecommunications Research Institute (ETRI)
-      year: 2018.12 ~
+      year: 2018.12 ~ 2026.2.28
       description:
         - title: Efficient AI
           contents:

@@ -1,7 +1,7 @@
 ---
 layout: cv_jemin
 title: Jemin Lee 
-description: Assistant Professor @ UST
+description: Assistant Professor @ Jeonbuk National University
 img: assets/img/prof_pic.jpg
 importance: 1
 category: Faculty

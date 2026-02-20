@@ -1,11 +1,11 @@
 ---
-layout: page
-title: Yongin Kwon
-description: Assistant Professor @ Pusan National University
-img: assets/img/yongin.jpeg
-redirect: https://www.linkedin.com/in/yongin-kwon-17089289
-importance: 1
-category: Collaborators
+layout: cv_sehyeon
+title: Sehyeon Oh
+description: M.S (2024 - 2026) @ UST <br>AI Model Compression & Collective Communication Library (CCL)
+img: assets/img/sh_oh.jpg
+importance: 2
+github: 
+category: Alumni
 ---
 
 Every project has a beautiful feature showcase page.
