@@ -1,10 +1,10 @@
 ---
-layout: cv_sehyeon
-title: Sehyeon Oh
-description: M.S. (2024-2026) @ UST <br>AI Model Compression & Collective Communication Library (CCL)
-img: assets/img/sh_oh.jpg
+layout: page
+title: JooHyoung Cha
+description: M.S. (2024-2026) @ UST <br>Co-advised by Prof. Yongin Kwon)
+img: assets/img/chacha.png
 importance: 2
-github: 
+redirect: https://blog.udon.party/
 category: Alumni
 ---
 

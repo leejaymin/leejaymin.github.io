@@ -4,7 +4,7 @@ title: Development of open-edge AI SoC hardware and software platform
 description: The compiler is based on MLIR.
 img: assets/img/ones1.png
 importance: 1
-category: Present
+category: Past
 ---
 
 <div class="col-sm mt-3 mt-md-0">
