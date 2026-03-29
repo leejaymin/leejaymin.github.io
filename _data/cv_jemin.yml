@@ -96,6 +96,9 @@
 - title: Seminar and Talk
   type: time_table
   contents:
+    - title: System-Model Co-Design for Efficient AI in the Physical World
+    - year: 28 Mar 2026
+    - description: <a href="https://event-us.kr/enerzai/event/121735">AI on Edge – From Bits to Real World 2026</a>
     - title: Quantized LLM Evaluation
       year: 23 May 2025
       description: IeMek ISET Workshop 2025
