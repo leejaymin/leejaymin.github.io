@@ -3,6 +3,24 @@
 
 string{aps = {American Physical Society,}}
 
+@inproceedings{oh26ijcai,
+    abbr={IJCAI},
+    title={QFlash: Bridging Quantization and Memory Efficiency in Vision Transformer Attention},
+    author={Sehyeon Oh and Yongin Kwon and Jemin Lee*},
+    booktitle={International Joint Conferences on Artificial Intelligence (IJCAI) Aug. 15, 2026, NRF BK21+ IF: 4},
+    pages={1-9},
+    month = {8},
+    year={2026},
+    selected={true},
+    pdf = {https://arxiv.org/abs/2604.25306},
+    code = {https://github.com/EfficientCompLab/qflash},
+    doi = {},
+    abstract = {FlashAttention은 타일링을 통해 효율성을 향상시키지만, 온라인 소프트맥스 연산은 여전히 ​​수치적 안정성을 위해 부동소수점 연산에 의존하므로 완전한 양자화가 어렵습니다.
+정수 전용 FlashAttention의 주요 장애물은 세 가지입니다. (1) 타일별 누적 과정에서의 스케일 폭발, (2) GPU에서의 비효율적인 시프트 기반 지수 연산, (3) 정수 비교를 위한 균일한 스케일을 요구하는 양자화 세분성 제약 조건입니다.
+이러한 문제들을 해결하기 위해, 소프트맥스 연산을 정수 영역에서 완전히 수행하고 단일 Triton 커널로 실행되는 엔드투엔드 정수 FlashAttention 설계인 QFlash를 제안합니다.
+ViT, DeiT, Swin 모델의 7가지 어텐션 워크로드에서 QFlash는 I-ViT 대비 최대 6.73배, Swin 대비 최대 8.69배의 속도 향상을 달성하는 동시에 FP16 FlashAttention 대비 에너지 소비를 18.8% 절감합니다.
+ViT/DeiT에서는 Top-1 정확도를 유지하면서도 텐서별 양자화 환경에서 Swin에서도 경쟁력 있는 성능을 보여줍니다. 본 코드는 다음 URL에서 공개적으로 이용 가능합니다.}
+}
 
 @inproceedings{lee25survey,
     abbr={TIST},
