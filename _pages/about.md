@@ -24,7 +24,16 @@ Our research interests are the followings:
 • AI Compiler: Developing optimized AI compilers to reduce computational power, energy use, and execution time, improving efficiency and sustainability.   
 
 [//]: # (For detailed research areas and insights into graduate life, please refer to the following slides.)
-Students interested in pursuing graduate studies are encouraged to contact me directly after following the application instructions provided in the slides.
+Students interested in pursuing graduate studies are encouraged to apply by completing the application form below after reviewing the application instructions provided in the slides.
 
-You can reach me at: jemin.lee_at_jbnu_dot_ac_dot_kr.
+<div style="margin: 1.2em 0;">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe7UisGruhqa3bKOPXhMDRQ7C8ITnCeyMV9ZUuzmfTzF9bwdA/viewform?usp=publish-editor"
+     target="_blank"
+     rel="noopener noreferrer"
+     style="display: inline-block; padding: 0.5em 1em; background-color: #3b6ea5; color: #fff; text-decoration: none; border-radius: 5px; font-size: 0.95em; font-weight: 500;">
+    대학원 지원서 / Application Form →
+  </a>
+</div>
+
+For any further inquiries, you can reach me at: jemin.lee_at_jbnu_dot_ac_dot_kr.
 
