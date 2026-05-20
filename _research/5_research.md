@@ -2,10 +2,14 @@
 layout: page
 title: Implementation of Core Operation Kernels Based on Low-Level API for AI Semiconductor Support
 description: Research on implementing core operation kernels using low-level APIs to support AI semiconductors.
-img:
+img: assets/img/research_kernel_api.png
 importance: 2
 category: Present
 ---
+
+<div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/research_kernel_api.png" title="Kernel-level Programming API for AI Semiconductors" class="img-fluid rounded z-depth-1" %}
+</div>
 
 - This project is funded by ETRI (Electronics and Telecommunications Research Institute).
 - Period: May 2026 – Nov. 2026.
