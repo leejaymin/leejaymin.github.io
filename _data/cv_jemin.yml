@@ -96,9 +96,15 @@
 - title: Seminar and Talk
   type: time_table
   contents:
+    - title: <a href="https://iemek.org/Conference/ConferenceView.asp?top_param=&sub_param=&AC=0&CODE=CC20260201&CpPage=674#CONF">신진연구자 발표</a>
+      year: 15 May 2026
+      description: IeMeK ISET
+    - title: Physical AI 기술의 해양(수중) 환경 적용 가능성
+      year: 17 Apr 2026
+      description: 선박해양플랜트연구소 (KRISO)
     - title: System-Model Co-Design for Efficient AI in the Physical World
-    - year: 28 Mar 2026
-    - description: <a href="https://event-us.kr/enerzai/event/121735">AI on Edge – From Bits to Real World 2026</a>
+      year: 28 Mar 2026
+      description: <a href="https://event-us.kr/enerzai/event/121735">AI on Edge – From Bits to Real World 2026</a>
     - title: Quantized LLM Evaluation
       year: 23 May 2025
       description: IeMek ISET Workshop 2025
