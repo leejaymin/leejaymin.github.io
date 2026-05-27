@@ -15,11 +15,38 @@
         <div class="card-body">
           <h2 class="card-title none">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
+          {%- if project.period or project.funding or project.funded_by -%}
+          <div class="project-meta">
+            {%- if project.period -%}<div><strong>Period:</strong> {{ project.period }}</div>{%- endif %}
+            {%- if project.funding -%}<div><strong>Total Grant:</strong> {{ project.funding }}</div>{%- endif %}
+            {%- if project.funded_by -%}<div><strong>Sponsor:</strong> {{ project.funded_by }}</div>{%- endif %}
+          </div>
+          {%- endif %}
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
+            {%- assign link_lower = project.github | downcase -%}
+            {%- if link_lower contains "linkedin.com" -%}
+              {%- assign link_icon = "fab fa-linkedin" -%}
+              {%- assign link_tooltip = "LinkedIn" -%}
+            {%- elsif link_lower contains "github.com" -%}
+              {%- assign link_icon = "fab fa-github" -%}
+              {%- assign link_tooltip = "GitHub" -%}
+            {%- elsif link_lower contains "scholar.google" -%}
+              {%- assign link_icon = "fas fa-graduation-cap" -%}
+              {%- assign link_tooltip = "Google Scholar" -%}
+            {%- elsif link_lower contains "twitter.com" -%}
+              {%- assign link_icon = "fab fa-twitter" -%}
+              {%- assign link_tooltip = "Twitter" -%}
+            {%- elsif link_lower contains "x.com" -%}
+              {%- assign link_icon = "fab fa-twitter" -%}
+              {%- assign link_tooltip = "Twitter" -%}
+            {%- else -%}
+              {%- assign link_icon = "fas fa-globe" -%}
+              {%- assign link_tooltip = "Website" -%}
+            {%- endif -%}
             <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fab fa-github gh-icon"></i></a>
+              <div class="icon" data-toggle="tooltip" title="{{ link_tooltip }}">
+                <a href="{{ project.github }}"><i class="{{ link_icon }} gh-icon"></i></a>
               </div>
               {%- if project.github_stars -%}
               <span class="stars" data-toggle="tooltip" title="GitHub Stars">
@@ -31,6 +58,20 @@
             {%- endif %}
           </div>
         </div>
+        {%- if project.funded_by -%}
+          {%- assign sponsor_lower = project.funded_by | downcase -%}
+          {%- assign sponsor_logo = "" -%}
+          {%- if sponsor_lower contains "etri" -%}{%- assign sponsor_logo = "etri-logo.png" -%}
+          {%- elsif sponsor_lower contains "iitp" -%}{%- assign sponsor_logo = "iitp-logo.png" -%}
+          {%- elsif sponsor_lower contains "jeonbuk" -%}{%- assign sponsor_logo = "jbnu-logo.png" -%}
+          {%- elsif sponsor_lower contains "jbnu" -%}{%- assign sponsor_logo = "jbnu-logo.png" -%}
+          {%- elsif sponsor_lower contains "national research foundation" -%}{%- assign sponsor_logo = "nrf-logo.png" -%}
+          {%- elsif sponsor_lower contains "nrf" -%}{%- assign sponsor_logo = "nrf-logo.png" -%}
+          {%- endif -%}
+          {%- if sponsor_logo != "" -%}
+            <img src="{{ '/assets/img/logo/' | append: sponsor_logo | relative_url }}" alt="{{ project.funded_by }} logo" class="sponsor-badge" />
+          {%- endif -%}
+        {%- endif %}
       </div>
     </a>
 </div>

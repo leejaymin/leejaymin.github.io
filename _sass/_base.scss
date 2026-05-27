@@ -514,9 +514,38 @@ footer.sticky-bottom {
   }
 
   .card {
+    min-height: 450px;
+
     img {
       width: 100%;
+      height: 250px;
+      object-fit: cover;
+      object-position: center top;
     }
+  }
+
+  .grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: start;
+    position: static !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+
+  .grid-item {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    width: 100%;
+    min-height: 460px;
+    margin-bottom: 0;
+  }
+
+  .grid-sizer {
+    display: none;
   }
 
   .card-item {
@@ -529,12 +558,6 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer,
-  .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
-  }
-
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
@@ -542,6 +565,74 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+}
+
+.projects.research {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)) !important;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .card img {
+    height: auto !important;
+    max-height: 260px;
+    object-fit: contain !important;
+    background-color: var(--global-bg-color);
+  }
+
+  .card {
+    min-height: auto !important;
+  }
+
+  .grid-item {
+    min-height: auto !important;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-meta {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
+
+    div {
+      margin-bottom: 0.15rem;
+    }
+
+    strong {
+      color: var(--global-text-color);
+      font-weight: 600;
+    }
+
+  }
+
+  .card {
+    position: relative;
+  }
+
+  .sponsor-badge {
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.75rem;
+    height: 36px !important;
+    width: auto !important;
+    max-width: 110px;
+    object-fit: contain;
+    background: white;
+    border-radius: 4px;
+    padding: 3px 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    z-index: 1;
   }
 }
 

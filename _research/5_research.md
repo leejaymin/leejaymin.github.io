@@ -5,6 +5,9 @@ description: Research on implementing core operation kernels using low-level API
 img: assets/img/research_kernel_api.png
 importance: 2
 category: Present
+period: "May 2026 – Nov. 2026"
+funding: "50,000,000 KRW"
+funded_by: "ETRI"
 ---
 
 <div class="col-sm mt-3 mt-md-0">

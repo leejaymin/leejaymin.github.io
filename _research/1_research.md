@@ -5,6 +5,9 @@ description: The compiler is based on MLIR.
 img: assets/img/ones1.png
 importance: 1
 category: Past
+period: "Jun. 2023 – Dec. 2027"
+funding: "~10M USD"
+funded_by: "IITP"
 ---
 
 <div class="col-sm mt-3 mt-md-0">

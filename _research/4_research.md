@@ -5,6 +5,9 @@ description: Research on hardware-aware quantization techniques to optimize the 
 img: assets/img/research_quant_kernel.png
 importance: 1
 category: Present
+period: "Apr. 2026 – Feb. 2027"
+funding: "30,000,000 KRW"
+funded_by: "Jeonbuk National University"
 ---
 
 <div class="col-sm mt-3 mt-md-0">

@@ -1,7 +1,7 @@
 ---
 layout: cv_kihyun
 title: Kihyun Kim
-description: ETRI Summer Intern 2025<br> Quantization on RISC-V
+description: ETRI Summer Intern 2025<br> Quantization on RISC-V<br>Now Graduate Student @ Yonsei Univ.
 img: assets/img/gihyun.png
 importance: 2
 github: 

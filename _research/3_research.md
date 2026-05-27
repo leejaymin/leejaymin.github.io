@@ -5,6 +5,9 @@ description: The compiler is designed to allow state of the art compiler optimiz
 img: assets/img/nestc.png
 importance: 1
 category: Past
+period: "Jan. 2018 – Dec. 2022"
+funding: "3M USD/year"
+funded_by: "IITP"
 ---
 
 <img src="https://leejaymin.github.io/assets/img/nestc.png" width="90%" height="90%"/>

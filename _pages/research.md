@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Projects
 permalink: /research/
 description: What we have doing and done.
 nav: true
@@ -10,7 +10,7 @@ horizontal: false
 ---
 
 <!-- pages/research.md -->
-<div class="projects">
+<div class="projects research">
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}

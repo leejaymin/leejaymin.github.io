@@ -5,7 +5,7 @@ description: Assistant Professor @ Jeonbuk National University
 img: assets/img/prof_pic.jpg
 importance: 1
 category: Faculty
-github: https://leejaymin.github.io/index.html
+github: https://scholar.google.com/citations?user=http://scholar.google.com/citations?user=BcVJExUAAAAJ&hl=en
 cv_pdf: Jemin_CV.pdf
 ---
 
