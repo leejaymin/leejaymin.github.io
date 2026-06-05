@@ -6,7 +6,7 @@ img: assets/img/nestc.png
 importance: 1
 category: Past
 period: "Jan. 2018 – Dec. 2022"
-funding: "3M USD/year"
+# funding: "3M USD/year"
 funded_by: "IITP"
 ---
 
@@ -17,6 +17,6 @@ The NEST Compiler (NEST-C) is an open source project led by ETRI, which is based
 
 - This project is funded by IITP, Korea.
 - Period: Jan. 2018 – Dec. 2022.
-- Grant: 3,000,000 dollar (per year)  
+<!-- - Grant: 3,000,000 dollar (per year) -->
 - Korean Press: https://www.epnc.co.kr/news/articleView.html?idxno=219254 
 - Global Press: https://www.eurekalert.org/news-releases/945721 

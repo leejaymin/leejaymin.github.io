@@ -96,6 +96,9 @@
 - title: Seminar and Talk
   type: time_table
   contents:
+    - title: <a href="https://www.kiise.or.kr/conference/main/getContent.do?CC=kcc&CS=2026&content_no=2496&PARENT_ID=011700">신진연구자 발표</a>
+      year: 25 Jun. 2026
+      description: 한국정보과학회 KCC 2026
     - title: <a href="https://iemek.org/Conference/ConferenceView.asp?top_param=&sub_param=&AC=0&CODE=CC20260201&CpPage=674#CONF">신진연구자 발표</a>
       year: 15 May 2026
       description: IeMeK ISET

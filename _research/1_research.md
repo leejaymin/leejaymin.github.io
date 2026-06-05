@@ -6,7 +6,7 @@ img: assets/img/ones1.png
 importance: 1
 category: Past
 period: "Jun. 2023 – Dec. 2027"
-funding: "~10M USD"
+# funding: "~10M USD"
 funded_by: "IITP"
 ---
 
@@ -16,7 +16,7 @@ funded_by: "IITP"
 
 - This project is funded by IITP, Korea.
 - Period: Jun. 2023 – Dec. 2027.
-- Total Grant: ~ 10,000,000 dollar
+<!-- - Total Grant: ~ 10,000,000 dollar -->
 
 The purpose of this project is to develop an open SW and HW platform for edge AI SoC development over the next 5 years.
 Specifically, we developed a DL compiler for NPUs using MLIR. The compiler aims to develop a Dialect IR that can accommodate high-level model lightweight and effectively express the characteristics of NPUs.

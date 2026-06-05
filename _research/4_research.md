@@ -6,7 +6,7 @@ img: assets/img/research_quant_kernel.png
 importance: 1
 category: Present
 period: "Apr. 2026 – Feb. 2027"
-funding: "30,000,000 KRW"
+# funding: "30,000,000 KRW"
 funded_by: "Jeonbuk National University"
 ---
 
@@ -16,6 +16,6 @@ funded_by: "Jeonbuk National University"
 
 - This project is funded by Jeonbuk National University.
 - Period: Apr. 2026 – Feb. 2027.
-- Total Grant: 30,000,000 KRW
+<!-- - Total Grant: 30,000,000 KRW -->
 
 The goal of this project is to develop hardware-aware quantization techniques that optimize the inference performance of large language models (LLMs). By taking into account the characteristics of the target hardware, the proposed quantization methods aim to reduce computational overhead and memory footprint while preserving model accuracy, enabling efficient deployment of LLMs on resource-constrained platforms.
