@@ -1,0 +1,26 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Hyeonmu Gwon
+    - name: Date of Birth
+      value: 5th January 2000
+    - name: Languages
+      value: Korean, English
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Computer Vision Lab, Jeonbuk National University
+      year: 2025.9.10 - 2026.6.14
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Undergraduate Student
+      institution: Jeonbuk National University, Jeonbuk State, South Korea
+      year: 2021.3 ~ Present
+      description:
+        - B.S Candidate at Jeonbuk National University major in Computer Science
+        - Research Interest - Parallel Computing
