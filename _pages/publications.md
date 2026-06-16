@@ -108,6 +108,14 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 <hr>
 <ol>
 
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc37.pdf">“MX/NVFP 양자화 형식의 행렬곱 실행시간 분석”</a>, <br>
+  오세현, 김용주, <strong>이제민*</strong>,<br>
+  2026 한국컴퓨터종합학술대회 (KCC 2026), 2026.6.24-26 </p></li>
+
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc36.pdf">“엣지 환경에서 LLM 추론 프레임워크별 성능 비교”</a>, <br>
+  박시형, <strong>이제민</strong>, 김병수, 전석훈,<br>
+  2026 대한임베디드공학회 ISET2026 (The 21th IeMeK Symposium on Embedded Technology), 2026.5.13-16 </p></li>
+
 <li><p><a href="https://leejaymin.github.io/assets/pdf/dc35.pdf">“라즈베리파이 5와 Hailo-8 및 8L의 AI 연산 성능 비교를 통한 엣지 디바이스 성능 향상 방안 연구”</a>, <br>
   양병찬, 오세현, 차주형, <strong>이제민</strong>, 권용인,<br>
   2025 정보처리학회 ASK 2025 학술발표대회 논문집, 2025.5.30 </p></li>
