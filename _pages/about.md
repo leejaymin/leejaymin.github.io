@@ -16,6 +16,10 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+<div class="lab-logo-hero">
+  <img src="{{ '/assets/img/logo/lab/ECL_logo_blue_c.png' | relative_url }}" alt="Efficient Computing Lab.">
+</div>
+
 Welcome to the `Efficient Computing Lab.`
 We focus on energy efficiency, system optimization, user experience, and sustainable tech solutions. 
 Our research interests are the followings:  

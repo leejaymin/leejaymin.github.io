@@ -13,3 +13,44 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+/* ===== Efficient Computing Lab. logos ===== */
+
+// Navbar brand: logo + name (version b, horizontal)
+.navbar-logo {
+  height: 2.1rem;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+// Footer: symbol only (version a), small inline mark
+.footer-logo {
+  height: 1.1rem;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+  position: relative;
+  top: -1px;
+}
+
+// Home/About hero: logo + name stacked (version c)
+.lab-logo-hero {
+  text-align: center;
+  margin: 0.5rem 0 2rem;
+
+  img {
+    max-width: 320px;
+    width: 60%;
+    height: auto;
+  }
+}
+
+// Dark mode: logos use a blue symbol + black text, so render them white for legibility
+html[data-theme='dark'] {
+  .navbar-logo,
+  .footer-logo,
+  .lab-logo-hero img {
+    filter: brightness(0) invert(1);
+  }
+}

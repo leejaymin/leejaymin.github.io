@@ -4,23 +4,11 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-            {%- if site.title == "blank" -%}
-              {%- if site.first_name -%}
-                <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
-              {%- endif -%}
-              {%- if site.middle_name -%}
-                {{- site.middle_name -}}&nbsp;
-              {%- endif -%}
-              {%- if site.last_name -%}
-                {{- site.last_name -}}
-              {%- endif -%}
-            {%- else -%}
-              {{- site.title -}}
-            {%- endif -%}
+          <!-- Lab logo (symbol + name) -->
+          <a class="navbar-brand lab-logo-brand" href="{{ site.baseurl }}/">
+            <img src="{{ '/assets/img/logo/lab/ECL_logo_blue_b.png' | relative_url }}" alt="{{ site.title }}" class="navbar-logo">
           </a>
-          {%- elsif site.enable_navbar_social -%}
+          {%- if page.permalink == '/' and site.enable_navbar_social -%}
           <!-- Social Icons -->
           <div class="navbar-brand social">
             {% include social.html %}
