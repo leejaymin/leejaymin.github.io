@@ -146,6 +146,32 @@
           {{ entry.note | strip }}
         </div>
 
+        <!-- Structured venue metrics: SCIE (JCR IF/Top%), BK21+ IF, KIISE-CS grade -->
+        {%- capture pubmetrics -%}
+          {%- if entry.scie or entry.jcr_if -%}
+          <span class="metric metric-scie">SCIE</span>
+            {%- if entry.jcr_if -%}
+            <span class="metric">JCR{{ entry.jcr_year }} IF {{ entry.jcr_if }}{% if entry.jcr_top %} &middot; Top {{ entry.jcr_top }}%{% endif %}</span>
+            {%- endif -%}
+            {%- if entry.jcr_if2 -%}
+            <span class="metric">JCR{{ entry.jcr_year2 }} IF {{ entry.jcr_if2 }}{% if entry.jcr_top2 %} &middot; Top {{ entry.jcr_top2 }}%{% endif %}</span>
+            {%- endif -%}
+            {%- if entry.jcr_if3 -%}
+            <span class="metric">JCR{{ entry.jcr_year3 }} IF {{ entry.jcr_if3 }}{% if entry.jcr_top3 %} &middot; Top {{ entry.jcr_top3 }}%{% endif %}</span>
+            {%- endif -%}
+          {%- endif -%}
+          {%- if entry.bk21 or entry.bk21_if -%}
+          <span class="metric metric-bk21">BK21+{% if entry.bk21_if %} IF {{ entry.bk21_if }}{% endif %}</span>
+          {%- endif -%}
+          {%- if entry.kiise -%}
+          <span class="metric metric-kiise">KIISE-CS {{ entry.kiise }}</span>
+          {%- endif -%}
+        {%- endcapture -%}
+        {%- assign pubmetrics_text = pubmetrics | strip -%}
+        {%- if pubmetrics_text != "" -%}
+        <div class="pub-metrics">{{ pubmetrics }}</div>
+        {%- endif -%}
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}
