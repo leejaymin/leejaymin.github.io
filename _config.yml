@@ -304,8 +304,8 @@ scholar:
   group_order: descending
 
 badges: # Display different badges for your publications
-  altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
+  altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions_badge: false # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, award, abstract, arxiv, bibtex_show, html, pdf, selected, scie, jcr_year, jcr_if, jcr_top, jcr_year2, jcr_if2, jcr_top2, jcr_year3, jcr_if3, jcr_top3, bk21, bk, bk21_if, kiise, kiise_cs, supp, blog, code, poster, slides, website, preview, altmetric, youtube]
