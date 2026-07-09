@@ -152,6 +152,10 @@ Hyungshin Kim, <strong>Jemin Lee</strong></p></li>
 <hr>
 <ol>
 
+<li><p><a href="https://leejaymin.github.io/assets/pdf/dc38.pdf">“대규모 언어 모델 추론 엔진 비교: 최적화와 효율성을 중심으로”</a>, <br>
+  박시형, <strong>이제민*</strong>, 김병수, 전석훈<br>
+  2026 대한전자공학회 하계종합학술대회, 2026.6.23~2026.6.26 </p></li>
+
 <li><p><a href="https://leejaymin.github.io/assets/pdf/dc37.pdf">“MX/NVFP 양자화 형식의 행렬곱 실행시간 분석”</a>, <br>
   오세현, 김용주, <strong>이제민*</strong>,<br>
   2026 한국컴퓨터종합학술대회 (KCC 2026), 2026.6.24-26 </p></li>
