@@ -3,7 +3,7 @@ layout: page
 title: Implementation of Core Operation Kernels Based on Low-Level API for AI Semiconductor Support
 description: Research on implementing core operation kernels using low-level APIs to support AI semiconductors.
 img: assets/img/research_kernel_api.png
-importance: 5
+importance: 6
 category: Present
 period: "May 2026 – Nov. 2026"
 # funding: "50,000,000 KRW"

@@ -3,7 +3,7 @@ layout: page
 title: International Collaborative Research on Quantization Kernel Code Development
 description: Joint research between Jeonbuk National University and the University of Colorado on developing quantization kernel code.
 img: assets/img/rp_jbnu_colorado.png
-importance: 6
+importance: 7
 category: Present
 period: "Jun. 2026 – Aug. 2026"
 # funding: "4,000,000 KRW"
