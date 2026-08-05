@@ -4,8 +4,8 @@ title: Sehyeon Oh
 description: Ph.D. Student (2026.9~) @ JBNU <br> Ph.D. Student (2026.3~8) @ UST <br>GPU Kernel Programming
 img: assets/img/sh_oh.jpg
 importance: 2
-redirect: https://www.linkedin.com/in/osehyeon/
-github: 
+redirect: https://osehyeon.github.io/ 
+github: https://www.linkedin.com/in/osehyeon/
 category: Students
 ---
 
