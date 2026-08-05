@@ -3,7 +3,8 @@ layout: page
 title: Yongin Kwon
 description: Assistant Professor @ Pusan National University
 img: assets/img/yongin.jpeg
-redirect: https://www.linkedin.com/in/yongin-kwon-17089289
+redirect: https://sota.pusan.ac.kr/members.html
+github: https://www.linkedin.com/in/yongin-kwon-17089289
 importance: 1
 category: Collaborators
 ---

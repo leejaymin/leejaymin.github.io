@@ -1,7 +1,7 @@
 ---
 layout: cv_sehyeon
 title: Sehyeon Oh
-description: M.S. (2024-2026) @ UST <br>AI Model Compression & Collective Communication Library (CCL)
+description: M.S. (2024-2026) @ UST <br>AI Model Compression & Collective Communication Library (CCL)<br> Now Ph.D. Student @ JBNU
 img: assets/img/sh_oh.jpg
 importance: 2
 github: 

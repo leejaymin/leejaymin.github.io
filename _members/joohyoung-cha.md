@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JooHyoung Cha
-description: Ph.D. student (2026~) @ UST <br>Co-advised by Prof. Yongin Kwon)
+description: Ph.D. Student (2026~) @ PNU <br>Co-advised by Prof. Yongin Kwon)
 img: assets/img/chacha.png
 importance: 2
 redirect: https://blog.udon.party/

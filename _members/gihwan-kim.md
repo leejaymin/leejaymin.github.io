@@ -1,7 +1,7 @@
 ---
 layout: cv_gihwan
 title: Gihwan Kim
-description: Winter Intern 2024 <br> Transformer Compression <br>Now Graduate Student @ CNU
+description: Winter Intern 2024 <br> Transformer Compression <br>Graduate Student @ CNU -> Researcher @ ETRI (Now)
 img: assets/img/gihwan.jpg
 importance: 2
 github:
