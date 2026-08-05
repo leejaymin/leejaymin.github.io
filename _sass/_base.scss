@@ -634,6 +634,12 @@ footer.sticky-bottom {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
     z-index: 1;
   }
+
+  // stacked (vertical) sponsor logos need more height to stay legible
+  .sponsor-badge-tall {
+    height: 58px !important;
+    max-width: 130px;
+  }
 }
 
 

@@ -61,7 +61,9 @@
         {%- if project.funded_by -%}
           {%- assign sponsor_lower = project.funded_by | downcase -%}
           {%- assign sponsor_logo = "" -%}
-          {%- if sponsor_lower contains "etri" -%}{%- assign sponsor_logo = "etri-logo.png" -%}
+          {%- if sponsor_lower contains "keit" -%}{%- assign sponsor_logo = "keit-logo.png" -%}
+          {%- elsif sponsor_lower contains "keti" -%}{%- assign sponsor_logo = "keti-logo.png" -%}
+          {%- elsif sponsor_lower contains "etri" -%}{%- assign sponsor_logo = "etri-logo.png" -%}
           {%- elsif sponsor_lower contains "iitp" -%}{%- assign sponsor_logo = "iitp-logo.png" -%}
           {%- elsif sponsor_lower contains "jeonbuk" -%}{%- assign sponsor_logo = "jbnu-logo.png" -%}
           {%- elsif sponsor_lower contains "jbnu" -%}{%- assign sponsor_logo = "jbnu-logo.png" -%}
@@ -69,7 +71,9 @@
           {%- elsif sponsor_lower contains "nrf" -%}{%- assign sponsor_logo = "nrf-logo.png" -%}
           {%- endif -%}
           {%- if sponsor_logo != "" -%}
-            <img src="{{ '/assets/img/logo/' | append: sponsor_logo | relative_url }}" alt="{{ project.funded_by }} logo" class="sponsor-badge" />
+            {%- assign badge_class = "sponsor-badge" -%}
+            {%- if sponsor_logo == "keit-logo.png" -%}{%- assign badge_class = "sponsor-badge sponsor-badge-tall" -%}{%- endif -%}
+            <img src="{{ '/assets/img/logo/' | append: sponsor_logo | relative_url }}" alt="{{ project.funded_by }} logo" class="{{ badge_class }}" />
           {%- endif -%}
         {%- endif %}
       </div>

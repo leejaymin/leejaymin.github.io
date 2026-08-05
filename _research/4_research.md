@@ -3,7 +3,7 @@ layout: page
 title: Hardware-Aware Quantization for LLM Inference Optimization
 description: Research on hardware-aware quantization techniques to optimize the inference performance of large language models.
 img: assets/img/research_quant_kernel.png
-importance: 1
+importance: 4
 category: Present
 period: "Apr. 2026 – Feb. 2027"
 # funding: "30,000,000 KRW"
