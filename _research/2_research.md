@@ -1,10 +1,12 @@
 ---
 layout: page
-title: SuggestBot
-description: Development of a context-based smart interaction service platform
+title: SuggestBot - 상황 인지 기반 스마트 인터랙션 서비스 플랫폼 개발
+description: 사용자의 상황(컨텍스트)을 인지하여 적절한 서비스를 선제적으로 제안하는 스마트 인터랙션 서비스 플랫폼을 개발하는 과제이다.
 img: assets/img/rp_suggestBot.JPG
+sponsor_logo: assets/img/logo/nrf-logo.png
 importance: 2
 category: Past
+funded_by: "NRF (한국연구재단)"
 ---
 
 Every project has a beautiful feature showcase page.

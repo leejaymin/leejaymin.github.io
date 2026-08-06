@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Members
-permalink: /projects/
+permalink: /members/
 description: This page lists current and former members and collaborators. Also, we are looking for motivated students.
 nav: true
 nav_order: 1

@@ -175,12 +175,12 @@ collections:
     permalink: /news/:path/
   members:
     output: true
-    permalink: /projects/:path/
+    permalink: /members/:path/
   research:
     defaults:
       layout: post
     output: true
-    permalink: /research/:path/
+    permalink: /projects/:path/
 
 announcements:
   enabled: true

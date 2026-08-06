@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Development of AI Models for Diagnosing Diseases in Premature Infants
-description: Joint research with the Biomedical Research Institute of Jeonbuk National University on AI models that support the diagnosis of diseases in premature infants.
+title: 미숙아 질환 진단 AI 모델 개발
+description: 전북대학교 의생명연구소와의 공동 연구로, 미숙아 질환 진단을 보조하는 AI 모델을 개발한다. 생체신호·의료영상·검사결과·EMR 등 멀티모달 데이터를 결합하여 조기 진단과 위험 예측을 수행하며, 설명 가능한 추론과 병상에서 활용 가능한 수준의 효율적인 모델을 지향한다.
 img: assets/img/research_preterm_ai.png
+sponsor_logo: assets/img/logo/jbnu-logo.png
 importance: 3
 category: Present
 period: "Aug. 2026 – Jan. 2028"

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Low-Level API-Based Operation Kernel Development for AI Semiconductors
-description: Development of operation kernels directly on the low-level API of AI semiconductors, targeting maximum utilization of the accelerator's compute and memory hierarchy.
+title: AI 반도체 지원을 위한 저수준 API 기반 연산 커널 개발
+description: AI 반도체의 저수준 API에 직접 대응하는 연산 커널을 개발하는 과제이다. 가속기의 연산 유닛, 온칩 메모리, 데이터 이동 경로를 명시적으로 다루어 타일링·스케줄링·메모리 배치를 하드웨어에 맞게 최적화하고, 수치 정확성과 성능 검증을 거쳐 상위 런타임과 프레임워크에서 활용 가능한 커널을 제공한다.
 img: assets/img/research_kernel_api.png
+sponsor_logo: assets/img/logo/etri-logo.png
 importance: 4
 category: Present
 period: "Aug. 2026 – Nov. 2026"

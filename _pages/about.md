@@ -35,7 +35,7 @@ Students interested in pursuing graduate studies are encouraged to apply by comp
      target="_blank"
      rel="noopener noreferrer"
      style="display: inline-block; padding: 0.5em 1em; background-color: #3b6ea5; color: #fff; text-decoration: none; border-radius: 5px; font-size: 0.95em; font-weight: 500;">
-    대학원 지원서 / Application Form →
+    학부 인턴 / 대학원 지원서 / Application Form →
   </a>
 </div>
 

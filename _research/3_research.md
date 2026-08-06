@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Deep Learning Compiler for NPU
-description: The compiler is designed to allow state of the art compiler optimizations and code generation of neural network graphs.
+title: NPU를 위한 딥러닝 컴파일러 (NEST-C) 개발
+description: ETRI 주도의 오픈소스 NEST 컴파일러(NEST-C)를 개발하는 과제이다. 다양한 NPU를 대상으로 최신 컴파일러 최적화와 신경망 그래프의 코드 생성을 지원하며, 최적화 단계별 자동 튜닝 기능과 도구를 제공한다.
 img: assets/img/nestc.png
+sponsor_logo: assets/img/logo/iitp-logo.png
 importance: 1
 category: Past
 period: "Jan. 2018 – Dec. 2022"
