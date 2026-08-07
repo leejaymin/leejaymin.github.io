@@ -9,6 +9,7 @@ category: Present
 period: "Apr. 2026 – Feb. 2027"
 # funding: "30,000,000 KRW"
 funded_by: "Jeonbuk National University"
+role: "과제책임자"
 ---
 
 <div class="col-sm mt-3 mt-md-0">

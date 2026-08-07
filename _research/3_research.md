@@ -9,6 +9,7 @@ category: Past
 period: "Jan. 2018 – Dec. 2022"
 # funding: "3M USD/year"
 funded_by: "IITP"
+role: "과제책임자"
 ---
 
 <img src="https://leejaymin.github.io/assets/img/nestc.png" width="90%" height="90%"/>
