@@ -9,6 +9,7 @@ category: Present
 period: "Jul. 2026 – Dec. 2030"
 # funding: "TBD"
 funded_by: "KEIT"
+role: "공동책임자"
 ---
 
 <div class="col-sm mt-3 mt-md-0">

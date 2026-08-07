@@ -9,6 +9,7 @@ category: Present
 period: "Aug. 2026 – Jan. 2028"
 # funding: "TBD"
 funded_by: "Jeonbuk National University"
+role: "과제책임자"
 ---
 
 <div class="col-sm mt-3 mt-md-0">

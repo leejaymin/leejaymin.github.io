@@ -9,6 +9,7 @@ category: Past
 period: "Jun. 2023 – Dec. 2027"
 # funding: "~10M USD"
 funded_by: "IITP"
+role: "과제책임자"
 ---
 
 <div class="col-sm mt-3 mt-md-0">

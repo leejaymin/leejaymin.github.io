@@ -71,6 +71,32 @@ a.project-block:focus {
   color: var(--global-text-color);
 }
 
+.project-block h3 .project-contract {
+  font-weight: 600;
+  color: var(--global-text-color-light, #666);
+}
+
+.project-block .project-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  vertical-align: middle;
+  margin-left: 0.45rem;
+  white-space: nowrap;
+}
+
+.project-block .badge-pi {
+  background: var(--global-theme-color, #4285f4);
+  color: #fff;
+}
+
+.project-block .badge-copi {
+  background: var(--global-divider-color, #e5e5e5);
+  color: var(--global-text-color, #333);
+}
+
 a.project-block:hover h3 {
   color: var(--global-theme-color);
 }
@@ -133,7 +159,7 @@ a.project-block:hover h3 {
       {%- endif %}
     </div>
     <div class="text-col">
-      <h3>{{ project.title }}</h3>
+      <h3>{{ project.title }}{%- if project.project_type %} <span class="project-contract">({{ project.project_type }})</span>{%- endif %}{%- if project.role %}<span class="project-badge {% if project.role == '과제책임자' %}badge-pi{% else %}badge-copi{% endif %}">{{ project.role }}</span>{%- endif %}</h3>
       <p class="project-desc">{{ project.description }}</p>
       {%- if project.period or project.funded_by %}
       <p class="project-meta">

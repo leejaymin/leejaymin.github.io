@@ -9,6 +9,8 @@ category: Present
 period: "Aug. 2026 – Nov. 2026"
 # funding: "TBD"
 funded_by: "ETRI"
+role: "과제책임자"
+project_type: "용역"
 ---
 
 <div class="col-sm mt-3 mt-md-0">
