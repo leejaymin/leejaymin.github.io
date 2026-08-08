@@ -7,7 +7,7 @@ sponsor_logo: assets/img/logo/nrf-logo.png
 importance: 2
 category: Past
 funded_by: "NRF (한국연구재단)"
-role: "과제책임자"
+role: "연구자"
 ---
 
 Every project has a beautiful feature showcase page.
