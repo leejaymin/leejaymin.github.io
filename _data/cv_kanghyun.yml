@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Hyun Kang
+      value: Hyoun Kang
     - name: Date of Birth
-      value: 2001
+      value: 24th October 2001
     - name: Languages
       value: Korean, English
 
@@ -20,7 +20,13 @@
   contents:
     - title: Undergraduate Student
       institution: Jeonbuk National University, Jeonbuk State, South Korea
-      year: 2020.3 ~ Present
+      year: 2026.3 ~ Present
       description:
-        - B.S Candidate at Jeonbuk National University major in Computer Science
-        - Research Interest - Efficient AI Computing
+        - B.S. Student at Jeonbuk National University major in Computer Science and Artificial Intelligence
+        - Research Interest - Computer Systems
+    - title: Undergraduate Student
+      institution: Jeonju University, Jeonbuk State, South Korea
+      year: 2021.3 - 2026.2
+      description:
+        - Majored in Computer Engineering
+        - Transferred to Jeonbuk National University
