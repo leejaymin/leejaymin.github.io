@@ -1,0 +1,26 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Hyun Kang
+    - name: Date of Birth
+      value: 2001
+    - name: Languages
+      value: Korean, English
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Efficient Computing Lab
+      year: 2026.8 ~ Present
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Undergraduate Student
+      institution: Jeonbuk National University, Jeonbuk State, South Korea
+      year: 2020.3 ~ Present
+      description:
+        - B.S Candidate at Jeonbuk National University major in Computer Science
+        - Research Interest - Efficient AI Computing
