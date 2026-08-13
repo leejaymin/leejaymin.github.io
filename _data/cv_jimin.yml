@@ -2,9 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Gimin Seo
+      value: Jimin Seo
     - name: Date of Birth
-      value: 2003
+      value: 25th April 2003
     - name: Languages
       value: Korean, English
 
@@ -15,6 +15,10 @@
       institution: Efficient Computing Lab
       year: 2026.8 ~ Present
 
+    - title: Fixed-Term External Research Intern
+      institution: Computer Security and System Lab, UNIST
+      year: 2026.07.01 - 2026.08.07
+
 - title: Education
   type: time_table
   contents:
@@ -23,4 +27,5 @@
       year: 2022.3 ~ Present
       description:
         - B.S Candidate at Jeonbuk National University major in Electronic Engineering
-        - Research Interest - Efficient AI Computing
+        - B.S Candidate at Jeonbuk National University major in Computer Science and Artificial Intelligence
+        - Research Interest - AI Hardware / Software Co-design, RTL & ISA Based Design, Compiler Intermediate Representation Analysis

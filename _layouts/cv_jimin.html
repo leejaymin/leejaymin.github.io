@@ -11,18 +11,18 @@ layout: default
 
           <article>
             <div class="cv">
-              {% for entry in site.data.cv_kanghyun %}
+              {% for entry in site.data.cv_jimin %}
                 <div class="card mt-3 p-3">
                   <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
                   <div>
                   {% if entry.type == "list" %}
-                    {% include cv_kanghyun/list.html %}
+                    {% include cv_jimin/list.html %}
                   {% elsif entry.type == "map" %}
-                    {% include cv_kanghyun/map.html %}
+                    {% include cv_jimin/map.html %}
                   {% elsif entry.type == "nested_list" %}
-                    {% include cv_kanghyun/nested_list.html %}
+                    {% include cv_jimin/nested_list.html %}
                   {% elsif entry.type == "time_table" %}
-                   {% include cv_kanghyun/time_table.html %}
+                   {% include cv_jimin/time_table.html %}
                   {% else %}
                     {{ entry.contents }}
                   {% endif %}
