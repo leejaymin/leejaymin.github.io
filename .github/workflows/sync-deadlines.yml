@@ -39,9 +39,6 @@ jobs:
           commit-message: "학회 마감일 데이터 자동 동기화"
           title: "학회 마감일 데이터 자동 동기화"
           body: |
-            `bin/sync_deadlines.py` 가 상류 저장소에서 학회 마감일을 가져와 갱신했습니다.
-
-            - https://github.com/huggingface/ai-deadlines (AI 학회)
-            - https://github.com/casys-kaist/casys-kaist.github.io (시스템/아키텍처 학회)
+            `bin/sync_deadlines.py` 가 학회 마감일 데이터를 갱신했습니다.
 
             변경된 마감일이 맞는지 확인 후 머지해 주세요. 머지되면 사이트가 자동 배포됩니다.

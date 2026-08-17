@@ -1,9 +1,5 @@
 # 이 파일은 bin/sync_deadlines.py 가 생성한다. 직접 수정하지 말 것.
 #
-# 출처:
-#   - https://github.com/huggingface/ai-deadlines (MIT License)
-#   - https://github.com/casys-kaist/casys-kaist.github.io
-#
 # 갱신: .github/workflows/sync-deadlines.yml 이 매주 실행하며,
 #       수동 실행은 `python3 bin/sync_deadlines.py`.
 
@@ -35,7 +31,6 @@
     date: '2026-09-09 23:59:59'
     timezone: AoE
     utc: '2026-09-10T11:59:59Z'
-  source: ai-deadlines
   full_name: International Conference on Data Mining
   link: http://icdm2026.neu.edu.cn/
   place: Shenyang, China
@@ -77,7 +72,6 @@
     date: '2026-12-18 23:59:59'
     timezone: AoE
     utc: '2026-12-19T11:59:59Z'
-  source: ai-deadlines
   full_name: ACM International Conference on Web Search and Data Mining
   link: https://www.wsdm-conference.org/2027/
   place: Hong Kong, Hong Kong
@@ -115,7 +109,6 @@
     date: '2026-08-20 23:59:00'
     timezone: AoE
     utc: '2026-08-21T11:59:00Z'
-  source: ai-deadlines
   full_name: Conference on Information and Knowledge Management
   link: https://cikm2026.diag.uniroma1.it/
   place: Rome, Italy
@@ -170,7 +163,6 @@
     date: '2026-08-20 23:59:59'
     timezone: AoE
     utc: '2026-08-21T11:59:59Z'
-  source: ai-deadlines
   full_name: ACM Multimedia
   link: https://2026.acmmm.org/
   place: Rio de Janeiro, Brazil
@@ -228,7 +220,6 @@
     date: '2026-08-30 23:59:59'
     timezone: AoE
     utc: '2026-08-31T11:59:59Z'
-  source: ai-deadlines
   full_name: The annual Conference on Empirical Methods in Natural Language Processing
   link: https://2026.emnlp.org/
   place: Budapest, Hungary
@@ -300,7 +291,6 @@
     date: '2026-11-02 23:59:59'
     timezone: AoE
     utc: '2026-11-03T11:59:59Z'
-  source: ai-deadlines
   full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
   link: https://wacv.thecvf.com/
   place: Buena Vista, FL, USA
@@ -338,7 +328,6 @@
     date: '2026-12-02 11:00:00'
     timezone: UTC-7
     utc: '2026-12-02T18:00:00Z'
-  source: ai-deadlines
   full_name: International Conference on 3D Vision
   link: https://3dvconf.github.io/2027/
   place: Thessaloniki, Greece
@@ -360,7 +349,6 @@
     date: '2026-09-09 23:59:59'
     timezone: UTC-12
     utc: '2026-09-10T11:59:59Z'
-  source: casys
   link: https://www.asplos-conference.org/asplos2027/cfp/
   place: Crete, Greece
   date: April 11-15, 2027
@@ -385,7 +373,6 @@
     date: '2026-09-17 23:59:59'
     timezone: UTC-4
     utc: '2026-09-18T03:59:59Z'
-  source: casys
   link: https://www.usenix.org/conference/nsdi27/call-for-papers
   place: Providence, RI, USA
   date: May 11-13, 2027
@@ -405,7 +392,6 @@
     date: '2026-09-15 23:59:59'
     timezone: UTC-7
     utc: '2026-09-16T06:59:59Z'
-  source: casys
   link: https://www.usenix.org/conference/fast27
   place: Renton, WA, USA
   date: February 23-25, 2027
@@ -425,7 +411,6 @@
     date: '2026-09-15 23:59:59'
     timezone: UTC-12
     utc: '2026-09-16T11:59:59Z'
-  source: casys
   link: https://www.date-conference.com/date-2027-call-papers
   place: TBD
   date: TBD
@@ -449,7 +434,6 @@
     date: '2026-09-24 23:59:59'
     timezone: UTC-12
     utc: '2026-09-25T11:59:59Z'
-  source: casys
   link: https://2027.eurosys.org/cfp.html
   place: Rabat, Morocco
   date: April 19-24, 2027
@@ -499,7 +483,6 @@
     date: '2026-09-24 23:59:59'
     timezone: AoE
     utc: '2026-09-25T11:59:59Z'
-  source: ai-deadlines
   full_name: Conference on Neural Information Processing Systems
   link: https://neurips.cc/
   place: Sydney, Australia
@@ -555,7 +538,6 @@
     date: '2027-02-23 23:59:59'
     timezone: UTC
     utc: '2027-02-23T23:59:59Z'
-  source: ai-deadlines
   full_name: The 48th Annual Conference of the European Association for Computer Graphics
   link: https://eg2027.isti.cnr.it/
   place: Lucca, Italy
@@ -576,7 +558,6 @@
     date: '2026-10-12 23:59:59'
     timezone: AoE
     utc: '2026-10-13T11:59:59Z'
-  source: ai-deadlines
   full_name: The Annual Conference of the Nations of the Americas Chapter of the Association for Computational
     Linguistics
   link: https://2027.naacl.org/
@@ -601,7 +582,6 @@
     date: '2026-10-30 12:59:59'
     timezone: UTC-7
     utc: '2026-10-30T19:59:59Z'
-  source: casys
   link: https://mlsys.org/
   place: TBD
   date: TBD
@@ -620,7 +600,6 @@
     date: '2026-11-17 23:59:59'
     timezone: UTC-12
     utc: '2026-11-18T11:59:59Z'
-  source: casys
   link: https://www.iscaconf.org/isca2027/submit/papers.php
   place: TBD
   date: TBD
@@ -640,7 +619,6 @@
     date: '2026-11-18 16:59:59'
     timezone: UTC-7
     utc: '2026-11-18T23:59:59Z'
-  source: casys
   link: https://www.dac.com/Conference/2026-Call-for-Contributions
   place: San Jose, CA, USA
   date: July 10-16, 2027
@@ -661,7 +639,6 @@
     date: '2026-12-11 17:59:59'
     timezone: UTC-5
     utc: '2026-12-11T22:59:59Z'
-  source: casys
   link: https://www.usenix.org/conference/osdi27
   place: Baltimore, MD, USA
   date: July 7-9, 2027
@@ -682,7 +659,6 @@
     date: '2027-01-15 23:59:59'
     timezone: AoE
     utc: '2027-01-16T11:59:59Z'
-  source: ai-deadlines
   full_name: IEEE Congress on Evolutionary Computation
   link: http://ieeecec.org
   place: Edinburgh, United Kingdom
@@ -701,7 +677,6 @@
   - machine-learning
   - natural-language-processing
   deadlines: []
-  source: ai-deadlines
   full_name: AAAI Conference on Artificial Intelligence
   link: https://aaai.org/conference/aaai/aaai-27/
   place: Montréal, Canada
@@ -728,7 +703,6 @@
     date: '2026-05-20 23:59:59'
     timezone: AoE
     utc: '2026-05-21T11:59:59Z'
-  source: casys
   link: https://apsys26.github.io/call_for_papers.html
   place: Bangkok, Thailand
   date: September 17 - 18, 2026
@@ -748,7 +722,6 @@
     date: '2026-04-15 23:59:59'
     timezone: UTC-12
     utc: '2026-04-16T11:59:59Z'
-  source: casys
   link: https://www.asplos-conference.org/asplos2027/cfp/
   place: Crete, Greece
   date: April 11-15, 2027
@@ -768,7 +741,6 @@
     date: '2025-03-12 23:59:59'
     timezone: UTC-5
     utc: '2025-03-13T04:59:59Z'
-  source: casys
   link: https://www.asplos-conference.org/asplos2026/cfp/
   place: Pittsburgh, USA
   date: March 22-26, 2026.
@@ -786,7 +758,6 @@
     date: '2025-08-20 23:59:59'
     timezone: UTC-5
     utc: '2025-08-21T04:59:59Z'
-  source: casys
   link: https://www.asplos-conference.org/asplos2026/cfp/
   place: Pittsburgh, USA
   date: March 22-26, 2026.
@@ -803,7 +774,6 @@
     date: '2026-06-10 23:59:59'
     timezone: UTC-12
     utc: '2026-06-11T11:59:59Z'
-  source: casys
   link: https://sigops.org/s/conferences/atc/2026/
   place: Shatin, Hong Kong
   date: November 15-18, 2026
@@ -817,7 +787,6 @@
   tags:
   - human-computer-interaction
   deadlines: []
-  source: ai-deadlines
   full_name: The ACM Conference on Human Factors in Computing Systems
   link: https://chi2027.acm.org/
   place: Pittsburgh, United States
@@ -860,7 +829,6 @@
     date: '2026-07-08 23:59:59'
     timezone: AoE
     utc: '2026-07-09T11:59:59Z'
-  source: ai-deadlines
   full_name: Conference on Language Modeling
   link: https://colmweb.org/
   place: San Francisco, USA
@@ -879,7 +847,6 @@
   - representation-learning
   - robotics
   deadlines: []
-  source: ai-deadlines
   full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
   link: https://cvpr.thecvf.com/
   place: Seattle, USA
@@ -907,7 +874,6 @@
     date: '2026-04-15 11:59:00'
     timezone: AoE
     utc: '2026-04-15T23:59:00Z'
-  source: ai-deadlines
   full_name: Fifth Conference on Lifelong Learning Agents
   link: https://lifelong-ml.cc
   place: Bucharest, Romania
@@ -933,7 +899,6 @@
     date: '2026-05-29 11:59:00'
     timezone: UTC
     utc: '2026-05-29T11:59:00Z'
-  source: ai-deadlines
   full_name: The Conference on Robot Learning
   link: https://www.corl.org/
   place: Austin, United States
@@ -984,7 +949,6 @@
     date: '2026-05-15 23:59:59'
     timezone: AoE
     utc: '2026-05-16T11:59:59Z'
-  source: ai-deadlines
   full_name: European Conference on Artificial Intelligence
   link: https://2026.ijcai.org/
   place: Bremen, Germany
@@ -1060,7 +1024,6 @@
     date: '2026-06-29 23:59:59'
     timezone: AoE
     utc: '2026-06-30T11:59:59Z'
-  source: ai-deadlines
   full_name: European Conference on Computer Vision
   link: https://eccv.ecva.net/Conferences/2026
   place: Malmö, Sweden
@@ -1075,7 +1038,6 @@
   tags:
   - data-mining
   deadlines: []
-  source: ai-deadlines
   full_name: European Conference on Information Retrieval
   link: https://www.ecir2027.co.uk/
   place: Southampton, United Kingdom
@@ -1112,7 +1074,6 @@
     date: '2026-06-18 23:59:59'
     timezone: AoE
     utc: '2026-06-19T11:59:59Z'
-  source: ai-deadlines
   full_name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery
     in Databases
   link: https://ecmlpkdd.org/2026/
@@ -1128,7 +1089,6 @@
   tags:
   - natural-language-processing
   deadlines: []
-  source: ai-deadlines
   full_name: The annual Conference on Empirical Methods in Natural Language Processing (System Demonstrations
     Track)
   link: https://2026.emnlp.org/
@@ -1164,7 +1124,6 @@
     date: '2026-07-25 23:59:59'
     timezone: UTC+02
     utc: '2026-07-25T21:59:59Z'
-  source: ai-deadlines
   full_name: European Conference on Visual Information Processing
   link: https://euvip2026.github.io/
   place: Luxembourg, Luxembourg
@@ -1190,7 +1149,6 @@
     date: '2026-05-14 23:59:59'
     timezone: UTC-12
     utc: '2026-05-15T11:59:59Z'
-  source: casys
   link: https://2027.eurosys.org/cfp.html
   place: Rabat, Morocco
   date: April 19-24, 2027
@@ -1209,7 +1167,6 @@
     date: '2026-06-15 23:59:59'
     timezone: Pacific/Honolulu
     utc: '2026-06-16T09:59:59Z'
-  source: ai-deadlines
   full_name: Hawaii International Conference on System Sciences
   link: https://hicss.hawaii.edu/
   place: Waikoloa, USA
@@ -1235,7 +1192,6 @@
     date: '2026-07-31 23:59:59'
     timezone: AoE
     utc: '2026-08-01T11:59:59Z'
-  source: casys
   link: https://conf.researchr.org/home/hpca-2027
   place: Salt Lake City, Utah, USA
   date: March 20-24, 2027
@@ -1254,7 +1210,6 @@
     date: '2026-07-16 23:59:59'
     timezone: AoE
     utc: '2026-07-17T11:59:59Z'
-  source: casys
   full_name: ACM Workshop on Hot Topics in Networks
   link: https://conferences.sigcomm.org/hotnets/2026/
   place: Salt Lake City, UT, USA
@@ -1294,7 +1249,6 @@
     date: '2026-06-29 23:59:59'
     timezone: AoE
     utc: '2026-06-30T11:59:59Z'
-  source: ai-deadlines
   full_name: 35th International Conference on Artificial Neural Networks
   link: https://e-nns.org/icann2026/
   place: Padua, Italy
@@ -1321,7 +1275,6 @@
     date: '2026-06-10 23:59:59'
     timezone: AoE
     utc: '2026-06-11T11:59:59Z'
-  source: casys
   link: https://www.iccd-conf.com/
   place: Hong Kong
   date: November 16-18, 2026
@@ -1365,7 +1318,6 @@
     date: '2026-06-15 23:59:59'
     timezone: AoE
     utc: '2026-06-16T11:59:59Z'
-  source: ai-deadlines
   full_name: International Conference on Document Analysis and Recognition
   link: https://icdar2026.org/
   place: Vienna, Austria
@@ -1380,7 +1332,6 @@
   tags:
   - computer-vision
   deadlines: []
-  source: ai-deadlines
   full_name: International Conference on Document Analysis and Recognition
   link: https://icdar2027.org/
   place: Kuala Lumpur, Malaysia
@@ -1396,7 +1347,6 @@
   - machine-learning
   - optimization-methods
   deadlines: []
-  source: ai-deadlines
   full_name: International Conference on Computational Optimization
   link: https://icomp.cc/
   place: Yerevan, Armenia
@@ -1412,7 +1362,6 @@
   - computer-vision
   - robotics
   deadlines: []
-  source: ai-deadlines
   full_name: IEEE International Conference on Robotics and Automation
   link: https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/
   place: Seoul, South Korea
@@ -1432,7 +1381,6 @@
     date: '2026-05-21 23:59:59'
     timezone: AoE
     utc: '2026-05-22T11:59:59Z'
-  source: casys
   link: https://iiswc.org/iiswc2026/cfp.html
   place: Boulder, CO, USA
   date: September 27-29, 2026
@@ -1481,7 +1429,6 @@
     date: '2026-05-15 23:59:59'
     timezone: AoE
     utc: '2026-05-16T11:59:59Z'
-  source: ai-deadlines
   full_name: International Joint Conference on Artificial Intelligence
   link: https://2026.ijcai.org/
   place: Bremen, Germany
@@ -1511,7 +1458,6 @@
     date: '2026-08-15 23:59:59'
     timezone: AoE
     utc: '2026-08-16T11:59:59Z'
-  source: ai-deadlines
   full_name: International Conference on Natural Language Generation
   link: https://2026.inlgmeeting.org/
   place: Utrecht, Netherlands
@@ -1548,7 +1494,6 @@
     date: '2026-07-10 23:59:59'
     timezone: AoE
     utc: '2026-07-11T11:59:59Z'
-  source: ai-deadlines
   full_name: IEEE\RSJ International Conference on Intelligent Robots and Systems
   link: https://2026.ieee-iros.org/
   place: Pittsburgh, USA
@@ -1569,7 +1514,6 @@
     date: '2025-12-12 23:59:59'
     timezone: UTC-12
     utc: '2025-12-13T11:59:59Z'
-  source: casys
   link: https://ispass.org/ispass2026/
   place: Seoul, South Korea
   date: April 26-28
@@ -1612,7 +1556,6 @@
     date: '2026-06-19 23:59:59'
     timezone: AoE
     utc: '2026-06-20T11:59:59Z'
-  source: ai-deadlines
   full_name: Interspeech
   link: https://interspeech2026.org
   place: Sydney, Australia
@@ -1667,7 +1610,6 @@
     date: '2026-06-26 23:59:59'
     timezone: UTC-08
     utc: '2026-06-27T07:59:59Z'
-  source: ai-deadlines
   full_name: International Conference on Medical Image Computing and Computer-Assisted Intervention
   link: https://conferences.miccai.org/2026/
   place: Strasbourg, France
@@ -1689,7 +1631,6 @@
     date: '2026-04-07 23:59:59'
     timezone: UTC-4
     utc: '2026-04-08T03:59:59Z'
-  source: casys
   link: https://microarch.org/micro59/index.php
   place: Athens, Greece
   date: October 31 – November 4, 2026
@@ -1711,7 +1652,6 @@
     date: '2026-04-23 23:59:59'
     timezone: UTC-4
     utc: '2026-04-24T03:59:59Z'
-  source: casys
   link: https://www.usenix.org/conference/nsdi27/call-for-papers
   place: Providence, RI, USA
   date: May 11-13, 2027
@@ -1730,7 +1670,6 @@
     date: '2026-04-30 23:59:59'
     timezone: AoE
     utc: '2026-05-01T11:59:59Z'
-  source: casys
   link: https://pact2026.github.io/submit
   place: Chicago, IL, USA
   date: October 19-22, 2026
@@ -1763,7 +1702,6 @@
     date: '2026-07-18 23:59:59'
     timezone: AoE
     utc: '2026-07-19T11:59:59Z'
-  source: ai-deadlines
   full_name: Reinforcement Learning Conference
   link: https://rl-conference.cc/
   place: Montreal, Canada
@@ -1796,7 +1734,6 @@
     date: '2026-06-26 23:59:59'
     timezone: AoE
     utc: '2026-06-27T11:59:59Z'
-  source: ai-deadlines
   full_name: International Joint Conference on Rules and Reasoning
   link: https://2026.declarativeai.net/events/ruleml-rr
   place: Vilnius, Lithuania
@@ -1821,7 +1758,6 @@
     date: '2026-04-08 23:59:59'
     timezone: AoE
     utc: '2026-04-09T11:59:59Z'
-  source: casys
   link: https://sc26.supercomputing.org/all-dates-deadlines/
   place: Chicago, IL, USA
   date: November 15-20, 2026
@@ -1863,7 +1799,6 @@
     date: '2026-08-15 23:59:59'
     timezone: UTC
     utc: '2026-08-15T23:59:59Z'
-  source: ai-deadlines
   full_name: Conference on Graphics, Patterns and Images
   link: https://sibgrapi.sbc.org.br/2026/
   place: Goiânia, Brazil
@@ -1879,7 +1814,6 @@
   tags:
   - computer-graphics
   deadlines: []
-  source: ai-deadlines
   full_name: Conference on Computer Graphics and Interactive Techniques
   link: https://www.siggraph.org/
   place: Anaheim, United States
@@ -1904,7 +1838,6 @@
     date: '2026-04-01 23:59:59'
     timezone: UTC-12
     utc: '2026-04-02T11:59:59Z'
-  source: casys
   link: https://sigops.org/s/conferences/sosp/2026/cfp.html
   place: Prague, Czechia
   date: September 29 - October 2, 2026
@@ -1923,7 +1856,6 @@
     date: '2026-02-25 23:59:59'
     timezone: AoE
     utc: '2026-02-26T11:59:59Z'
-  source: ai-deadlines
   full_name: Conference on Uncertainty in Artificial Intelligence
   link: https://www.auai.org/uai2026/
   place: Amsterdam, Netherlands
