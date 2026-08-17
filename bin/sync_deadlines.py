@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
-"""학회 논문 마감일 데이터를 상류 저장소에서 가져와 _data/conferences.yml 로 동기화한다.
+"""학회 논문 마감일 데이터를 공개 저장소에서 가져와 _data/conferences.yml 로 동기화한다.
 
-상류 두 곳을 합친다.
+AI 학회 목록과 컴퓨터 시스템/아키텍처 학회 목록을 각각 유지하는 공개 저장소 두 곳을
+읽어 하나로 합친다. 두 곳은 스키마가 다르므로 공통 형태로 정규화하고, 마감 시각을
+UTC로 미리 변환해 둔다. 브라우저에서 타임존을 다시 계산할 필요 없이 Date 하나로
+카운트다운할 수 있도록 하기 위함이다.
 
-- huggingface/ai-deadlines            : AI 학회 (에이전트가 주기적으로 갱신)
-- casys-kaist/casys-kaist.github.io   : 컴퓨터 시스템/아키텍처 학회 (KAIST CASYS 관리)
-
-두 상류는 스키마가 다르므로 하나의 형태로 정규화하고, 마감 시각을 UTC로 미리
-변환해 둔다. 브라우저에서 타임존을 다시 계산할 필요 없이 Date 하나로 카운트다운
-할 수 있도록 하기 위함이다.
+HF_REPO 의 데이터는 MIT License 로 배포된다 (Copyright (c) 2025 Hugging Face).
 
 사용법:
 
@@ -336,12 +334,12 @@ def main():
         print("동기화 결과가 비어 있어 기존 파일을 유지한다.", file=sys.stderr)
         return 1
 
+    # source 는 중복 제거 단계에서만 쓰이므로 출력에는 남기지 않는다.
+    for r in records:
+        r.pop("source", None)
+
     header = (
         "# 이 파일은 bin/sync_deadlines.py 가 생성한다. 직접 수정하지 말 것.\n"
-        "#\n"
-        "# 출처:\n"
-        f"#   - {HF_REPO} (MIT License)\n"
-        f"#   - {CASYS_REPO}\n"
         "#\n"
         "# 갱신: .github/workflows/sync-deadlines.yml 이 매주 실행하며,\n"
         "#       수동 실행은 `python3 bin/sync_deadlines.py`.\n"

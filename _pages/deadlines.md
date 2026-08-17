@@ -166,7 +166,7 @@ nav_order: 6
   font-size: 0.9rem;
 }
 
-.dl-source {
+.dl-note {
   margin-top: 2.5rem;
   padding-top: 1rem;
   border-top: 1px solid var(--global-divider-color, #eee);
@@ -237,11 +237,8 @@ nav_order: 6
 
 <p class="dl-empty" id="dl-empty" hidden>조건에 맞는 학회가 없습니다.</p>
 
-<p class="dl-source">
-  데이터 출처:
-  <a href="https://github.com/huggingface/ai-deadlines" target="_blank" rel="noopener">huggingface/ai-deadlines</a> (MIT License),
-  <a href="https://github.com/casys-kaist/casys-kaist.github.io" target="_blank" rel="noopener">casys-kaist/casys-kaist.github.io</a>.
-  매주 자동으로 동기화되며, 실제 마감일은 반드시 각 학회 공식 홈페이지에서 확인하시기 바랍니다.
+<p class="dl-note">
+  마감일은 매주 자동으로 갱신되지만, 실제 마감 시각은 반드시 각 학회 공식 홈페이지에서 확인하시기 바랍니다.
 </p>
 
 <script>
