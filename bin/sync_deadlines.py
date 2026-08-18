@@ -22,6 +22,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import urllib.request
 from collections import defaultdict
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
@@ -31,12 +32,16 @@ HF_REPO = "https://github.com/huggingface/ai-deadlines"
 HF_DATA_PATH = "src/data/conferences"
 CASYS_REPO = "https://github.com/casys-kaist/casys-kaist.github.io"
 CASYS_DATA_PATH = "_data/conferences"
+IDSL_URL = "https://idsl.seoultech.ac.kr/js/conference-board-data.js"
 
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT = os.path.join(REPO_ROOT, "_data", "conferences.yml")
 
 DATE_FORMATS = ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d")
 TBA_WORDS = {"tba", "tbd", "n/a", "none", ""}
+
+# 같은 학회를 다르게 부르는 경우를 묶어 준다. 중복 판정에만 쓴다.
+TITLE_ALIASES = {"MM": "ACM MM", "IJCAI-ECAI": "IJCAI", "ACM-MM": "ACM MM"}
 
 # CASYS 의 sub 코드를 상위 분류로 매핑한다. HF 쪽은 전부 AI 로 본다.
 CASYS_AREA = {"ARCH": "Systems", "SYS": "Systems", "ML": "AI", "OTHER": "Other"}
@@ -45,6 +50,19 @@ CASYS_TAG = {
     "SYS": "systems",
     "ML": "machine-learning",
     "OTHER": "other",
+}
+
+# IDSL 데이터에는 분야 정보가 없어 약어로 분류한다. 목록에 없는 약어는 Other 로
+# 두고 실행 시 경고를 남기므로, 새 학회가 추가되면 여기에 넣어 주면 된다.
+IDSL_AI = {
+    "AAAI", "ACCV", "ACL", "ACM MM", "AISTATS", "BMVC", "COLING", "CVPR", "ECAI",
+    "ECCV", "EMNLP", "ICASSP", "ICCV", "ICLR", "ICML", "ICPR", "IJCAI",
+    "INTERSPEECH", "NAACL", "NEURIPS", "SIGIR", "UAI",
+}
+IDSL_SYSTEMS = {
+    "ASPLOS", "ASSCC", "CGO", "DAC", "DATE", "EUROSYS", "FPGA", "FPT", "HIPC",
+    "HPCA", "HPDC", "ICCAD", "ICPP", "IISWC", "ISCA", "ISCAS", "ISICAS",
+    "ISLPED", "ISPASS", "MASCOTS", "MICRO", "PACT", "PPOPP", "VLSI",
 }
 
 
@@ -63,6 +81,85 @@ def sparse_clone(repo, data_path, dest):
         stderr=subprocess.DEVNULL,
     )
     return os.path.join(dest, data_path)
+
+
+def fetch_idsl(url):
+    """세 번째 출처의 데이터 파일을 받아 온다. 실패해도 동기화 전체를 막지는 않는다."""
+    request = urllib.request.Request(url, headers={"User-Agent": "sync-deadlines/1.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=60) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except Exception as exc:  # 네트워크/서버 문제로 나머지 출처까지 잃지 않도록 한다.
+        print(f"경고: 추가 출처를 가져오지 못했다 ({exc}). 나머지 출처로만 진행한다.",
+              file=sys.stderr)
+        return None
+
+
+def parse_idsl(text):
+    """`window.conferenceBoardData = [...]` 형태의 JS 객체 배열을 읽는다.
+
+    키가 따옴표 없이 쓰인 JS 리터럴이라 JSON 으로 바로 읽을 수 없어, 항목 단위로
+    끊은 뒤 필요한 필드만 뽑는다. 항목이 추가돼도 깨지지 않는다.
+    """
+    if not text:
+        return []
+
+    def field(block, key):
+        m = re.search(key + r'\s*:\s*"([^"]*)"', block)
+        return m.group(1).strip() if m else None
+
+    entries = []
+    for block in re.findall(r"\{\s*id\s*:.*?\n\s*\}", text, re.S):
+        acronym = field(block, "acronym")
+        if not acronym:
+            continue
+
+        conf_day = parse_day(field(block, "confDate"))
+        year = conf_day.year if conf_day else None
+        if year is None:
+            m = re.search(r"-(\d{4})\b", field(block, "id") or "")
+            year = int(m.group(1)) if m else None
+        if year is None:
+            continue
+
+        due_block = re.search(r"submissionDue\s*:\s*\[([^\]]*)\]", block, re.S)
+        dues = re.findall(r'"([^"]*)"', due_block.group(1)) if due_block else []
+        dues = [d for d in dues if str(d).strip().lower() not in TBA_WORDS]
+
+        deadlines = []
+        for i, due in enumerate(dues, start=1):
+            day = parse_day(due)
+            if not day:
+                continue
+            label = "Paper Submission" if len(dues) == 1 else f"Paper Submission ({i})"
+            deadlines.append(
+                {
+                    "type": "submission",
+                    "label": label,
+                    # 원본에 시각이 없어 이 분야에서 가장 흔한 마감 관례를 따른다.
+                    "date": f"{day.isoformat()} 23:59:59",
+                    "timezone": "AoE",
+                }
+            )
+
+        entry = {
+            "id": field(block, "id") or f"{acronym.lower()}{str(year)[-2:]}",
+            "title": acronym,
+            "year": year,
+            "full_name": field(block, "name"),
+            "link": field(block, "website"),
+            "place": field(block, "location"),
+            "deadlines": deadlines,
+            "timezone": "AoE",
+        }
+        if conf_day:
+            entry["start"] = conf_day.isoformat()
+            entry["end"] = conf_day.isoformat()
+            entry["date"] = conf_day.strftime("%B %d, %Y")
+        if not deadlines:
+            entry["tba"] = True
+        entries.append(entry)
+    return entries
 
 
 def load_yaml_dir(path):
@@ -137,7 +234,8 @@ def normalize_tag(tag):
 
 def base_title(title):
     """'ASPLOS (Fall)' → 'ASPLOS'. 같은 학회의 여러 라운드를 묶기 위한 키."""
-    return re.sub(r"\s*\(.*?\)\s*", " ", str(title or "")).strip().upper()
+    stripped = re.sub(r"\s*\(.*?\)\s*", " ", str(title or "")).strip().upper()
+    return TITLE_ALIASES.get(stripped, stripped)
 
 
 def round_label(title):
@@ -203,7 +301,18 @@ def normalize(entry, source):
 
     deadlines = build_deadlines(entry, source)
 
-    if source == "casys":
+    if source == "idsl":
+        acronym = base_title(title)
+        if acronym in IDSL_AI:
+            areas, tags = ["AI"], ["machine-learning"]
+        elif acronym in IDSL_SYSTEMS:
+            areas, tags = ["Systems"], ["systems"]
+        else:
+            areas, tags = ["Other"], []
+            print(f"경고: '{title}' 은 분야를 알 수 없어 Other 로 둔다.", file=sys.stderr)
+        tba = bool(entry.get("tba"))
+        place = entry.get("place")
+    elif source == "casys":
         subs = entry.get("sub") or []
         if isinstance(subs, str):
             subs = [s.strip() for s in subs.split(",") if s.strip()]
@@ -246,12 +355,18 @@ def normalize(entry, source):
     return record
 
 
-def dedupe(records):
-    """두 상류에 함께 있는 학회를 정리한다.
+# 같은 학회가 여러 출처에 있을 때의 우선순위. 숫자가 작을수록 우선한다.
+SOURCE_PRIORITY = {"ai-deadlines": 0, "casys": 1, "idsl": 2}
 
-    같은 (학회, 연도)에 대해 라운드를 더 많이 관리하는 쪽을 채택한다.
-    ASPLOS 처럼 연 2~3회 마감이 있는 학회는 CASYS 가, 나머지는 대체로
-    자동 갱신되는 HF 가 더 정확하기 때문이다.
+
+def dedupe(records):
+    """여러 출처에 함께 있는 학회를 정리한다.
+
+    같은 (학회, 연도)에 대해 라운드를 더 많이 관리하는 쪽을 채택하고, 라운드 수가
+    같으면 마감 정보가 더 충실한 쪽을, 그마저 같으면 SOURCE_PRIORITY 순으로 고른다.
+    ASPLOS 처럼 연 2~3회 마감이 있는 학회를 놓치지 않기 위함이다. 세 번째 출처는
+    마감일이 날짜 단위라 정보량이 가장 적으므로, 사실상 다른 곳에 없는 학회를
+    채워 넣는 역할만 한다.
     """
     groups = defaultdict(lambda: defaultdict(list))
     for r in records:
@@ -259,21 +374,15 @@ def dedupe(records):
 
     merged = []
     for buckets in groups.values():
-        hf, casys = buckets.get("ai-deadlines", []), buckets.get("casys", [])
-        if not hf:
-            chosen = casys
-        elif not casys:
-            chosen = hf
-        elif len(casys) > len(hf):
-            chosen = casys
-        elif len(hf) > len(casys):
-            chosen = hf
-        else:
-            # 1:1 이면 마감 정보가 더 충실한 쪽. 동률이면 HF.
-            chosen = hf if len(hf[0]["deadlines"]) >= len(casys[0]["deadlines"]) else casys
+        def rank(item):
+            source, group = item
+            deadline_count = sum(len(r["deadlines"]) for r in group)
+            return (len(group), deadline_count, -SOURCE_PRIORITY.get(source, 99))
+
+        source, chosen = max(buckets.items(), key=rank)
 
         # 채택되지 않은 쪽의 분류는 살려 둔다 (예: ICML 은 AI 이면서 Systems 목록에도 있음).
-        others = [r for r in hf + casys if r not in chosen]
+        others = [r for s, g in buckets.items() if s != source for r in g]
         if others and len(chosen) == 1:
             extra_areas = {a for r in others for a in r["areas"]}
             chosen[0]["areas"] = sorted(set(chosen[0]["areas"]) | extra_areas)
@@ -308,6 +417,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--hf-dir", help="이미 받아둔 ai-deadlines clone 경로")
     ap.add_argument("--casys-dir", help="이미 받아둔 casys-kaist.github.io clone 경로")
+    ap.add_argument("--idsl-file", help="이미 받아둔 추가 출처 데이터 파일 경로")
     ap.add_argument("--output", default=OUTPUT)
     args = ap.parse_args()
 
@@ -326,8 +436,21 @@ def main():
         raw = [(e, "ai-deadlines") for e in load_yaml_dir(hf_path)]
         raw += [(e, "casys") for e in load_yaml_dir(casys_path)]
 
+    if args.idsl_file:
+        with open(args.idsl_file, encoding="utf-8") as fh:
+            idsl_text = fh.read()
+    else:
+        idsl_text = fetch_idsl(IDSL_URL)
+    idsl_entries = parse_idsl(idsl_text)
+    raw += [(e, "idsl") for e in idsl_entries]
+
     records = [n for n in (normalize(e, s) for e, s in raw) if n]
+    before = {r["source"]: 0 for r in records}
+    for r in records:
+        before[r["source"]] += 1
     records = dedupe(records)
+    added = sum(1 for r in records if r["source"] == "idsl")
+    print(f"추가 출처 {before.get('idsl', 0)}건 중 {added}건이 신규 (나머지는 중복)")
     records = prune_and_sort(records, dt.date.today())
 
     if not records:
