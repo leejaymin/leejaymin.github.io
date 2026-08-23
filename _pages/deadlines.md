@@ -2,7 +2,7 @@
 layout: page
 title: Deadlines
 permalink: /deadlines/
-description: AI 및 컴퓨터 시스템 분야 주요 학회의 논문 마감일을 모아 보여줍니다. 데이터는 매주 자동으로 갱신됩니다.
+description: AI·NLP·컴퓨터 시스템 분야 주요 학회의 논문 마감일과 ACL Rolling Review(ARR) 사이클 일정을 모아 보여줍니다. 데이터는 매주 자동으로 갱신됩니다.
 nav: true
 nav_order: 6
 ---
@@ -136,9 +136,11 @@ nav_order: 6
 }
 
 .dl-badge.area-AI { background: var(--global-theme-color, #4285f4); color: #fff; }
+.dl-badge.area-NLP { background: #673ab7; color: #fff; }
 .dl-badge.area-Systems { background: #34a853; color: #fff; }
 .dl-badge.area-Other { background: var(--global-divider-color, #e5e5e5); color: var(--global-text-color, #333); }
 .dl-badge.tba { background: #fbbc04; color: #333; }
+.dl-badge.approx { background: #e8710a; color: #fff; }
 
 .dl-full {
   font-size: 0.78rem;
@@ -158,6 +160,7 @@ nav_order: 6
 
 .dl-meta .sep { color: var(--global-divider-color, #ccc); margin: 0 0.45rem; }
 .dl-when { font-weight: 600; color: var(--global-text-color, #444); }
+.dl-kind { color: var(--global-text-color-light, #888); margin-left: 0.3rem; }
 
 .dl-empty {
   padding: 2rem 0;
@@ -191,6 +194,7 @@ nav_order: 6
 <div class="dl-controls">
   <button class="dl-filter active" data-area="all" type="button">전체</button>
   <button class="dl-filter" data-area="AI" type="button">AI</button>
+  <button class="dl-filter" data-area="NLP" type="button">NLP</button>
   <button class="dl-filter" data-area="Systems" type="button">Systems</button>
   <input type="search" id="dl-search" placeholder="학회 이름 검색 (예: NeurIPS, ISCA)" aria-label="학회 검색">
   <label class="dl-toggle">
@@ -218,13 +222,17 @@ nav_order: 6
         {{ conf.title }} <span class="dl-year">{{ conf.year }}</span>
         {%- for area in conf.areas %}<span class="dl-badge area-{{ area }}">{{ area }}</span>{% endfor %}
         {%- if conf.tba %}<span class="dl-badge tba">CFP 미발표</span>{% endif %}
+        {%- if conf.approx %}<span class="dl-badge approx">예상 마감</span>{% endif %}
       </p>
       {%- if conf.full_name %}
       <p class="dl-full">{{ conf.full_name }}</p>
       {%- endif %}
       <p class="dl-meta">
         {%- if conf.next_deadline %}
-        <span class="dl-when" data-deadline="{{ conf.next_deadline }}"></span><span class="sep">|</span>
+        {%- assign next_label = "" %}
+        {%- for d in conf.deadlines %}{% if d.utc == conf.next_deadline %}{% assign next_label = d.label %}{% endif %}{% endfor %}
+        <span class="dl-when" data-deadline="{{ conf.next_deadline }}"></span>
+        {%- if next_label != "" %} <span class="dl-kind">{{ next_label }}</span>{% endif %}<span class="sep">|</span>
         {%- endif %}
         {%- if conf.date %}{{ conf.date }}{%- endif %}
         {%- if conf.date and conf.place %}<span class="sep">|</span>{% endif %}
@@ -239,6 +247,8 @@ nav_order: 6
 
 <p class="dl-note">
   마감일은 매주 자동으로 갱신되지만, 실제 마감 시각은 반드시 각 학회 공식 홈페이지에서 확인하시기 바랍니다.
+  NLP 계열 학회(ACL, EMNLP, NAACL 등)는 <a href="https://aclrollingreview.org/dates" target="_blank" rel="noopener">ACL Rolling Review(ARR)</a> 사이클로 제출이 이뤄지므로, ARR 사이클 일정과 학회별 commitment 마감도 함께 표시합니다.
+  <span class="dl-badge approx">예상 마감</span> 표시는 아직 공식 발표 전인 추정 일정입니다.
 </p>
 
 <script>
