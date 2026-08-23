@@ -1,6 +1,7 @@
 name: Sync conference deadlines
 
-# 상류 저장소의 학회 마감일 데이터를 주기적으로 가져와 _data/conferences.yml 을 갱신한다.
+# 상류 저장소(HF ai-deadlines, aideadlines.org, casys, IDSL)와 ACL Rolling Review
+# 일정을 주기적으로 가져와 _data/conferences.yml 을 갱신한다.
 # 변경이 있으면 PR 을 열고, 사람이 머지하면 deploy.yml 이 사이트를 다시 배포한다.
 # (자동 커밋을 master 로 직접 push 하면 GITHUB_TOKEN 으로 만든 push 는 다른
 #  워크플로를 트리거하지 않으므로 배포가 돌지 않는다.)
