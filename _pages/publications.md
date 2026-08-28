@@ -53,13 +53,6 @@ nav_order: 2
 </script>
 {% endif %}
 
-<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
-<div class="publications">
-
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
-
-</div>
-
 <h2>All Peer-reviewed Journals and Proceedings</h2>
 
 <div class="publications">
