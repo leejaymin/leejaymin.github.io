@@ -7,6 +7,9 @@ services:
     command: bash -c "
       rm -f Gemfile.lock
       && bundler exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"
+    environment:
+      # ignore the repo's .bundle/config (host-only vendor/bundle path); use the image's system gems
+      BUNDLE_IGNORE_CONFIG: "1"
     ports:
       - 8080:8080
     volumes:
