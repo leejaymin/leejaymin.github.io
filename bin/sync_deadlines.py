@@ -99,6 +99,9 @@ TOBNA_TITLE = {
     "RuleMLRR": "RuleML+RR",
     "IEEE CEC": "CEC",
     "iROS": "IROS",
+    # 트랙 이름이 한 단어로 붙어 있어 본 학회와 따로 잡힌다. 괄호 표기로 맞춰
+    # 다른 출처의 같은 트랙과 합쳐지게 한다.
+    "EMNLPSystemDemonstrationsTrack": "EMNLP (System Demonstrations Track)",
 }
 
 # tobna(aideadlines.org) 의 분야 코드를 HF 쪽과 같은 태그 표기로 맞춘다.
@@ -651,7 +654,8 @@ def normalize(entry, source):
     ):
         if value not in (None, ""):
             record[key] = str(value).strip("'\"") if key in ("start", "end") else value
-    if tba:
+    # 마감 정보가 하나도 없으면 "지났다"가 아니라 "아직 발표 전"이다.
+    if tba or not deadlines:
         record["tba"] = True
     if entry.get("approx"):
         record["approx"] = True

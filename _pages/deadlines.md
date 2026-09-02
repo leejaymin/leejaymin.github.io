@@ -207,14 +207,14 @@ nav_order: 6
 {%- for conf in conferences %}
   {%- assign areas = conf.areas | join: " " %}
   {%- assign haystack = conf.title | append: " " | append: conf.full_name | append: " " | append: conf.place | append: " " | append: conf.year | downcase %}
-  <a class="dl-card{% unless conf.next_deadline %} dl-past{% endunless %}"
+  <a class="dl-card{% unless conf.next_deadline or conf.tba %} dl-past{% endunless %}"
      href="{{ conf.link | default: '#' }}"
      {% if conf.link %}target="_blank" rel="noopener"{% endif %}
      data-areas="{{ areas }}"
      data-search="{{ haystack | escape }}"
      {% if conf.next_deadline %}data-deadline="{{ conf.next_deadline }}"{% endif %}>
     <div class="dl-count">
-      <span class="dl-dday">{% if conf.next_deadline %}—{% else %}마감 종료{% endif %}</span>
+      <span class="dl-dday">{% if conf.next_deadline %}—{% elsif conf.tba %}미정{% else %}마감 종료{% endif %}</span>
       {%- if conf.next_deadline %}<span class="dl-remain"></span>{% endif %}
     </div>
     <div class="dl-body">
