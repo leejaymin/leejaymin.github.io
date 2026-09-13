@@ -3,270 +3,6 @@
 # 갱신: .github/workflows/sync-deadlines.yml 이 매주 실행하며,
 #       수동 실행은 `python3 bin/sync_deadlines.py`.
 
-- id: 3dv27
-  title: 3DV
-  year: 2027
-  areas:
-  - AI
-  tags:
-  - computer-vision
-  - machine-learning
-  deadlines:
-  - type: submission
-    label: Paper Submission Deadline
-    date: '2026-08-28 11:00:00'
-    timezone: UTC-7
-    utc: '2026-08-28T18:00:00Z'
-  - type: supplementary
-    label: Supplementary Material Deadline
-    date: '2026-09-02 11:00:00'
-    timezone: UTC-7
-    utc: '2026-09-02T18:00:00Z'
-  - type: notification
-    label: Preliminary Notification
-    date: '2026-10-27 11:00:00'
-    timezone: UTC-7
-    utc: '2026-10-27T18:00:00Z'
-  - type: notification
-    label: Final Notification
-    date: '2026-12-02 11:00:00'
-    timezone: UTC-7
-    utc: '2026-12-02T18:00:00Z'
-  full_name: International Conference on 3D Vision
-  link: https://3dvconf.github.io/2027/
-  place: Thessaloniki, Greece
-  date: April 6-9, 2027
-  start: '2027-04-06'
-  end: '2027-04-09'
-  next_deadline: '2026-09-02T18:00:00Z'
-- id: ecir27
-  title: ECIR
-  year: 2027
-  areas:
-  - AI
-  tags:
-  - data-mining
-  deadlines:
-  - type: submission
-    label: Workshop proposal deadline
-    date: '2026-09-07 23:59:59'
-    timezone: AoE
-    utc: '2026-09-08T11:59:59Z'
-  - type: abstract
-    label: Full paper abstract deadline
-    date: '2026-09-21 23:59:59'
-    timezone: AoE
-    utc: '2026-09-22T11:59:59Z'
-  - type: paper
-    label: Full paper submission deadline
-    date: '2026-10-05 23:59:59'
-    timezone: AoE
-    utc: '2026-10-06T11:59:59Z'
-  - type: abstract
-    label: Short paper abstract deadline
-    date: '2026-10-05 23:59:59'
-    timezone: AoE
-    utc: '2026-10-06T11:59:59Z'
-  - type: submission
-    label: Short paper submission deadline
-    date: '2026-10-12 23:59:59'
-    timezone: AoE
-    utc: '2026-10-13T11:59:59Z'
-  - type: abstract
-    label: Reproducibility abstract deadline
-    date: '2026-10-12 23:59:59'
-    timezone: AoE
-    utc: '2026-10-13T11:59:59Z'
-  - type: submission
-    label: Reproducibility paper submission deadline
-    date: '2026-10-19 23:59:59'
-    timezone: AoE
-    utc: '2026-10-20T11:59:59Z'
-  - type: abstract
-    label: Doctoral Consortium abstract deadline
-    date: '2026-10-26 23:59:59'
-    timezone: AoE
-    utc: '2026-10-27T11:59:59Z'
-  - type: submission
-    label: Demo / Doctoral Consortium paper / Industry Day / tutorial proposal / resource paper deadline
-    date: '2026-11-02 23:59:59'
-    timezone: AoE
-    utc: '2026-11-03T11:59:59Z'
-  - type: notification
-    label: Notification of acceptance
-    date: '2026-12-07 23:59:59'
-    timezone: AoE
-    utc: '2026-12-08T11:59:59Z'
-  - type: registration
-    label: Author and early registration deadline
-    date: '2026-12-21 23:59:59'
-    timezone: AoE
-    utc: '2026-12-22T11:59:59Z'
-  - type: camera_ready
-    label: Tutorial camera-ready deadline
-    date: '2027-01-10 23:59:59'
-    timezone: AoE
-    utc: '2027-01-11T11:59:59Z'
-  - type: registration
-    label: Regular registration deadline
-    date: '2027-02-08 23:59:59'
-    timezone: AoE
-    utc: '2027-02-09T11:59:59Z'
-  full_name: European Conference on Information Retrieval
-  link: https://www.ecir2027.co.uk/
-  place: Southampton, United Kingdom
-  date: March 21 - March 25, 2027
-  start: '2027-03-21'
-  end: '2027-03-25'
-  note: More info <a href='https://www.ecir2027.co.uk/'>here</a>. Deadlines are "current proposed" per
-    the official website and may be subject to change.
-  next_deadline: '2026-09-08T11:59:59Z'
-- id: asplos27summer
-  title: ASPLOS (September)
-  year: 2027
-  areas:
-  - Systems
-  tags:
-  - computer-architecture
-  - systems
-  deadlines:
-  - type: submission
-    label: Paper Submission
-    date: '2026-09-09 23:59:59'
-    timezone: UTC-12
-    utc: '2026-09-10T11:59:59Z'
-  link: https://www.asplos-conference.org/asplos2027/cfp/
-  place: Crete, Greece
-  date: April 11-15, 2027
-  start: '2027-04-11'
-  end: '2027-04-15'
-  next_deadline: '2026-09-10T11:59:59Z'
-- id: icdm26
-  title: ICDM
-  year: 2026
-  areas:
-  - AI
-  tags:
-  - data-mining
-  deadlines:
-  - type: abstract
-    label: Abstract Submission
-    date: '2026-05-30 23:59:59'
-    timezone: AoE
-    utc: '2026-05-31T11:59:59Z'
-  - type: paper
-    label: Full Paper Submission
-    date: '2026-06-06 23:59:59'
-    timezone: AoE
-    utc: '2026-06-07T11:59:59Z'
-  - type: notification
-    label: Author Notification
-    date: '2026-08-16 23:59:59'
-    timezone: AoE
-    utc: '2026-08-17T11:59:59Z'
-  - type: camera_ready
-    label: Camera Ready Deadline
-    date: '2026-09-09 23:59:59'
-    timezone: AoE
-    utc: '2026-09-10T11:59:59Z'
-  full_name: International Conference on Data Mining
-  link: http://icdm2026.neu.edu.cn/
-  place: Shenyang, China
-  date: November 12 - 15, 2026
-  start: '2026-11-12'
-  end: '2026-11-15'
-  next_deadline: '2026-09-10T11:59:59Z'
-- id: NSDI27fall
-  title: NSDI (Fall)
-  year: 2027
-  areas:
-  - Systems
-  tags:
-  - systems
-  deadlines:
-  - type: abstract
-    label: Abstract Deadline
-    date: '2026-09-10 23:59:59'
-    timezone: UTC-4
-    utc: '2026-09-11T03:59:59Z'
-  - type: submission
-    label: Paper Submission
-    date: '2026-09-17 23:59:59'
-    timezone: UTC-4
-    utc: '2026-09-18T03:59:59Z'
-  link: https://www.usenix.org/conference/nsdi27/call-for-papers
-  place: Providence, RI, USA
-  date: May 11-13, 2027
-  start: '2027-05-11'
-  end: '2027-05-13'
-  next_deadline: '2026-09-11T03:59:59Z'
-- id: cgo-2027
-  title: CGO
-  year: 2027
-  areas:
-  - Systems
-  tags:
-  - systems
-  deadlines:
-  - type: submission
-    label: Paper Submission (1)
-    date: '2026-06-11 23:59:59'
-    timezone: AoE
-    utc: '2026-06-12T11:59:59Z'
-  - type: submission
-    label: Paper Submission (2)
-    date: '2026-09-10 23:59:59'
-    timezone: AoE
-    utc: '2026-09-11T11:59:59Z'
-  full_name: IEEE International Symposium on Code Generation and Optimization
-  link: https://conf.researchr.org/home/cgo-2027
-  place: USA (Salt Lake City)
-  date: March 20, 2027
-  start: '2027-03-20'
-  end: '2027-03-20'
-  next_deadline: '2026-09-11T11:59:59Z'
-- id: chi27
-  title: CHI
-  year: 2027
-  areas:
-  - AI
-  tags:
-  - human-computer-interaction
-  deadlines:
-  - type: paper
-    label: Full Paper Due
-    date: '2026-09-10 23:59:59'
-    timezone: AoE
-    utc: '2026-09-11T11:59:59Z'
-  - type: review_release
-    label: Reviews Released
-    date: '2026-11-05 23:59:59'
-    timezone: AoE
-    utc: '2026-11-06T11:59:59Z'
-  - type: rebuttal_and_revision
-    label: Resubmission Due
-    date: '2026-12-03 23:59:59'
-    timezone: AoE
-    utc: '2026-12-04T11:59:59Z'
-  - type: notification
-    label: Decisions Notification
-    date: '2026-12-17 23:59:59'
-    timezone: AoE
-    utc: '2026-12-18T11:59:59Z'
-  - type: camera_ready
-    label: Publication-Ready Deadline
-    date: '2027-02-18 23:59:59'
-    timezone: AoE
-    utc: '2027-02-19T11:59:59Z'
-  full_name: The ACM Conference on Human Factors in Computing Systems
-  link: https://chi2027.acm.org/
-  place: Pittsburgh, United States
-  date: May 10 - May 14, 2027
-  start: '2027-05-10'
-  end: '2027-05-14'
-  note: No abstract deadline for CHI 2027. Paper submission due Sep 10, 2026. More info <a href='https://chi2027.acm.org/authors/papers/'>here</a>.
-  hindex: 128
-  next_deadline: '2026-09-11T11:59:59Z'
 - id: DATE27
   title: DATE
   year: 2027
@@ -396,6 +132,30 @@
   start: '2027-05-16'
   end: '2027-05-21'
   next_deadline: '2026-09-17T11:59:59Z'
+- id: NSDI27fall
+  title: NSDI (Fall)
+  year: 2027
+  areas:
+  - Systems
+  tags:
+  - systems
+  deadlines:
+  - type: abstract
+    label: Abstract Deadline
+    date: '2026-09-10 23:59:59'
+    timezone: UTC-4
+    utc: '2026-09-11T03:59:59Z'
+  - type: submission
+    label: Paper Submission
+    date: '2026-09-17 23:59:59'
+    timezone: UTC-4
+    utc: '2026-09-18T03:59:59Z'
+  link: https://www.usenix.org/conference/nsdi27/call-for-papers
+  place: Providence, RI, USA
+  date: May 11-13, 2027
+  start: '2027-05-11'
+  end: '2027-05-13'
+  next_deadline: '2026-09-18T03:59:59Z'
 - id: eurosys27fall
   title: EuroSys (Fall)
   year: 2027
@@ -467,6 +227,88 @@
   note: Mandatory abstract deadline on Sep 18, 2026. More info <a href='https://iclr.cc/Conferences/2027/Dates'>here</a>.
   hindex: 304
   next_deadline: '2026-09-19T11:59:59Z'
+- id: ecir27
+  title: ECIR
+  year: 2027
+  areas:
+  - AI
+  tags:
+  - data-mining
+  deadlines:
+  - type: submission
+    label: Workshop proposal deadline
+    date: '2026-09-07 23:59:59'
+    timezone: AoE
+    utc: '2026-09-08T11:59:59Z'
+  - type: abstract
+    label: Full paper abstract deadline
+    date: '2026-09-21 23:59:59'
+    timezone: AoE
+    utc: '2026-09-22T11:59:59Z'
+  - type: paper
+    label: Full paper submission deadline
+    date: '2026-10-05 23:59:59'
+    timezone: AoE
+    utc: '2026-10-06T11:59:59Z'
+  - type: abstract
+    label: Short paper abstract deadline
+    date: '2026-10-05 23:59:59'
+    timezone: AoE
+    utc: '2026-10-06T11:59:59Z'
+  - type: submission
+    label: Short paper submission deadline
+    date: '2026-10-12 23:59:59'
+    timezone: AoE
+    utc: '2026-10-13T11:59:59Z'
+  - type: abstract
+    label: Reproducibility abstract deadline
+    date: '2026-10-12 23:59:59'
+    timezone: AoE
+    utc: '2026-10-13T11:59:59Z'
+  - type: submission
+    label: Reproducibility paper submission deadline
+    date: '2026-10-19 23:59:59'
+    timezone: AoE
+    utc: '2026-10-20T11:59:59Z'
+  - type: abstract
+    label: Doctoral Consortium abstract deadline
+    date: '2026-10-26 23:59:59'
+    timezone: AoE
+    utc: '2026-10-27T11:59:59Z'
+  - type: submission
+    label: Demo / Doctoral Consortium paper / Industry Day / tutorial proposal / resource paper deadline
+    date: '2026-11-02 23:59:59'
+    timezone: AoE
+    utc: '2026-11-03T11:59:59Z'
+  - type: notification
+    label: Notification of acceptance
+    date: '2026-12-07 23:59:59'
+    timezone: AoE
+    utc: '2026-12-08T11:59:59Z'
+  - type: registration
+    label: Author and early registration deadline
+    date: '2026-12-21 23:59:59'
+    timezone: AoE
+    utc: '2026-12-22T11:59:59Z'
+  - type: camera_ready
+    label: Tutorial camera-ready deadline
+    date: '2027-01-10 23:59:59'
+    timezone: AoE
+    utc: '2027-01-11T11:59:59Z'
+  - type: registration
+    label: Regular registration deadline
+    date: '2027-02-08 23:59:59'
+    timezone: AoE
+    utc: '2027-02-09T11:59:59Z'
+  full_name: European Conference on Information Retrieval
+  link: https://www.ecir2027.co.uk/
+  place: Southampton, United Kingdom
+  date: March 21 - March 25, 2027
+  start: '2027-03-21'
+  end: '2027-03-25'
+  note: More info <a href='https://www.ecir2027.co.uk/'>here</a>. Deadlines are "current proposed" per
+    the official website and may be subject to change.
+  next_deadline: '2026-09-22T11:59:59Z'
 - id: aaai27
   title: AAAI
   year: 2027
@@ -634,6 +476,30 @@
   start: '2027-05-10'
   end: '2027-05-14'
   next_deadline: '2026-09-25T23:59:59Z'
+- id: aistats2027
+  title: AISTATS
+  year: 2027
+  areas:
+  - AI
+  tags:
+  - machine-learning
+  deadlines:
+  - type: abstract
+    label: Abstract Deadline
+    date: '2026-09-30 11:59:59'
+    timezone: UTC
+    utc: '2026-09-30T11:59:59Z'
+  - type: submission
+    label: Paper Submission
+    date: '2026-10-07 11:59:59'
+    timezone: UTC
+    utc: '2026-10-07T11:59:59Z'
+  full_name: International Conference on Artificial Intelligence and Statistics
+  link: https://virtual.aistats.org/Conferences/2027
+  start: '2027-05-03'
+  end: '2027-05-03'
+  hindex: 101
+  next_deadline: '2026-09-30T11:59:59Z'
 - id: aamas27
   title: AAMAS
   year: 2027
@@ -681,25 +547,6 @@
   end: '2027-05-07'
   note: Dates listed are for the Main Track. More info <a href='https://warwick.ac.uk/fac/sci/dcs/aamas2027/'>here</a>.
   next_deadline: '2026-10-02T11:59:59Z'
-- id: aistats2027
-  title: AISTATS
-  year: 2027
-  areas:
-  - AI
-  tags:
-  - machine-learning
-  deadlines:
-  - type: submission
-    label: 'From AISTATS 2026: Abstract deadline on 2025-09-25 23:59:59 UTC-12!'
-    date: '2026-10-03 11:59:59'
-    timezone: UTC
-    utc: '2026-10-03T11:59:59Z'
-  full_name: International Conference on Artificial Intelligence and Statistics
-  start: '2027-05-02'
-  end: '2027-05-07'
-  hindex: 101
-  approx: true
-  next_deadline: '2026-10-03T11:59:59Z'
 - id: fpga-2027
   title: FPGA
   year: 2027
@@ -895,14 +742,14 @@
     utc: '2026-10-13T11:59:59Z'
   - type: cycle_end
     label: Cycle End
-    date: '2026-12-20 23:59:59'
+    date: '2026-12-23 23:59:59'
     timezone: AoE
-    utc: '2026-12-21T11:59:59Z'
+    utc: '2026-12-24T11:59:59Z'
   full_name: ACL Rolling Review — October 2026 cycle
   link: https://aclrollingreview.org/dates
-  date: Cycle ends December 20, 2026
-  start: '2026-12-20'
-  end: '2026-12-20'
+  date: Cycle ends December 23, 2026
+  start: '2026-12-23'
+  end: '2026-12-23'
   next_deadline: '2026-10-13T11:59:59Z'
 - id: coling2027
   title: COLING
@@ -920,10 +767,10 @@
     utc: '2026-10-13T11:59:59Z'
   - type: commitment
     label: ARR Commitment
-    date: '2026-12-20 23:59:59'
+    date: '2026-12-23 23:59:59'
     timezone: AoE
-    utc: '2026-12-21T11:59:59Z'
-  full_name: INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS
+    utc: '2026-12-24T11:59:59Z'
+  full_name: International Conference on Computational Linguistics
   link: https://2027.coling-iccl.org/
   start: '2027-05-09'
   end: '2027-05-14'
@@ -977,9 +824,9 @@
     utc: '2026-10-13T11:59:59Z'
   - type: commitment
     label: ARR Commitment
-    date: '2026-12-20 23:59:59'
+    date: '2026-12-23 23:59:59'
     timezone: AoE
-    utc: '2026-12-21T11:59:59Z'
+    utc: '2026-12-24T11:59:59Z'
   full_name: The Annual Conference of the Nations of the Americas Chapter of the Association for Computational
     Linguistics
   link: https://2027.naacl.org/
@@ -1065,6 +912,42 @@
   start: '2027-05-10'
   end: '2027-05-14'
   next_deadline: '2026-10-19T11:59:59Z'
+- id: 3dv27
+  title: 3DV
+  year: 2027
+  areas:
+  - AI
+  tags:
+  - computer-vision
+  - machine-learning
+  deadlines:
+  - type: submission
+    label: Paper Submission Deadline
+    date: '2026-08-28 11:00:00'
+    timezone: UTC-7
+    utc: '2026-08-28T18:00:00Z'
+  - type: supplementary
+    label: Supplementary Material Deadline
+    date: '2026-09-02 11:00:00'
+    timezone: UTC-7
+    utc: '2026-09-02T18:00:00Z'
+  - type: notification
+    label: Preliminary Notification
+    date: '2026-10-27 11:00:00'
+    timezone: UTC-7
+    utc: '2026-10-27T18:00:00Z'
+  - type: notification
+    label: Final Notification
+    date: '2026-12-02 11:00:00'
+    timezone: UTC-7
+    utc: '2026-12-02T18:00:00Z'
+  full_name: International Conference on 3D Vision
+  link: https://3dvconf.github.io/2027/
+  place: Thessaloniki, Greece
+  date: April 6-9, 2027
+  start: '2027-04-06'
+  end: '2027-04-09'
+  next_deadline: '2026-10-27T18:00:00Z'
 - id: mlsys27
   title: MLSys
   year: 2027
@@ -1143,6 +1026,74 @@
   start: '2027-02-15'
   end: '2027-02-19'
   next_deadline: '2026-11-03T11:59:59Z'
+- id: chi27
+  title: CHI
+  year: 2027
+  areas:
+  - AI
+  tags:
+  - human-computer-interaction
+  deadlines:
+  - type: paper
+    label: Full Paper Due
+    date: '2026-09-10 23:59:59'
+    timezone: AoE
+    utc: '2026-09-11T11:59:59Z'
+  - type: review_release
+    label: Reviews Released
+    date: '2026-11-05 23:59:59'
+    timezone: AoE
+    utc: '2026-11-06T11:59:59Z'
+  - type: rebuttal_and_revision
+    label: Resubmission Due
+    date: '2026-12-03 23:59:59'
+    timezone: AoE
+    utc: '2026-12-04T11:59:59Z'
+  - type: notification
+    label: Decisions Notification
+    date: '2026-12-17 23:59:59'
+    timezone: AoE
+    utc: '2026-12-18T11:59:59Z'
+  - type: camera_ready
+    label: Publication-Ready Deadline
+    date: '2027-02-18 23:59:59'
+    timezone: AoE
+    utc: '2027-02-19T11:59:59Z'
+  full_name: The ACM Conference on Human Factors in Computing Systems
+  link: https://chi2027.acm.org/
+  place: Pittsburgh, United States
+  date: May 10 - May 14, 2027
+  start: '2027-05-10'
+  end: '2027-05-14'
+  note: No abstract deadline for CHI 2027. Paper submission due Sep 10, 2026. More info <a href='https://chi2027.acm.org/authors/papers/'>here</a>.
+  hindex: 128
+  next_deadline: '2026-11-06T11:59:59Z'
+- id: cvpr2027
+  title: CVPR
+  year: 2027
+  areas:
+  - AI
+  tags:
+  - computer-vision
+  - machine-learning
+  - robotics
+  deadlines:
+  - type: abstract
+    label: Abstract Deadline
+    date: '2026-11-11 11:59:59'
+    timezone: UTC
+    utc: '2026-11-11T11:59:59Z'
+  - type: submission
+    label: Paper Submission
+    date: '2026-11-17 11:59:59'
+    timezone: UTC
+    utc: '2026-11-17T11:59:59Z'
+  full_name: Computer Vision and Pattern Recognition Conference
+  link: https://cvpr.thecvf.com/Conferences/2027/
+  start: '2025-06-22'
+  end: '2027-06-13'
+  hindex: 450
+  next_deadline: '2026-11-11T11:59:59Z'
 - id: isca27
   title: ISCA
   year: 2027
@@ -2518,30 +2469,6 @@
   end: '2028-05-15'
   approx: true
   next_deadline: '2027-09-25T23:59:59Z'
-- id: aistats2028
-  title: AISTATS
-  year: 2028
-  areas:
-  - AI
-  tags:
-  - machine-learning
-  deadlines:
-  - type: abstract
-    label: Abstract Deadline
-    date: '2027-09-26 11:59:59'
-    timezone: UTC
-    utc: '2027-09-26T11:59:59Z'
-  - type: submission
-    label: Paper Submission
-    date: '2027-10-03 11:59:59'
-    timezone: UTC
-    utc: '2027-10-03T11:59:59Z'
-  full_name: International Conference on Artificial Intelligence and Statistics
-  start: '2028-05-01'
-  end: '2028-05-06'
-  hindex: 101
-  approx: true
-  next_deadline: '2027-09-26T11:59:59Z'
 - id: ecir2028
   title: ECIR
   year: 2028
@@ -2565,6 +2492,30 @@
   end: '2028-03-26'
   approx: true
   next_deadline: '2027-09-26T11:59:59Z'
+- id: aistats2028
+  title: AISTATS
+  year: 2028
+  areas:
+  - AI
+  tags:
+  - machine-learning
+  deadlines:
+  - type: abstract
+    label: Abstract Deadline
+    date: '2027-09-30 11:59:59'
+    timezone: UTC
+    utc: '2027-09-30T11:59:59Z'
+  - type: submission
+    label: Paper Submission
+    date: '2027-10-07 11:59:59'
+    timezone: UTC
+    utc: '2027-10-07T11:59:59Z'
+  full_name: International Conference on Artificial Intelligence and Statistics
+  start: '2028-05-03'
+  end: '2028-05-08'
+  hindex: 101
+  approx: true
+  next_deadline: '2027-09-30T11:59:59Z'
 - id: aamas2028
   title: AAMAS
   year: 2028
@@ -2589,6 +2540,90 @@
   end: '2028-05-07'
   approx: true
   next_deadline: '2027-10-02T23:59:00Z'
+- id: fg2028
+  title: FG
+  year: 2028
+  areas:
+  - AI
+  tags:
+  - computer-vision
+  deadlines:
+  - type: abstract
+    label: Abstract Deadline
+    date: '2027-10-10 11:59:59'
+    timezone: UTC
+    utc: '2027-10-10T11:59:59Z'
+  - type: submission
+    label: Paper Submission
+    date: '2027-10-17 11:59:59'
+    timezone: UTC
+    utc: '2027-10-17T11:59:59Z'
+  full_name: International Conference on Automatic Face and Gesture Recognition
+  start: '2028-04-26'
+  end: '2028-05-01'
+  approx: true
+  next_deadline: '2027-10-10T11:59:59Z'
+- id: www2028
+  title: WWW
+  year: 2028
+  areas:
+  - AI
+  tags:
+  - machine-learning
+  deadlines:
+  - type: abstract
+    label: Abstract Deadline
+    date: '2027-10-12 11:59:59'
+    timezone: UTC
+    utc: '2027-10-12T11:59:59Z'
+  - type: submission
+    label: Paper Submission
+    date: '2027-10-19 11:59:59'
+    timezone: UTC
+    utc: '2027-10-19T11:59:59Z'
+  full_name: International World Wide Web Conferences
+  start: '2028-05-10'
+  end: '2028-05-15'
+  approx: true
+  next_deadline: '2027-10-12T11:59:59Z'
+- id: alt2028
+  title: ALT
+  year: 2028
+  areas:
+  - AI
+  tags:
+  - machine-learning
+  deadlines:
+  - type: submission
+    label: Paper Submission
+    date: '2027-10-13 11:59:59'
+    timezone: UTC
+    utc: '2027-10-13T11:59:59Z'
+  full_name: International Conference on Algorithmic Learning Theory
+  start: '2028-03-09'
+  end: '2028-03-14'
+  approx: true
+  next_deadline: '2027-10-13T11:59:59Z'
+- id: coling2028
+  title: COLING
+  year: 2028
+  areas:
+  - AI
+  - NLP
+  tags:
+  - natural-language-processing
+  deadlines:
+  - type: submission
+    label: 'From COLING 2027: ARR Submission'
+    date: '2027-10-13 11:59:59'
+    timezone: UTC
+    utc: '2027-10-13T11:59:59Z'
+  full_name: INTERNATIONNAL CONFERENCE ON COMPUTATIONAL LINGUISTICS
+  start: '2028-05-09'
+  end: '2028-05-14'
+  hindex: 81
+  approx: true
+  next_deadline: '2027-10-13T11:59:59Z'
 - id: aacl26
   title: AACL
   year: 2026
@@ -2749,6 +2784,25 @@
   date: April 11-15, 2027
   start: '2027-04-11'
   end: '2027-04-15'
+- id: asplos27summer
+  title: ASPLOS (September)
+  year: 2027
+  areas:
+  - Systems
+  tags:
+  - computer-architecture
+  - systems
+  deadlines:
+  - type: submission
+    label: Paper Submission
+    date: '2026-09-09 23:59:59'
+    timezone: UTC-12
+    utc: '2026-09-10T11:59:59Z'
+  link: https://www.asplos-conference.org/asplos2027/cfp/
+  place: Crete, Greece
+  date: April 11-15, 2027
+  start: '2027-04-11'
+  end: '2027-04-15'
 - id: asplos26spring
   title: ASPLOS (Spring)
   year: 2026
@@ -2843,6 +2897,30 @@
   start: '2026-11-23'
   end: '2026-11-26'
   hindex: 57
+- id: cgo-2027
+  title: CGO
+  year: 2027
+  areas:
+  - Systems
+  tags:
+  - systems
+  deadlines:
+  - type: submission
+    label: Paper Submission (1)
+    date: '2026-06-11 23:59:59'
+    timezone: AoE
+    utc: '2026-06-12T11:59:59Z'
+  - type: submission
+    label: Paper Submission (2)
+    date: '2026-09-10 23:59:59'
+    timezone: AoE
+    utc: '2026-09-11T11:59:59Z'
+  full_name: IEEE International Symposium on Code Generation and Optimization
+  link: https://conf.researchr.org/home/cgo-2027
+  place: USA (Salt Lake City)
+  date: March 20, 2027
+  start: '2027-03-20'
+  end: '2027-03-20'
 - id: cicai2026
   title: CICAI
   year: 2026
@@ -2939,27 +3017,6 @@
   date: October 6-9, 2026
   start: '2026-10-06'
   end: '2026-10-09'
-- id: cvpr27
-  title: CVPR
-  year: 2027
-  areas:
-  - AI
-  tags:
-  - computer-vision
-  - machine-learning
-  - optimization-methods
-  - representation-learning
-  - robotics
-  deadlines: []
-  full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
-  link: https://cvpr.thecvf.com/
-  place: Seattle, USA
-  date: June 19-26, 2027
-  start: '2027-06-19'
-  end: '2027-06-26'
-  note: Submission deadlines to be announced.
-  hindex: 450
-  tba: true
 - id: collas26
   title: CoLLAs
   year: 2026
@@ -3011,116 +3068,6 @@
   link: https://www.adai.ai/dai/2026/index.html
   start: '2026-11-29'
   end: '2026-12-02'
-- id: eccv26
-  title: ECCV
-  year: 2026
-  areas:
-  - AI
-  tags:
-  - computer-vision
-  deadlines:
-  - type: submission
-    label: Tutorial Proposal Submission
-    date: '2026-02-15 23:59:59'
-    timezone: AoE
-    utc: '2026-02-16T11:59:59Z'
-  - type: registration
-    label: Paper Registration
-    date: '2026-02-26 22:00:00'
-    timezone: UTC
-    utc: '2026-02-26T22:00:00Z'
-  - type: submission
-    label: Workshop Proposal Submission
-    date: '2026-02-27 23:59:59'
-    timezone: AoE
-    utc: '2026-02-28T11:59:59Z'
-  - type: paper
-    label: Paper Submission
-    date: '2026-03-05 22:00:00'
-    timezone: UTC
-    utc: '2026-03-05T22:00:00Z'
-  - type: supplementary
-    label: Supplemental Materials
-    date: '2026-03-12 22:00:00'
-    timezone: UTC
-    utc: '2026-03-12T22:00:00Z'
-  - type: notification
-    label: Tutorial/Workshop Decisions
-    date: '2026-04-12 20:00:00'
-    timezone: UTC
-    utc: '2026-04-12T20:00:00Z'
-  - type: review_release
-    label: Reviews Released to Authors
-    date: '2026-05-02 23:59:59'
-    timezone: UTC
-    utc: '2026-05-02T23:59:59Z'
-  - type: rebuttal_end
-    label: Rebuttal Deadline
-    date: '2026-05-11 21:00:00'
-    timezone: UTC
-    utc: '2026-05-11T21:00:00Z'
-  - type: submission
-    label: AI Art Submission
-    date: '2026-06-14 23:59:59'
-    timezone: AoE
-    utc: '2026-06-15T11:59:59Z'
-  - type: notification
-    label: Final Decisions
-    date: '2026-06-17 23:59:59'
-    timezone: UTC
-    utc: '2026-06-17T23:59:59Z'
-  - type: camera_ready
-    label: Camera Ready Deadline
-    date: '2026-06-26 23:59:59'
-    timezone: AoE
-    utc: '2026-06-27T11:59:59Z'
-  - type: notification
-    label: AI Art Acceptance Notification
-    date: '2026-06-29 23:59:59'
-    timezone: AoE
-    utc: '2026-06-30T11:59:59Z'
-  full_name: European Conference on Computer Vision
-  link: https://eccv.ecva.net/Conferences/2026
-  place: Malmö, Sweden
-  date: September 8-12, 2026
-  start: '2026-09-08'
-  end: '2026-09-12'
-- id: ecmlpkdd26
-  title: ECML PKDD
-  year: 2026
-  areas:
-  - AI
-  tags:
-  - data-mining
-  - machine-learning
-  deadlines:
-  - type: abstract
-    label: Abstract submission (Research Track)
-    date: '2026-03-05 23:59:59'
-    timezone: AoE
-    utc: '2026-03-06T11:59:59Z'
-  - type: paper
-    label: Paper submission (Research Track)
-    date: '2026-03-12 23:59:59'
-    timezone: AoE
-    utc: '2026-03-13T11:59:59Z'
-  - type: notification
-    label: Author notification
-    date: '2026-05-27 23:59:59'
-    timezone: AoE
-    utc: '2026-05-28T11:59:59Z'
-  - type: camera_ready
-    label: Camera ready submission
-    date: '2026-06-18 23:59:59'
-    timezone: AoE
-    utc: '2026-06-19T11:59:59Z'
-  full_name: European Conference on Machine Learning and Principles and Practice of Knowledge Discovery
-    in Databases
-  link: https://ecmlpkdd.org/2026/
-  place: Naples, Italy
-  date: September 7 - 11, 2026
-  start: '2026-09-07'
-  end: '2026-09-11'
 - id: emnlp26
   title: EMNLP
   year: 2026
@@ -3485,50 +3432,6 @@
   date: November 16-18, 2026
   start: '2026-11-16'
   end: '2026-11-18'
-- id: icdar2026
-  title: ICDAR
-  year: 2026
-  areas:
-  - AI
-  tags:
-  - computer-vision
-  deadlines:
-  - type: abstract
-    label: Abstract submission
-    date: '2026-02-13 23:59:59'
-    timezone: AoE
-    utc: '2026-02-14T11:59:59Z'
-  - type: paper
-    label: Paper submission
-    date: '2026-02-27 23:59:59'
-    timezone: AoE
-    utc: '2026-02-28T11:59:59Z'
-  - type: review_release
-    label: Reviews released
-    date: '2026-04-17 23:59:59'
-    timezone: AoE
-    utc: '2026-04-18T11:59:59Z'
-  - type: rebuttal_end
-    label: Rebuttal period ends
-    date: '2026-04-24 23:59:59'
-    timezone: AoE
-    utc: '2026-04-25T11:59:59Z'
-  - type: notification
-    label: Acceptance notification
-    date: '2026-05-15 23:59:59'
-    timezone: AoE
-    utc: '2026-05-16T11:59:59Z'
-  - type: camera_ready
-    label: Camera-ready deadline
-    date: '2026-06-15 23:59:59'
-    timezone: AoE
-    utc: '2026-06-16T11:59:59Z'
-  full_name: International Conference on Document Analysis and Recognition
-  link: https://icdar2026.org/
-  place: Vienna, Austria
-  date: August 30 - September 4, 2026
-  start: '2026-08-30'
-  end: '2026-09-04'
 - id: icdar2027
   title: ICDAR
   year: 2027
@@ -3561,6 +3464,40 @@
   place: Kyoto, Japan
   start: '2026-09-15'
   end: '2026-09-18'
+- id: icdm26
+  title: ICDM
+  year: 2026
+  areas:
+  - AI
+  tags:
+  - data-mining
+  deadlines:
+  - type: abstract
+    label: Abstract Submission
+    date: '2026-05-30 23:59:59'
+    timezone: AoE
+    utc: '2026-05-31T11:59:59Z'
+  - type: paper
+    label: Full Paper Submission
+    date: '2026-06-06 23:59:59'
+    timezone: AoE
+    utc: '2026-06-07T11:59:59Z'
+  - type: notification
+    label: Author Notification
+    date: '2026-08-16 23:59:59'
+    timezone: AoE
+    utc: '2026-08-17T11:59:59Z'
+  - type: camera_ready
+    label: Camera Ready Deadline
+    date: '2026-09-09 23:59:59'
+    timezone: AoE
+    utc: '2026-09-10T11:59:59Z'
+  full_name: International Conference on Data Mining
+  link: http://icdm2026.neu.edu.cn/
+  place: Shenyang, China
+  date: November 12 - 15, 2026
+  start: '2026-11-12'
+  end: '2026-11-15'
 - id: icip2026
   title: ICIP
   year: 2026
@@ -3666,23 +3603,6 @@
   date: September 27-29, 2026
   start: '2026-09-27'
   end: '2026-09-29'
-- id: ijcb2026
-  title: IJCB
-  year: 2026
-  areas:
-  - AI
-  tags:
-  - human-computer-interaction
-  deadlines:
-  - type: submission
-    label: Paper Submission
-    date: '2026-05-01 11:59:59'
-    timezone: UTC
-    utc: '2026-05-01T11:59:59Z'
-  full_name: International Joint Conference on Biometrics
-  link: https://ijcb2026.ieee-biometrics.org/
-  start: '2026-09-01'
-  end: '2026-09-04'
 - id: ijcnlp2026
   title: IJCNLP
   year: 2026
@@ -4019,22 +3939,6 @@
   link: https://pact2026.github.io/submit
   place: Chicago, IL, USA
   date: October 19-22, 2026
-- id: ppsn2026
-  title: PPSN
-  year: 2026
-  areas:
-  - AI
-  tags: []
-  deadlines:
-  - type: submission
-    label: Paper Submission
-    date: '2026-03-29 11:59:59'
-    timezone: UTC
-    utc: '2026-03-29T11:59:59Z'
-  full_name: International Conference on Parallel Problem Solving From Nature
-  link: https://ppsn2026.disi.unitn.it/
-  start: '2026-08-29'
-  end: '2026-09-02'
 - id: ppopp-2027
   title: PPoPP
   year: 2027
