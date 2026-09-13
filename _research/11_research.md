@@ -9,7 +9,7 @@ category: Present
 period: "Aug. 2026 – Dec. 2030"
 # funding: "TBD"
 funded_by: "NIPA"
-role: "공동책임자"
+role: "참여자"
 ---
 
 <div class="col-sm mt-3 mt-md-0">
@@ -23,7 +23,7 @@ role: "공동책임자"
 
 The goal of this project is to develop a **Physical AI foundation model specialized for the Software-Defined Factory (SDF)**, enabling autonomous operation of unmanned factories. The model integrates heterogeneous data from factory sensors, robots, and equipment to perform perception, planning, and control, and is deployed and validated in real factory environments so that the factory can be operated autonomously as a software-defined system.
 
-Our lab participates as a **co-principal investigator (공동연구 책임자)**, contributing our expertise in efficient AI — model compression and quantization, inference optimization, and on-device/edge deployment — so that the Physical AI foundation model can run within the latency and resource budgets of real factory floors.
+Our lab participates as a **participating researcher (과제 참여자)**, contributing our expertise in efficient AI — model compression and quantization, inference optimization, and on-device/edge deployment — so that the Physical AI foundation model can run within the latency and resource budgets of real factory floors.
 
 ### Consortium
 

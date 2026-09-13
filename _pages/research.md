@@ -93,6 +93,12 @@ a.project-block:focus {
 }
 
 .project-block .badge-copi {
+  background: rgba(240, 147, 43, 0.18);
+  color: #b96a06;
+  border: 1px solid rgba(240, 147, 43, 0.45);
+}
+
+.project-block .badge-member {
   background: var(--global-divider-color, #e5e5e5);
   color: var(--global-text-color, #333);
 }
@@ -159,7 +165,7 @@ a.project-block:hover h3 {
       {%- endif %}
     </div>
     <div class="text-col">
-      <h3>{{ project.title }}{%- if project.project_type %} <span class="project-contract">({{ project.project_type }})</span>{%- endif %}{%- if project.role %}<span class="project-badge {% if project.role == '과제책임자' %}badge-pi{% else %}badge-copi{% endif %}">{{ project.role }}</span>{%- endif %}</h3>
+      <h3>{{ project.title }}{%- if project.project_type %} <span class="project-contract">({{ project.project_type }})</span>{%- endif %}{%- if project.role %}<span class="project-badge {% if project.role == '과제책임자' %}badge-pi{% elsif project.role == '공동책임자' %}badge-copi{% else %}badge-member{% endif %}">{{ project.role }}</span>{%- endif %}</h3>
       <p class="project-desc">{{ project.description }}</p>
       {%- if project.period or project.funded_by %}
       <p class="project-meta">

@@ -9,7 +9,7 @@ category: Present
 period: "Jul. 2026 – Dec. 2031"
 # funding: "TBD"
 funded_by: "IITP"
-role: "공동책임자"
+role: "참여자"
 ---
 
 <div class="col-sm mt-3 mt-md-0">
