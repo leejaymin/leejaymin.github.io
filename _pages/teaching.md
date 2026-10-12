@@ -6,6 +6,8 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: true
 nav_order: 4
 ---
+(2026/Fall) AI GPU Computing  
+(2026/Fall) Algorithm
 
 (2026/Spring) Data Structure  
 (2026/Spring) C++
