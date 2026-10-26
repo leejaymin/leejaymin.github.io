@@ -2,18 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Efficient Computing Lab. # the website title (if blank, full name will be used instead)
+title: Efficient Computing Lab. (EClab) # the website title (if blank, full name will be used instead)
 first_name: Jemin
 middle_name:
 last_name: Lee
 email: leejaymin@etri.re.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  EClab (Efficient Computing Lab, ECL, 효율적인 컴퓨팅 연구실) at Jeonbuk National University (JBNU), led by Prof. Jemin Lee.
+  Research on model compression, quantization, AI compilers, and efficient AI systems.
 #  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
 #  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: eclab, EClab, EC Lab, ECL, Efficient Computing Lab, 효율적인 컴퓨팅 연구실, 효율적인컴퓨팅연구실, 전북대 효율적인 컴퓨팅 연구실, JBNU eclab, Jeonbuk National University, 전북대학교, 전북대 eclab, Jemin Lee, 이제민, model compression, quantization, AI compiler  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo/lab/ECL_logo_blue_a.png  # favicon: ECL lab logo (symbol only). Provide an emoji or image name in /assets/img/
@@ -64,9 +66,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: https://leejaymin.github.io/assets/img/logo/lab/ECL_logo_blue_c.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -116,7 +118,7 @@ contact_note: >
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification: SduNKhWEYvVL0qC-tB_X1d_ZzSdyFfl4O-fq9y3eERQ # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
@@ -362,7 +364,7 @@ jekyll-diagrams:
 
 enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
+enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
