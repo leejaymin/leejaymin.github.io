@@ -45,6 +45,8 @@ This is a **Jekyll 4 site with `jekyll-scholar`** (BibTeX-driven publications). 
 | What | Where | Notes |
 |---|---|---|
 | Publications | `_bibliography/papers.bib` | Rendered via `jekyll-scholar` on `_pages/publications.md`. `selected: true` highlights on the about page. Filtered keywords in `_config.yml:filtered_bibtex_keywords`. |
+| Domestic journals / conferences / patents | `_data/domestic_pubs.yml` | Rendered on the publications page via `_includes/domestic_pubs.html` (file order, no year grouping). Patents: `status: applied → granted`. |
+| Project ↔ paper links (사사) | `projects = {key}` in bib, `projects: [key]` in YAML; `key`/`grant_no`/`ack_ko`/`ack_en` in `_research/*.md` | `_plugins/project_outputs.rb` lists outputs on each project page (`_layouts/project.html`) and on the hidden `/outputs/` ledger; warns at build time for 2026+ outputs without `projects`. |
 | News / announcements | `_news/*.md` | Each file is one news item; shown on the about page (limit set in `_config.yml:announcements`). |
 | Projects | `_projects/*.md` | Rendered as cards on the projects page; categories controlled by front-matter. |
 | Research entries | `_research/*.md` | Custom collection (see `_config.yml:collections`). |
