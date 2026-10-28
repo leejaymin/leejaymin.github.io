@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: 개방형 엣지 AI SoC 하드웨어·소프트웨어 플랫폼 기술 개발
 description: 엣지 AI SoC 개발을 위한 개방형 HW/SW 플랫폼을 구축하는 과제로, MLIR 기반의 NPU용 딥러닝 컴파일러를 개발하였다. 고수준 모델 경량화를 수용하고 NPU의 특성을 효과적으로 표현할 수 있는 Dialect IR 설계를 목표로 한다.
 img: assets/img/ones1.png
@@ -10,6 +10,10 @@ period: "Jun. 2023 – Dec. 2027"
 # funding: "~10M USD"
 funded_by: "IITP"
 role: "참여자"
+key: ones-edge-soc            # 논문 bib/YAML 의 projects 필드에서 참조
+grant_no: ""            # 과제번호
+ack_ko: ""              # 국문 사사 문구
+ack_en: ""              # 영문 사사 문구
 ---
 
 <div class="col-sm mt-3 mt-md-0">

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: NPU를 위한 딥러닝 컴파일러 (NEST-C) 개발
 description: ETRI 주도의 오픈소스 NEST 컴파일러(NEST-C)를 개발하는 과제이다. 다양한 NPU를 대상으로 최신 컴파일러 최적화와 신경망 그래프의 코드 생성을 지원하며, 최적화 단계별 자동 튜닝 기능과 도구를 제공한다.
 img: assets/img/nestc.png
@@ -10,6 +10,10 @@ period: "Jan. 2018 – Dec. 2022"
 # funding: "3M USD/year"
 funded_by: "IITP"
 role: "참여자"
+key: nestc            # 논문 bib/YAML 의 projects 필드에서 참조
+grant_no: ""            # 과제번호
+ack_ko: ""              # 국문 사사 문구
+ack_en: ""              # 영문 사사 문구
 ---
 
 <img src="https://leejaymin.github.io/assets/img/nestc.png" width="90%" height="90%"/>

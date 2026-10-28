@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: 무인공장 운용-피지컬AI SDF특화 기반모델
 description: 무인공장 운용을 위한 피지컬 AI SDF(Software-Defined Factory) 특화 기반모델을 개발하는 과제이다. 공장 현장의 센서·로봇·설비 데이터를 통합해 인지·계획·제어를 수행하는 피지컬 AI 기반모델을 구축하고, 이를 실제 무인공장 운용 환경에 적용·실증하여 자율 운용이 가능한 SDF 체계를 목표로 한다.
 img: assets/img/research_physical_ai_sdf.png
@@ -10,6 +10,10 @@ period: "Aug. 2026 – Dec. 2030"
 # funding: "TBD"
 funded_by: "NIPA"
 role: "참여자"
+key: physical-ai-sdf            # 논문 bib/YAML 의 projects 필드에서 참조
+grant_no: ""            # 과제번호
+ack_ko: ""              # 국문 사사 문구
+ack_en: ""              # 영문 사사 문구
 ---
 
 <div class="col-sm mt-3 mt-md-0">

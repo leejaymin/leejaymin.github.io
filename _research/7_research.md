@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: 온디바이스 AI 경량 프로세서용 초저전력 지능처리 SW 플랫폼 기술 개발
 description: MCU급 초저전력 지능처리 SW 플랫폼을 개발하는 과제이다. 모델 압축·양자화, 경량 AI 프로세서용 컴파일러와 커널 라이브러리, 초저전력 런타임까지 전체 스택을 개발하고, 산업 현장의 센서–MCU 응용 실증과 엣지 게이트웨이 기반 에이전틱 AI 연계를 통해 수요 산업 전반에 적용 가능한 온디바이스 AI 플랫폼을 목표로 한다.
 img: assets/img/research_ondevice_ai_mcu.png
@@ -10,6 +10,10 @@ period: "Jul. 2026 – Dec. 2030"
 # funding: "TBD"
 funded_by: "KEIT"
 role: "공동책임자"
+key: ondevice-mcu            # 논문 bib/YAML 의 projects 필드에서 참조
+grant_no: ""            # 과제번호
+ack_ko: ""              # 국문 사사 문구
+ack_en: ""              # 영문 사사 문구
 ---
 
 <div class="col-sm mt-3 mt-md-0">

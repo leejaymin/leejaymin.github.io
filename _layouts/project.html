@@ -1,0 +1,30 @@
+---
+layout: page
+---
+<!-- project.html -->
+<style>
+.project-ack { margin-top: 2rem; padding: 0.9rem 1.1rem; border-left: 4px solid var(--global-theme-color); background: var(--global-code-bg-color, rgba(0,0,0,0.03)); font-size: 0.85rem; }
+.project-ack p { margin-bottom: 0.4rem; }
+.project-outputs { margin-top: 2.5rem; }
+.project-outputs h2 { font-size: 1.4rem; border-bottom: 1px solid var(--global-divider-color); padding-bottom: 0.4rem; }
+.project-outputs .po-cat { font-size: 1.1rem; margin-top: 1.5rem; border-left: 4px solid var(--global-theme-color); padding-left: 0.6rem; }
+.project-outputs .po-count { font-size: 0.75rem; font-weight: 600; padding: 0.1rem 0.5rem; border-radius: 999px; background: var(--global-divider-color); vertical-align: middle; }
+.project-outputs .po-year { font-weight: 700; color: var(--global-theme-color); margin: 0.8rem 0 0.3rem; }
+.project-outputs .po-list li { margin-bottom: 0.6rem; font-size: 0.9rem; }
+.project-outputs .po-abbr { display: inline-block; font-size: 0.7rem; font-weight: 700; padding: 0.05rem 0.4rem; border-radius: 3px; background: var(--global-theme-color); color: #fff; }
+.project-outputs .po-award { font-size: 0.75rem; color: #b96a06; font-weight: 600; }
+.project-outputs .po-authors, .project-outputs .po-venue { font-size: 0.82rem; color: var(--global-text-color-light); }
+</style>
+
+{{ content }}
+
+{%- capture ack_any %}{{ page.grant_no }}{{ page.ack_ko }}{{ page.ack_en }}{% endcapture %}
+{%- if ack_any != "" %}
+<div class="project-ack">
+  {%- if page.grant_no and page.grant_no != "" %}<p><strong>과제번호</strong> {{ page.grant_no }}</p>{% endif %}
+  {%- if page.ack_ko and page.ack_ko != "" %}<p><strong>사사 (국문)</strong> {{ page.ack_ko }}</p>{% endif %}
+  {%- if page.ack_en and page.ack_en != "" %}<p><strong>Acknowledgment</strong> {{ page.ack_en }}</p>{% endif %}
+</div>
+{%- endif %}
+
+{% include project_outputs.html key=page.key %}

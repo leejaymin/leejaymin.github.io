@@ -1,0 +1,23 @@
+{%- comment -%}
+  Renders _data/domestic_pubs.yml entries as a numbered list.
+  Params: type (domestic_journal | domestic_conf | patent), status (patent only: granted | applied)
+{%- endcomment -%}
+{%- assign entries = site.data.domestic_pubs | where: "type", include.type -%}
+{%- if include.status -%}{%- assign entries = entries | where: "status", include.status -%}{%- endif -%}
+<ol>
+{%- for p in entries %}
+{%- if include.type == "patent" %}
+<li><p><strong>{{ p.title }}</strong><br>
+{%- if p.status == "granted" %}
+Korea Patent number {{ p.reg_no }}, Granted {{ p.reg_date | date: "%m/%d/%Y" }}.<br>
+{%- else %}
+Korea Patent Application {{ p.app_no }}, Filed {{ p.app_date | date: "%m/%d/%Y" }}.<br>
+{%- endif %}
+{{ p.authors }}</p></li>
+{%- else %}
+<li><p>{% if p.badge %}<span class="label label-{{ p.badge_class | default: 'success' }}">{{ p.badge }}</span> {% endif %}{% if p.url %}<a href="{{ p.url }}">“{{ p.title }}”</a>{% else %}“{{ p.title }}”{% endif %}, <br>
+{{ p.authors }}<br>
+{{ p.venue }}</p></li>
+{%- endif %}
+{%- endfor %}
+</ol>

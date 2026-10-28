@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: The Efficient Computing Laboratory (EClab, ECL, 효율적인 컴퓨팅 연구실) is a part of <a href='https://csai.jbnu.ac.kr/csai/29031/subview.do'>Department of Computer Science and Artificial Intelligence</a> at Jeonbuk National University, Jeonju, South Korea.
+subtitle: The Efficient Computing Laboratory (ECLAB, ECL, 효율적 컴퓨팅 연구실) is a part of <a href='https://csai.jbnu.ac.kr/csai/29031/subview.do'>Department of Computer Science and Artificial Intelligence</a> at Jeonbuk National University, Jeonju, South Korea.
 profile:
   align: right
   image: jbnu.jpg
@@ -17,10 +17,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <div class="lab-logo-hero">
-  <img src="{{ '/assets/img/logo/lab/ECL_logo_blue_c.png' | relative_url }}" alt="EClab - Efficient Computing Lab. logo">
+  <img src="{{ '/assets/img/logo/lab/ECL_logo_blue_c.png' | relative_url }}" alt="ECLAB - Efficient Computing Lab. logo">
 </div>
 
-Welcome to the `Efficient Computing Lab. (EClab)`
+Welcome to the `Efficient Computing Lab. (ECLAB)`
 We focus on energy efficiency, system optimization, user experience, and sustainable tech solutions. 
 Our research interests are the followings:  
 

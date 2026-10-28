@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: 양자화 커널 코드 개발을 위한 국제 공동 연구 (전북대–콜로라도대)
 description: 전북대학교와 미국 콜로라도대학교 간의 국제 공동 연구로, 딥러닝 워크로드의 효율적인 저정밀 연산을 위한 양자화 커널 코드를 개발한다. 최신 AI 추론 파이프라인에 통합 가능한 최적화된 양자화 커널의 설계와 구현을 목표로 한다.
 img: assets/img/rp_jbnu_colorado.png
@@ -10,6 +10,10 @@ period: "Jun. 2026 – Aug. 2026"
 # funding: "4,000,000 KRW"
 funded_by: "Jeonbuk National University"
 role: "과제책임자"
+key: jbnu-colorado            # 논문 bib/YAML 의 projects 필드에서 참조
+grant_no: ""            # 과제번호
+ack_ko: ""              # 국문 사사 문구
+ack_en: ""              # 영문 사사 문구
 ---
 
 <div class="col-sm mt-3 mt-md-0">

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: AI 반도체 지원을 위한 저수준 API 기반 핵심 연산 커널 구현
 description: 저수준 API를 직접 활용하여 AI 반도체용 핵심 연산 커널을 설계·구현하는 과제이다. AI 가속기의 연산 효율을 극대화하고, 상위 딥러닝 프레임워크와 런타임에 통합 가능한 최적화된 빌딩 블록을 제공하는 것을 목표로 한다.
 img: assets/img/research_kernel_api.png
@@ -11,6 +11,10 @@ period: "May 2026 – Nov. 2026"
 funded_by: "ETRI"
 role: "과제책임자"
 project_type: "용역"
+key: etri-kernel-core            # 논문 bib/YAML 의 projects 필드에서 참조
+grant_no: ""            # 과제번호
+ack_ko: ""              # 국문 사사 문구
+ack_en: ""              # 영문 사사 문구
 ---
 
 <div class="col-sm mt-3 mt-md-0">

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: 미숙아 질환 진단 AI 모델 개발
 description: 전북대학교 의생명연구소와의 공동 연구로, 미숙아 질환 진단을 보조하는 AI 모델을 개발한다. 생체신호·의료영상·검사결과·EMR 등 멀티모달 데이터를 결합하여 조기 진단과 위험 예측을 수행하며, 설명 가능한 추론과 병상에서 활용 가능한 수준의 효율적인 모델을 지향한다.
 img: assets/img/research_preterm_ai.png
@@ -10,6 +10,10 @@ period: "Aug. 2026 – Jan. 2028"
 # funding: "TBD"
 funded_by: "Jeonbuk National University"
 role: "과제책임자"
+key: preterm-ai            # 논문 bib/YAML 의 projects 필드에서 참조
+grant_no: ""            # 과제번호
+ack_ko: ""              # 국문 사사 문구
+ack_en: ""              # 영문 사사 문구
 ---
 
 <div class="col-sm mt-3 mt-md-0">

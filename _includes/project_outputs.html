@@ -1,0 +1,27 @@
+{%- comment -%}
+  Lists the outputs acknowledging this project (see _plugins/project_outputs.rb).
+  Param: key (project key in _research/*.md front matter)
+{%- endcomment -%}
+{%- assign cats = site.data.project_outputs[include.key] -%}
+{%- if cats and cats.size > 0 %}
+<div class="project-outputs">
+  <h2>Research Outputs</h2>
+  {%- for cat in cats %}
+  <h3 class="po-cat">{{ cat.label }} <span class="po-count">{{ cat.count }}</span></h3>
+  {%- for y in cat.years %}
+  <div class="po-year">{{ y.year }}</div>
+  <ol class="po-list">
+    {%- for it in y.items %}
+    <li>
+      {%- if it.abbr != "" %}<span class="po-abbr">{{ it.abbr }}</span> {% endif -%}
+      {%- if it.url != "" %}<a href="{{ it.url | relative_url }}">{{ it.title }}</a>{% else %}{{ it.title }}{% endif -%}
+      {%- if it.award != "" %} <span class="po-award">{{ it.award }}</span>{% endif %}<br>
+      <span class="po-authors">{{ it.authors }}</span><br>
+      <span class="po-venue">{{ it.venue }}</span>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- endfor %}
+  {%- endfor %}
+</div>
+{%- endif %}
