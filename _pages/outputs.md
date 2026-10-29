@@ -72,8 +72,9 @@ noindex: true
     var rows = document.querySelectorAll('#ledger-table tr');
     var csv = Array.prototype.map.call(rows, function (tr) {
       return Array.prototype.map.call(tr.children, function (td) {
-        var lines = Array.prototype.map.call(td.childNodes, function (n) { return n.textContent; }).filter(Boolean);
-        return '"' + lines.join(' / ').replace(/\s+/g, ' ').trim().replace(/"/g, '""') + '"';
+        var cell = td.cloneNode(true);
+        Array.prototype.forEach.call(cell.querySelectorAll('br'), function (br) { br.replaceWith(' / '); });
+        return '"' + cell.textContent.replace(/\s+/g, ' ').trim().replace(/"/g, '""') + '"';
       }).join(',');
     }).join('\r\n');
     var blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
