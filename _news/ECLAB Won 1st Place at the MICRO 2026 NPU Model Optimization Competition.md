@@ -13,11 +13,22 @@ related_posts: false
 
 ECLAB 팀은 최종 라운드에서 **870.0 tokens/s**의 추론 처리량을 기록해 `1위`에 올랐습니다(2위 RTOSLab 821.1 tokens/s, 3위 Monkey 630.2 tokens/s). 이번 성과는 단순히 모델 크기를 줄이는 데 그치지 않고, 특정 NPU 하드웨어에 맞춘 컴파일러·커널 수준 최적화와 멀티모달 처리 전략을 결합해 실제 AI 추론 효율을 높였다는 데 의미가 있습니다.
 
-1위 상금은 `5,000유로` (2026년 10월 28일 환율 1유로당 1,492.98원 기준 약 746만 원)이며, 시상식은 11월 1일 그리스 아테네에서 열리는 MICRO 2026 MOA 워크숍에서 진행됩니다. 
-
+1위 상금은 `5,000유로` (2026년 10월 28일 환율 1유로당 1,492.98원 기준 약 746만 원)이며, 시상식은 2026년 11월 1일 그리스 아테네에서 열린 MICRO 2026 MOA 워크숍에서 진행되었습니다.
 
 <div class="caption">
 Model Optimization Round 최종 순위 (출처: <a href="https://micro2026-moa.github.io/index.html#winners">MICRO 2026 MOA Competition</a>)
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/MOA_ceremony_1.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/MOA_ceremony_2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+MICRO 2026 MOA 워크숍 시상식 현장 (2026.11.1, 그리스 아테네)과 1위 상패
 </div>
 
 이번 경진대회는 컴퓨터 구조 분야의 대표 국제학술대회인 제59회 `IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)`의 MOA(Measuring and Optimizing Heterogeneous AI Architectures) 워크숍과 함께 진행되었으며, 서울대학교와 퓨리오사AI(FuriosaAI)가 공동 주최했습니다. 참가팀은 퓨리오사AI의 AI 반도체 **RNGD**에서 구동되는 멀티모달 대규모 언어모델 **Gemma 4 12B**의 추론 성능을 furiosa-opt 툴체인으로 높이는 과제를 수행했습니다.
@@ -73,6 +84,6 @@ The team focused on kernel design and dataflow optimization tailored to the exec
 
 As a result, ECLAB achieved **870.0 tokens/s** in the final round and took first place (2nd: RTOSLab, 821.1 tokens/s; 3rd: Monkey, 630.2 tokens/s). Beyond simply shrinking the model, this result shows how compiler- and kernel-level optimization for a specific NPU, combined with a multimodal processing strategy, improves real-world AI inference efficiency.
 
-The 1st-place prize is €5,000, and the award ceremony will take place at the MOA Workshop of MICRO 2026 in Athens, Greece, on November 1, 2026. This award demonstrates, on the international stage, the lab's expertise in optimizing large multimodal model inference on Korean AI accelerators, and the work is expected to carry forward into research on on-device AI and highly efficient AI systems.
+The 1st-place prize is €5,000, and the award ceremony was held at the MOA Workshop of MICRO 2026 in Athens, Greece, on November 1, 2026. This award demonstrates, on the international stage, the lab's expertise in optimizing large multimodal model inference on Korean AI accelerators, and the work is expected to carry forward into research on on-device AI and highly efficient AI systems.
 
 - Competition website: <https://micro2026-moa.github.io/>
