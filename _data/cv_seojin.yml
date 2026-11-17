@@ -1,0 +1,26 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Seojin Park
+    - name: Date of Birth
+      value: 21th August 2004
+    - name: Languages
+      value: Korean, Japanese, English
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Efficient Computing Lab
+      year: 2026.11 ~ PRESENT
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Undergraduate Student
+      institution: Jeonbuk National University, Jeonbuk State, South Korea
+      year: 2023.3 ~ Present
+      description:
+        - B.S Candidate at Jeonbuk National University major in Computer Science and Artificial Intelligence
+        - Research Interest - AI model Optimization, Physical AI
