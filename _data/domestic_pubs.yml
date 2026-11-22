@@ -175,6 +175,40 @@
 
 # ---------------- domestic_conf ----------------
 - type: "domestic_conf"
+  title: "FusedAttention 커널 구현을 통한 GPU 도메인 특화 언어의 비교 분석"
+  url: ""
+  authors: "서지민, 오세현, 김용주, 이제민"
+  venue: "정보과학회 KSC, 2026.12.21 ~ 2026.12.23"
+  year: 2026
+  projects: [etri-kernel-api, ondevice-mcu]
+
+- type: "domestic_conf"
+  badge: "장려상"
+  title: "리벨리온 Triton 커널 생성을 위한 도메인 특화 언어모델 학습과 성능 평가"
+  url: "https://leejaymin.github.io/assets/pdf/dc41.pdf"
+  authors: "권현무, 오세현, 김용주, 이제민"
+  venue: "2026 대한임베디드공학회 추계학술대회, 2026-11-11 ~ 2026-11-14"
+  year: 2026
+  projects: [ai-star-fellowship, ondevice-mcu, etri-kernel-api]
+
+- type: "domestic_conf"
+  title: "OpenVLA 양자화 방식별 추론 오버헤드 및 폐루프 작업 성능 분석"
+  url: "https://leejaymin.github.io/assets/pdf/dc40.pdf"
+  authors: "강현, 오세현, 이제민"
+  venue: "2026 대한임베디드공학회 추계학술대회, 2026-11-11 ~ 2026-11-14"
+  year: 2026
+  projects: [ai-star-fellowship, ondevice-mcu]
+
+- type: "domestic_conf"
+  badge: "우수발표"
+  title: "SRAM 제약을 반영한 MCU 층별 혼합 정밀도 배정"
+  url: "https://leejaymin.github.io/assets/pdf/dc39.pdf"
+  authors: "오세현, 이제민"
+  venue: "2026 대한임베디드공학회 추계학술대회, 2026-11-11 ~ 2026-11-14"
+  year: 2026
+  projects: [ondevice-mcu,preterm-ai]
+
+- type: "domestic_conf"
   title: "대규모 언어 모델 추론 엔진 비교: 최적화와 효율성을 중심으로"
   url: "https://leejaymin.github.io/assets/pdf/dc38.pdf"
   authors: "박시형, <strong>이제민*</strong>, 김병수, 전석훈"
@@ -188,7 +222,7 @@
   authors: "오세현, 김용주, <strong>이제민*</strong>"
   venue: "2026 한국컴퓨터종합학술대회 (KCC 2026), 2026.6.24-26"
   year: 2026
-  projects: []
+  projects: [etri-kernel-api]
 
 - type: "domestic_conf"
   title: "엣지 환경에서 LLM 추론 프레임워크별 성능 비교"
